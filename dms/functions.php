@@ -48,4 +48,5 @@ class PL5_Integration {
     }
   }
 }
+
 new PL5_Integration;
