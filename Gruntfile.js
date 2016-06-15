@@ -22,27 +22,8 @@ module.exports = function(grunt) {
       // clean task, an array of folders to clean
       clean: ['dist','src'],
       // watch task, in this case we just watch one file build.less and when it changes run less compiler
-      watch: {
-        lessMain: {
-          // what files/folder we watching?
-          files: [ 'build.less' ],
-          // tasks to run in order when something changes
-          tasks: ['less:compileMain'],
-          options: {
-              nospawn: true,
-          }
-        }
-        },
-      // The LESS task, compiles build.less into a usable style.css file
-      less: {
-        compileMain: {
-          src: 'build.less',
-          dest: 'style.css',
-          options: {
-            strictMath: true,
-            sourceMap: false                }
-          }
-      },
+
+
       // copy task, copy all files into a dist folder.
       // uses pkg.copyIgnores variable which is an array of files and folders to ignore.
       // They are set in package.json folder
@@ -79,9 +60,9 @@ module.exports = function(grunt) {
       }
     });
     // Default grunt task,
-    grunt.registerTask( 'default', [ 'clean', 'less', 'watch'] );
+    grunt.registerTask( 'default', [ 'clean'] );
     // grunt build task for production
-    grunt.registerTask( 'build', [ 'clean', 'less', 'copy:build', 'buildcontrol:production'] );
+    grunt.registerTask( 'build', [ 'clean', 'copy:build', 'buildcontrol:production'] );
     // grunt build task for staging
-    grunt.registerTask( 'stage', [ 'clean', 'less', 'copy:build', 'buildcontrol:staging'] );
+    grunt.registerTask( 'test', [ 'clean', 'copy:build'] );
 }
