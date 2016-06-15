@@ -20,3 +20,32 @@
  */
 
 require_once( 'includes/init.php' );
+
+class PL5_Integration {
+  
+  function __construct() {
+    add_action( 'after_setup_theme', array( $this, 'after_setup' ) );
+  }
+  
+  function after_setup() {
+    add_theme_support( 'pagelines' );
+    add_action( 'pagelines_page',       array( $this, 'pl5_pagelines_page' ) );
+    add_action( 'pagelines_after_main', array( $this, 'pl5_pagelines_after_main' ) );
+  }
+  
+  function pl5_pagelines_page() {
+    if( function_exists( 'pl_edit_head' ) ) {
+      echo pl_edit_head();
+    }
+  }
+  
+  function pl5_pagelines_after_main() {
+    if( function_exists( 'pl_edit_foot' ) ) {
+      echo pl_edit_foot();
+    }
+  }
+}
+new PL5_Integration;
+
+
+// pl5 integration
