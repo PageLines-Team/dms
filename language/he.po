@@ -1,0 +1,2479 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: VERSION\n"
+"POT-Creation-Date: 2014-11-25 20:00+0000\n"
+"PO-Revision-Date: 2014-11-25 20:00+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE TEAM <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: dms/admin/admin.account.php:65
+msgid "Pro Activated!"
+msgstr "Pro מופעל!"
+
+#: dms/admin/admin.account.php:68
+msgid "Site Not Activated"
+msgstr "האתר אינו מופעל"
+
+#: dms/admin/admin.actions.php:21
+msgid "DMS Tools"
+msgstr "כלי DMS"
+
+#: dms/admin/admin.actions.php:37
+msgid "PageLines DMS"
+msgstr "PageLines DMS"
+
+#: dms/admin/admin.editor.php:18
+msgid "PageLines DMS Settings"
+msgstr "הגדרות PageLines DMS"
+
+#: dms/admin/admin.editor.php:22
+msgid "Editing Your Site With DMS"
+msgstr "עריכת האתר שלך עם DMS"
+
+#: dms/admin/admin.editor.php:26
+msgid "Welcome to DMS!"
+msgstr "ברוכים הבאים ל-DMS!"
+
+#: dms/admin/admin.editor.php:31
+msgid "DMS Fallbacks"
+msgstr "נסיגות DMS"
+
+#: dms/admin/admin.editor.php:32
+msgid "Below are secondary fallbacks to the DMS code editors. You may need these if you create errors or issues on the front end."
+msgstr "מתחת מופיעים אפשרויות נסיגה משניות לעורכי הקוד של DMS. אתה עלול להצטרך אותם במקרה של שגיאות באתר."
+
+#: dms/admin/admin.editor.php:36
+msgid "DMS LESS Fallback"
+msgstr "נסיגה ל-DMS LESS"
+
+#: dms/admin/admin.editor.php:40
+msgid "DMS Header Scripts Fallback"
+msgstr "נסיגה ל-DMS Header Scripts"
+
+#: dms/admin/admin.editor.php:58
+msgid "Editing with DMS is done completely on the front end of your site. This allows you to customize in a way that feels more direct and intuitive than when using the admin."
+msgstr "Editing with DMS is done completely on the front end of your site. This allows you to customize in a way that feels more direct and intuitive than when using the admin."
+
+#: dms/admin/admin.editor.php:59
+msgid "Just visit the front end of your site (as an admin) and get started!"
+msgstr "פשוט בקר באתר שלך (כמנהל) ואתה מוכן להתחיל!"
+
+#: dms/admin/admin.editor.php:61
+msgid "Edit Site Using DMS"
+msgstr "עריכת אתר עם DMS"
+
+#: dms/admin/admin.editor.php:73
+msgid "Save LESS"
+msgstr "שמור LESS"
+
+#: dms/admin/admin.editor.php:85
+msgid "Save Scripts"
+msgstr "שמור סקריפטים"
+
+#: dms/admin/admin.editor.php:96
+msgid "Update"
+msgstr "עדכון"
+
+#: dms/admin/admin.postmeta.php:69 sections/propricing/section.php:80
+msgid "Link URL"
+msgstr "כתובת קישור"
+
+#: dms/editor/editor.actions.php:303
+msgid "Unsupported file type!"
+msgstr "הקובץ לא נתמך!"
+
+#: dms/editor/editor.actions.php:306
+#, php-format
+msgid "Upload Error: %s"
+msgstr "שגיאה בהעלאה: %s"
+
+#: dms/editor/editor.actions.php:349
+msgid "Install DMS Utilities"
+msgstr "התקנת כלי עזר DMS"
+
+#: dms/editor/editor.areas.php:57 dms/editor/editor.interface.php:631
+msgid "Delete"
+msgstr "מחק"
+
+#: dms/editor/editor.areas.php:59 dms/editor/editor.interface.php:630
+msgid "Clone"
+msgstr "שכפול"
+
+#: dms/editor/editor.areas.php:64
+msgid "Move"
+msgstr "העבר"
+
+#: dms/editor/editor.areas.php:66 dms/editor/editor.interface.php:629
+#: dms/includes/class.objects.php:109
+msgid "Edit"
+msgstr "ערוך"
+
+#: dms/editor/editor.color.php:180
+msgid "Color <span class=\"spamp\">&amp;</span> BG"
+msgstr "צבע <span class=\"spamp\"> &amp;</span> רקע"
+
+#: dms/editor/editor.color.php:195
+msgid "Site Base Colors"
+msgstr "צבעי אתר בסיסיים"
+
+#: dms/editor/editor.color.php:201
+msgid "Background Base Color"
+msgstr "צבע רקע בסיס"
+
+#: dms/editor/editor.color.php:208
+msgid "Text Base Color"
+msgstr "צבע טקסט בסיס"
+
+#: dms/editor/editor.color.php:216
+msgid "Link Base Color"
+msgstr "צבע קישור בסיס"
+
+#: dms/editor/editor.color.php:226 dms/includes/lib.editor.php:934
+msgid "Background Image"
+msgstr "תמונת רקע"
+
+#: dms/editor/editor.color.php:235
+msgid "Page Background Image"
+msgstr "תמונת רקע לעמוד"
+
+#: dms/editor/editor.color.php:243
+msgid "Fit image to page?"
+msgstr "התאם תמונה לעמוד?"
+
+#: dms/editor/editor.color.php:246
+msgid "If you use this option the image will be fit \"responsively\" to the background of your page. This means the settings below will have no effect."
+msgstr "If you use this option the image will be fit \"responsively\" to the background of your page. This means the settings below will have no effect."
+
+#: dms/editor/editor.color.php:251
+msgid "Background Repeat"
+msgstr "חזרה על הרקע"
+
+#: dms/editor/editor.color.php:254
+msgid "No Repeat"
+msgstr "ללא חזרה"
+
+#: dms/editor/editor.color.php:255
+msgid "Repeat"
+msgstr "חזרה"
+
+#: dms/editor/editor.color.php:256
+msgid "Repeat Horizontally"
+msgstr "חזרה אופקית"
+
+#: dms/editor/editor.color.php:257
+msgid "Repeat Vertically"
+msgstr "חזרה אנכית"
+
+#: dms/editor/editor.color.php:265
+msgid "Vertical Background Position in Percent"
+msgstr "מיקום אנכי לרקע באחוזים"
+
+#: dms/editor/editor.color.php:276
+msgid "Horizontal Background Position in Percent"
+msgstr "מיקום אופקי לרקע באחוזים"
+
+#: dms/editor/editor.color.php:287
+msgid "Set Background Attachment"
+msgstr "קבע את השימוש בקובץ המצורף לרקע"
+
+#: dms/editor/editor.color.php:290
+msgid "Scroll"
+msgstr "Scroll"
+
+#: dms/editor/editor.color.php:291
+msgid "Fixed"
+msgstr "Fixed"
+
+#: dms/editor/editor.importexport.php:18
+msgid "Import + Export"
+msgstr "ייבוא + ייצוא"
+
+#: dms/editor/editor.importexport.php:42
+msgid "Import Page Templates"
+msgstr "ייבוא תבניות דפים"
+
+#: dms/editor/editor.importexport.php:44
+msgid "Add new templates and overwrite ones with the same name."
+msgstr "הוסף תבניות עיצוב חדשות ודרוס תבניות עיצוב קיימות עם אותו השם."
+
+#: dms/editor/editor.importexport.php:51
+msgid "Import New Global Settings"
+msgstr "ייבוא הגדרות כלליות חדשות"
+
+#: dms/editor/editor.importexport.php:53
+msgid "Overwrite global settings with ones from this import."
+msgstr "Overwrite global settings with ones from this import."
+
+#: dms/editor/editor.importexport.php:60
+msgid "Import Post Type Settings"
+msgstr "ייבוא הגדרות סוג פוסט"
+
+#: dms/editor/editor.importexport.php:62
+msgid "Overwrite post type settings with ones from this import."
+msgstr "דריסת הגדרות סוג פוסט עם ההגדרות המיובאות."
+
+#: dms/editor/editor.importexport.php:70
+msgid "DMS Config Import"
+msgstr "ייבוא תצורת DMS"
+
+#: dms/editor/editor.importexport.php:75
+msgid "Select config file (.json)"
+msgstr "בחירת קובץ תצורה (.json)"
+
+#: dms/editor/editor.importexport.php:84
+msgid "Child Theme Config Import"
+msgstr "ייבוא תצורת תת ערכת נושא"
+
+#: dms/editor/editor.importexport.php:88
+msgid "Load Child Theme Config"
+msgstr "טען תצורה של תת ערכת נושא"
+
+#: dms/editor/editor.importexport.php:91
+msgid "Reset theme settings using custom config file from child theme.<br />\n\t\t\t\t\t<strong>Note:</strong> Once you have completed this action, you may want to publish these changes to your live site."
+msgstr "Reset theme settings using custom config file from child theme.<br />\n\n⇥⇥⇥⇥⇥<strong>Note:</strong> Once you have completed this action, you may want to publish these changes to your live site."
+
+#: dms/editor/editor.importexport.php:108
+msgid "Select User Templates"
+msgstr "Select User Templates"
+
+#: dms/editor/editor.importexport.php:116
+msgid "Select All"
+msgstr "בחר הכל"
+
+#: dms/editor/editor.importexport.php:116
+msgid "Deselect All"
+msgstr "בטל בחירה של הכל"
+
+#: dms/editor/editor.importexport.php:137 dms/editor/panel.settings.php:51
+msgid "Global Settings"
+msgstr "הגדרות כלליות"
+
+#: dms/editor/editor.importexport.php:141
+msgid "Export Site Global Settings"
+msgstr "ייצוא הגדרות כלליות של האתר"
+
+#: dms/editor/editor.importexport.php:143
+msgid "This will export your sites global settings. This includes everything in the options panel, as well as settings directed at sections in your \"global\" regions like your header and footer."
+msgstr "This will export your sites global settings. This includes everything in the options panel, as well as settings directed at sections in your \"global\" regions like your header and footer."
+
+#: dms/editor/editor.importexport.php:148
+msgid "Post Type Settings"
+msgstr "הגדרות סוג פוסט"
+
+#: dms/editor/editor.importexport.php:153
+msgid "Export Post Type Settings"
+msgstr "ייצוא הגדרות סוג פוסט"
+
+#: dms/editor/editor.importexport.php:155
+msgid "This exports settings such as the template defaults for various post types."
+msgstr "This exports settings such as the template defaults for various post types."
+
+#: dms/editor/editor.importexport.php:160
+msgid "Theme Config Publishing"
+msgstr "Theme Config Publishing"
+
+#: dms/editor/editor.importexport.php:170
+msgid "(Disabled! No child theme active)"
+msgstr "(לא פעיל! אין תת תבנית עיצוב פעילה)"
+
+#: dms/editor/editor.importexport.php:170
+msgid "Publish Configuration to Child Theme (No Download File)"
+msgstr "פרסום תצורה של תת ערכת נושא (ללא קובץ להורדה)"
+
+#: dms/editor/editor.importexport.php:172
+msgid "Check this to publish your site configuration as a theme configuration file in your themes root directory. When a user activates your theme it will ask if it can overwrite their settings to attain a desired initial experience to the theme."
+msgstr "Check this to publish your site configuration as a theme configuration file in your themes root directory. When a user activates your theme it will ask if it can overwrite their settings to attain a desired initial experience to the theme."
+
+#: dms/editor/editor.importexport.php:178 dms/editor/editor.interface.php:406
+msgid "Publish"
+msgstr "פרסם"
+
+#: dms/editor/editor.importexport.php:179
+msgid "Download DMS Config"
+msgstr "הורד תצורת DMS"
+
+#: dms/editor/editor.importexport.php:195
+msgid "Export DMS Config"
+msgstr "ייצוא תצורת DMS"
+
+#: dms/editor/editor.importexport.php:201
+msgid "Import DMS Config"
+msgstr "ייבוא תצורת DMS"
+
+#: dms/editor/editor.interface.php:171
+msgid "Deactivate Editor (View Live)"
+msgstr "Deactivate Editor (View Live)"
+
+#: dms/editor/editor.interface.php:184
+msgid "Preview (alt+a)"
+msgstr "תצוגה מקדימה (alt+a)"
+
+#: dms/editor/editor.interface.php:282
+msgid "Undo All Unpublished Changes"
+msgstr "בטל את כל השינויים שלא פורסמו"
+
+#: dms/editor/editor.interface.php:284
+msgid "Undo Unpublished Global Changes"
+msgstr "בטל שינויים כלליים שלא פורסמו"
+
+#: dms/editor/editor.interface.php:287
+msgid "Undo Unpublished Post Type Changes"
+msgstr "בטל שינויי סוג פוסט שלא פורסמו"
+
+#: dms/editor/editor.interface.php:289
+msgid "Undo Unpublished Local Changes"
+msgstr "בטל שינויים מקומיים שלא פורסמו"
+
+#: dms/editor/editor.interface.php:291
+msgid "No Unpublished Changes"
+msgstr "אין שינויים שלא פורסמו"
+
+#: dms/editor/editor.interface.php:403
+msgid "Refresh needed to view changes."
+msgstr "יש לרענן על-מנת לצפות בשינויים."
+
+#: dms/editor/editor.interface.php:405
+msgid "Publish Live"
+msgstr "Publish Live"
+
+#: dms/editor/editor.interface.php:411
+msgid "Saving"
+msgstr "שמירה"
+
+#: dms/editor/editor.interface.php:414
+msgid "Width"
+msgstr "רוחב"
+
+#: dms/editor/editor.interface.php:620
+msgid "Decrease Width"
+msgstr "הקטן רוחב"
+
+#: dms/editor/editor.interface.php:621
+msgid "Column Width"
+msgstr "רוחב עמודה"
+
+#: dms/editor/editor.interface.php:622
+msgid "Increase Width"
+msgstr "הגדל רוחב"
+
+#: dms/editor/editor.interface.php:623
+msgid "Offset Left"
+msgstr "מרווח משמאל"
+
+#: dms/editor/editor.interface.php:624
+msgid "Offset Amount"
+msgstr "גודל מרווח"
+
+#: dms/editor/editor.interface.php:625
+msgid "Offset Right"
+msgstr "מרווח מימין"
+
+#: dms/editor/editor.interface.php:626
+msgid "Force to New Row"
+msgstr "הכרח לשורה חדשה"
+
+#: dms/editor/editor.layout.php:25
+msgid "Layout <span class=\"spamp\">&amp;</span> Nav"
+msgstr "עיצוב <span class=\"spamp\">&amp;</span> תפריט"
+
+#: dms/editor/editor.layout.php:49
+msgid "Layout Mode"
+msgstr "מצב פריסה"
+
+#: dms/editor/editor.layout.php:51
+msgid "Pixel Width Based Layout"
+msgstr "רוחב העיצוב בפיקסלים"
+
+#: dms/editor/editor.layout.php:52
+msgid "Percentage Width Based Layout"
+msgstr "רוחב העיצוב באחוזים"
+
+#: dms/editor/editor.layout.php:59
+msgid "Select Layout Display"
+msgstr "בחר פריסת תצוגה"
+
+#: dms/editor/editor.layout.php:60
+msgid "Display Mode"
+msgstr "סגנון תצוגה"
+
+#: dms/editor/editor.layout.php:62
+msgid "Full Width Display"
+msgstr "תצוגה ברוחב מלא"
+
+#: dms/editor/editor.layout.php:63
+msgid "Boxed Display"
+msgstr "תצוגת קופסא"
+
+#: dms/editor/editor.loader.php:64
+msgid "Loading DMS Editor"
+msgstr "טעינת עורך DMS"
+
+#: dms/editor/editor.objects.php:24 dms/editor/editor.sections.php:466
+#: dms/editor/editor.sections.php:494
+msgid "No Name"
+msgstr "ללא שם"
+
+#: dms/editor/editor.sections.php:39
+msgid "Your Sections"
+msgstr "המקטעים שלך"
+
+#: dms/editor/editor.sections.php:41
+msgid "Drag on to page to add"
+msgstr "גרור לעמוד להוספה"
+
+#: dms/editor/editor.sections.php:42
+msgid "Reload Sections"
+msgstr "טען מקטעים מחדש"
+
+#: dms/editor/editor.sections.php:48
+msgid "Get More Sections"
+msgstr "מצא מקטעים נוספים"
+
+#: dms/editor/editor.sections.php:58 dms/editor/editor.sections.php:167
+msgid "Components"
+msgstr "רכיבים"
+
+#: dms/editor/editor.sections.php:66 dms/editor/editor.sections.php:168
+msgid "Layouts"
+msgstr "עיצובים"
+
+#: dms/editor/editor.sections.php:72 dms/editor/editor.sections.php:169
+#: dms/editor/editor.sections.php:289 dms/editor/editor.sections.php:301
+msgid "Full Width"
+msgstr "רוחב מלא"
+
+#: dms/editor/editor.sections.php:78 dms/editor/editor.sections.php:170
+msgid "Post Layouts"
+msgstr "עיצובים לפוסט"
+
+#: dms/editor/editor.sections.php:84 dms/editor/editor.sections.php:171
+msgid "Galleries"
+msgstr "גלריות"
+
+#: dms/editor/editor.sections.php:90 dms/editor/editor.sections.php:172
+msgid "Navigation"
+msgstr "ניווט"
+
+#: dms/editor/editor.sections.php:96 dms/editor/editor.sections.php:173
+msgid "Sliders"
+msgstr "סליידרים"
+
+#: dms/editor/editor.sections.php:102 dms/editor/editor.sections.php:174
+msgid "Social"
+msgstr "חברתי"
+
+#: dms/editor/editor.sections.php:108 dms/editor/editor.sections.php:175
+msgid "Widgetized"
+msgstr "וידג'טייזד"
+
+#: dms/editor/editor.sections.php:114 dms/editor/panel.code.php:37
+msgid "Custom"
+msgstr "קוד מותאם"
+
+#: dms/editor/editor.sections.php:121 dms/editor/editor.sections.php:176
+msgid "Miscellaneous"
+msgstr "שונות"
+
+#: dms/editor/editor.sections.php:152
+msgid "Add To Page"
+msgstr "הוסף לעמוד"
+
+#: dms/editor/editor.sections.php:257
+msgid "<span class=\"badge badge-important\">PRO ONLY</span>"
+msgstr "<span class=\"badge badge-important\">Pro בלבד</span>"
+
+#: dms/editor/editor.settings.config.php:22
+msgid "Site Images"
+msgstr "תמונות האתר"
+
+#: dms/editor/editor.settings.config.php:30
+msgid "Social <span class=\"spamp\">&amp;</span> Local"
+msgstr "חברתי <span class=\"spamp\"> &amp;</span> מקומי"
+
+#: dms/editor/editor.settings.config.php:37
+msgid "Advanced"
+msgstr "מתקדם"
+
+#: dms/editor/editor.settings.config.php:44
+msgid "Resets"
+msgstr "איפוס"
+
+#: dms/editor/editor.settings.config.php:88
+msgid "Upload Favicon (32px by 32px)"
+msgstr "העלאת Favicon (32px על 32px)"
+
+#: dms/editor/editor.settings.config.php:92
+msgid "Favicon Image"
+msgstr "תמונת אייקון מועדפים (favicon)"
+
+#: dms/editor/editor.settings.config.php:93
+msgid "Enter the full URL location of your custom <strong>favicon</strong> which is visible in browser favorites and tabs.<br/> <strong>Must be .png or .ico file - 32px by 32px</strong>."
+msgstr "הזן את הכתובת המלאה לתמונת אייקון מועדפים מותאמת <strong>favicon</strong> שמוצגת בטאבים ובמועדפים שבדפדפן.<br/><strong>הקובץ חייב להיות .png או .ico בגודל 32 פיקסלים על 32 פיקסלים</strong>."
+
+#: dms/editor/editor.settings.config.php:105
+msgid "Login Page Image"
+msgstr "תמונה בעמוד ההתחברות"
+
+#: dms/editor/editor.settings.config.php:113
+msgid "Upload Touch Image (144px by 144px)"
+msgstr "העלאת תמונת Touch(144px על 144px)"
+
+#: dms/editor/editor.settings.config.php:116
+msgid "Mobile Touch Image"
+msgstr "תמונת Touch מובייל"
+
+#: dms/editor/editor.settings.config.php:118
+msgid "Enter the full URL location of your Apple Touch Icon which is visible when your users set your site as a <strong>webclip</strong> in Apple Iphone and Touch Products. It is an image approximately 144px by 144px in either .jpg, .gif or .png format."
+msgstr "הזן את הכתובת המלאה לתמונת Apple Touch <strong>favicon</strong> שמוצגת כאשר משתמשים מגדירים את האתר שלך כ-<strong>webclip</strong> בטלפונים החכמים של אפל.<br/><strong>הקובץ חייב להיות .png, .jpg או .gif בגודל 144 פיקסלים על 144 פיקסלים</strong>."
+
+#: dms/editor/editor.settings.config.php:142
+msgid "Your Twitter Username"
+msgstr "שם המשתמש שלך בטוויטר"
+
+#: dms/editor/editor.settings.config.php:143
+msgid "Twitter Integration"
+msgstr "ממשק לטוויטר"
+
+#: dms/editor/editor.settings.config.php:144
+msgid "This places your Twitter feed on the site. Leave blank if you want to hide or not use."
+msgstr "זה ממקם את ההזנה שלך מטוויטר באתר. השאר ריק אם ברצונך להסתיר או לא להשתמש."
+
+#: dms/editor/editor.settings.config.php:156
+msgid "Your Facebook Page Name"
+msgstr "שם העמוד שלך בפייסבוק"
+
+#: dms/editor/editor.settings.config.php:157
+msgid "Facebook Page"
+msgstr "עמוד פייסבוק"
+
+#: dms/editor/editor.settings.config.php:158
+msgid "Enter the name component of your Facebook page URL. (For example, what comes after the facebook url: www.facebook.com/[name])"
+msgstr "הזן את שם הרכיב של כתובת עמוד הפייסבוק שלך. (לדוגמה, מה שמופיע אחרי הכתובת בפייסבוק: www.facebook.com/[name])"
+
+#: dms/editor/editor.settings.config.php:163
+msgid "Your Facebook App ID"
+msgstr "מזהה אפליקציית הפייסבוק שלך"
+
+#: dms/editor/editor.settings.config.php:164
+msgid "Facebook App ID"
+msgstr "מזהה אפליקציית פייסבוק"
+
+#: dms/editor/editor.settings.config.php:165
+msgid "Add your Facebook Application ID here."
+msgstr "הזן את מזהה אפליקציית הפייסבוק שלך כאן."
+
+#: dms/editor/editor.settings.config.php:174
+msgid "Your Website Hashtag"
+msgstr "האשטאג של האתר שלך"
+
+#: dms/editor/editor.settings.config.php:175
+msgid "Website Hashtag"
+msgstr "האשטאג של האתר"
+
+#: dms/editor/editor.settings.config.php:176
+msgid "This hashtag will be used in social media (e.g. Twitter) and elsewhere to create feeds."
+msgstr "ההאשטאג הזה ישמש במדיה החברתית (למשל ב-Twitter) ובמקומות אחרים ליצירת הזנות."
+
+#: dms/editor/editor.settings.config.php:213
+msgid "Debug Options"
+msgstr "אפשרויות דיבאג"
+
+#: dms/editor/editor.settings.config.php:218
+msgid "Enable debug?"
+msgstr "אפשר דיבאג?"
+
+#: dms/editor/editor.settings.config.php:219
+msgid "PageLines debug"
+msgstr "דיבג PageLines"
+
+#: dms/editor/editor.settings.config.php:220
+#, php-format
+msgid "This information can be useful in the forums if you have a problem. %s"
+msgstr "המידע הזה יכול להיות שימושי בפורומים אם נתקלת בבעיה. %s"
+
+#: dms/editor/editor.settings.config.php:228
+msgid "Disable Error Notices?"
+msgstr "נטרול הודעות שגיאה?"
+
+#: dms/editor/editor.settings.config.php:229
+msgid "Less Notices"
+msgstr "פחות הודעות"
+
+#: dms/editor/editor.settings.config.php:230
+msgid "Disable any error notices sent to wp-admin by the less system"
+msgstr "נטרול כל הודעות השגיאה שנשלחות ל-wp-admin על-ידי מערכת ה-Less"
+
+#: dms/editor/editor.settings.config.php:243
+msgid "Enable Code Prettify?"
+msgstr "הפעל מייפה קוד?"
+
+#: dms/editor/editor.settings.config.php:244
+msgid "Google Prettify Code"
+msgstr "Google Prettify Code"
+
+#: dms/editor/editor.settings.config.php:245
+msgid "Add a class of 'prettyprint' to code or pre tags, or optionally use the [pl_codebox] shortcode. Wrap the codebox shortcode using [pl_raw] if Wordpress inserts line breaks."
+msgstr "הוסף את מחלקת העיצוב 'prettyprint' לתגיות code או pre, או השתמש בקוד המקוצר [pl_codebox]. עטוף את הקוד המקוצר של ה-codebox ב-[pl_raw] אם וורדפרס מכניס מעברי שורה."
+
+#: dms/editor/editor.settings.config.php:251
+msgid "Enter Partner Link"
+msgstr "הכנס קישור שותף"
+
+#: dms/editor/editor.settings.config.php:252
+msgid "PageLines Affiliate/Partner Link"
+msgstr "קישור לשותף של PageLines"
+
+#: dms/editor/editor.settings.config.php:259
+msgid "Install Class"
+msgstr "התקן מחלקת עיצוב"
+
+#: dms/editor/editor.settings.config.php:260
+msgid "Current Install Class"
+msgstr "מחלקת עיצוב נוכחית מותקנת"
+
+#: dms/editor/editor.settings.config.php:261
+msgid "Use this option to add a class to the &gt;body&lt; element of the website. This can be useful when using the same child theme on several installations or sub domains and can be used to control CSS customizations."
+msgstr "השתמש בזה על-מנת להוסיף מחלקת עיצוב לאלמנט &gt;body&lt; של האתר. אפשרות זו יכולה להיות שימושית כשעושים שימוש באותה תת ערכת נושא בכמה מקומות שונים ורוצים לבצע שינויים ב-CSS באחת או יותר מן המקומות."
+
+#: dms/editor/editor.settings.config.php:289
+msgid "Reset Global Site Settings"
+msgstr "אפס הגדרות אתר כלליות"
+
+#: dms/editor/editor.settings.config.php:290
+msgid "Use this button to reset all global settings to their default state. <br/><strong>Note:</strong> Once you've completed this action, you may want to publish these changes to your live site."
+msgstr "השתמש באפשרות זו על-מנת לשחזר את כל ההגדרות לברירת המחדל.<br/><strong>שים לב:</strong> אם ברצונך שהפעולה תשוקף באתר שלך, יש לפרסם את השינויים."
+
+#: dms/editor/editor.settings.config.php:297
+msgid "Reset Current Page Settings"
+msgstr "אפס הגדרות של העמוד הנוכחי"
+
+#: dms/editor/editor.settings.config.php:298
+msgid "Use this button to reset all settings on the current page back to their default state. <br/><strong>Note:</strong> Once you've completed this action, you may want to publish these changes to your live site."
+msgstr "השתמש בכפתור זה על-מנת לשחזר הגדרות של העמוד הנוכחי לערכי ברירת המחדל שלו.<br/><strong>שים לב:</strong> אם ברצונך שהפעולה תשוקף באתר שלך, יש לפרסם את השינויים."
+
+#: dms/editor/editor.settings.config.php:314
+msgid "Clear all CSS/LESS cached data."
+msgstr "נקה את ה-CSS/LESS שבזכרון."
+
+#: dms/editor/editor.settings.config.php:315
+msgid "Use this button to purge the stored LESS/CSS data. This will also clear cached pages if wp-super-cache or w3-total-cache are detected."
+msgstr "השתמש בלחצן זה כדי לנקות את הנתונים המאוחסנים ב-LESS/CSS. פעולה זו תנקה גם עמודים המאוחסנים בזכרון אם wp-super-cache או w3-total-cache מזוהים."
+
+#: dms/editor/editor.settings.config.php:339
+msgid "Standard Options"
+msgstr "אפשרויות בסיסיות"
+
+#: dms/editor/editor.templates.php:281
+msgid "Templates"
+msgstr "תבניות עיצוב"
+
+#: dms/editor/editor.templates.php:358
+msgid "Update Template with Current Configuration"
+msgstr "עדכן תבנית עיצוב עם התצורה הנוכחית"
+
+#: dms/editor/editor.templates.php:363
+msgid "Set as Page Global Default"
+msgstr "Set as Page Global Default"
+
+#: dms/editor/editor.templates.php:368
+msgid "Delete This Template"
+msgstr "מחק תבנית עיצוב זו"
+
+#: dms/editor/editor.templates.php:404
+msgid "Template Name (required)"
+msgstr "שם תבנית העיצוב (נדרש)"
+
+#: dms/editor/editor.templates.php:408
+msgid "Template Description"
+msgstr "תיאור תבנית העיצוב"
+
+#: dms/editor/editor.templates.php:412
+msgid "Save New Template"
+msgstr "שמור תבנית עיצוב חדשה"
+
+#: dms/editor/editor.templates.php:511
+msgid "DMS Page Setup"
+msgstr "הגדרת עמוד DMS"
+
+#: dms/editor/editor.templates.php:561
+msgid "Load PageLines Template"
+msgstr "טען תבנית עיצוב PageLines"
+
+#: dms/editor/editor.templates.php:574
+msgid "(no parent)"
+msgstr "(ללא אב)"
+
+#: dms/editor/editor.templates.php:582
+msgid "Parent Page"
+msgstr "עמוד אב"
+
+#: dms/editor/editor.templates.php:587
+msgid "Page Order"
+msgstr "סדר עמודים"
+
+#: dms/editor/editor.templates.php:607 dms/editor/js/pl.optpanel.js:826
+msgid "Default"
+msgstr "ברירת מחדל"
+
+#: dms/editor/editor.templates.php:608
+msgid "Standard page configuration. (Content and Primary Sidebar.)"
+msgstr "תצורת דף רגיל. (תוכן וסרגל צידי)"
+
+#: dms/editor/editor.templates.php:615
+msgid "Feature Template"
+msgstr "Feature Template"
+
+#: dms/editor/editor.templates.php:616
+msgid "A page template designed to quickly and concisely show off key features or points. (RevSlider, iBoxes, Flipper)"
+msgstr "A page template designed to quickly and concisely show off key features or points. (RevSlider, iBoxes, Flipper)"
+
+#: dms/editor/editor.templates.php:637
+msgid "Landing Page"
+msgstr "דף נחיתה"
+
+#: dms/editor/editor.templates.php:638
+msgid "A simple page design with highlight section and postloop (content)."
+msgstr "עיצוב עמוד פשוט שמכיל את המקטעים Highlight ו-PostLoop (תוכן)."
+
+#: dms/editor/editor.typography.php:69
+msgid "Typography"
+msgstr "טיפוגרפיה"
+
+#: dms/editor/editor.typography.php:85
+msgid "Primary Text"
+msgstr "טקסט ראשי"
+
+#: dms/editor/editor.typography.php:86
+msgid "The base font size is a reference that will be scaled for text used throughout the site. "
+msgstr "גודל הגופן שיהווה בסיס לסקלת הגופנים לאורך האתר."
+
+#: dms/editor/editor.typography.php:91
+msgid "Select Font Face"
+msgstr "בחירת גופן"
+
+#: dms/editor/editor.typography.php:101 dms/editor/editor.typography.php:142
+msgid "Base Font Size"
+msgstr "גודל גופן בסיסי"
+
+#: dms/editor/editor.typography.php:108 dms/editor/editor.typography.php:149
+msgid "Font Weight"
+msgstr "משקל גופן"
+
+#: dms/editor/editor.typography.php:116
+msgid "*These weights don't always have an effect."
+msgstr "*למשקלים הנ\"ל לא תמיד יש השפעה."
+
+#: dms/editor/editor.typography.php:125
+msgid "Text Headers <small>(h1-h6)</small>"
+msgstr "כותרות <small>(h1-h6)</small>"
+
+#: dms/editor/editor.typography.php:126
+msgid "Configure the typography for the text headers across your site."
+msgstr "הגדר את הטיפוגרפיה עבור הכותרות של האתר."
+
+#: dms/editor/editor.typography.php:131
+msgid "Header Font"
+msgstr "גופן מקטע עליון"
+
+#: dms/editor/editor.typography.php:164
+msgid "Extra Fonts"
+msgstr "גופנים נוספים"
+
+#: dms/editor/editor.typography.php:170
+msgid "Extra Google Fonts"
+msgstr "Google Fonts נוספים"
+
+#: dms/editor/panel.code.php:42
+msgid "Custom Design"
+msgstr "עיצוב מותאם"
+
+#: dms/editor/panel.code.php:45 dms/editor/panel.code.php:71
+msgid "Custom LESS/CSS"
+msgstr "LESS/CSS מותאם"
+
+#: dms/editor/panel.code.php:50
+msgid "Custom Scripts"
+msgstr "סקריפטים מותאמים"
+
+#: dms/editor/panel.code.php:72
+msgid "Tip"
+msgstr "טיפ"
+
+#: dms/editor/panel.code.php:72
+msgid "Hit [Cmd&#8984;+Return] or [Ctrl+Return] to Preview Live"
+msgstr "הקש [Cmd&#8984;+Return] או [Ctrl+Return] לתצוגה מקדימה"
+
+#: dms/editor/panel.code.php:85
+msgid "Custom Javascript or Header HTML"
+msgstr "קוד Javascript מותאם או HTML למקטע העליון"
+
+#: dms/editor/panel.extend.php:21
+msgid "Store"
+msgstr "חנות"
+
+#: dms/editor/panel.extend.php:25
+msgid "Extend PageLines"
+msgstr "הרחב את PageLines"
+
+#: dms/editor/panel.extend.php:27
+msgid "PageLines Store"
+msgstr "חנות PageLines"
+
+#: dms/editor/panel.extend.php:36
+msgid "Featured"
+msgstr "מומלצים"
+
+#: dms/editor/panel.extend.php:43
+msgid "Sections"
+msgstr "מקטעים"
+
+#: dms/editor/panel.extend.php:49
+msgid "Plugins"
+msgstr "תוספים"
+
+#: dms/editor/panel.extend.php:55
+msgid "Themes"
+msgstr "ערכות נושא"
+
+#: dms/editor/panel.extend.php:61
+msgid "Free"
+msgstr "חינם"
+
+#: dms/editor/panel.extend.php:67
+msgid "Premium"
+msgstr "פרימיום"
+
+#: dms/editor/panel.extend.php:79 dms/includes/lib.elements.php:181
+#: dms/includes/lib.utils.php:106
+msgid "Search"
+msgstr "חיפוש"
+
+#: dms/editor/panel.extend.php:94
+msgid "Upload a .zip extension into your PageLines install using this tool."
+msgstr "Upload a .zip extension into your PageLines install using this tool."
+
+#: dms/editor/panel.extend.php:96
+msgid "Extension File (zip file - required)"
+msgstr "קובץ הרחבה (קובץ זיפ - נדרש)"
+
+#: dms/editor/panel.extend.php:99
+msgid "Upload Extension"
+msgstr "העלה הרחבה"
+
+#: dms/editor/panel.extend.php:111
+msgid "Search the PageLines store for extensions."
+msgstr "חפש הרחבות בחנות של PageLines."
+
+#: dms/editor/panel.extend.php:116
+msgid "Search Store"
+msgstr "חיפוש בחנות"
+
+#: dms/editor/panel.extend.php:138
+msgid " found for "
+msgstr "נמצא עבור"
+
+#: dms/editor/panel.extend.php:146
+msgid "Demo "
+msgstr "דמו"
+
+#: dms/editor/panel.extend.php:152
+msgid "Overview "
+msgstr "סקירה כללית "
+
+#: dms/editor/panel.extend.php:187 dms/editor/panel.extend.php:190
+msgid "Free!"
+msgstr "חינם!"
+
+#: dms/editor/panel.settings.php:27
+msgid "Site Settings"
+msgstr "הגדרות אתר"
+
+#: dms/editor/panel.settings.php:34 dms/editor/panel.settings.php:73
+msgid "Section Options"
+msgstr " אפשרויות מקטע"
+
+#: dms/includes/class.shortcodes.php:176
+msgid "<span class='editpage sc'>Edit</span>"
+msgstr "<span class='editpage sc'>ערוך</span>"
+
+#: dms/includes/class.shortcodes.php:258
+msgid "Tagged With: "
+msgstr "מתוייג עם:"
+
+#: dms/includes/class.shortcodes.php:282
+msgid "Type: "
+msgstr "סוג:"
+
+#: dms/includes/class.shortcodes.php:313
+msgid "Add Comment"
+msgstr "הוסף תגובה"
+
+#: dms/includes/class.shortcodes.php:401
+#, php-format
+msgid "Visit %s&#8217;s website"
+msgstr "בקר %s&#8217;s אתר"
+
+#: dms/includes/deprecated.php:272
+#, php-format
+msgid "%1$s is <strong>deprecated</strong> since version %2$s of PageLines DMS! Use %3$s instead."
+msgstr "%1$s <strong>לא בשימוש</strong> מאז גירסה %2$s של PageLines DMS! במקום זאת, השתמש ב- %3$s."
+
+#: dms/includes/deprecated.php:274
+#, php-format
+msgid "%1$s is <strong>deprecated</strong> since version %2$s of PageLines DMS with no alternative available."
+msgstr "%1$s  <strong>לא בשימוש</strong> מאז גירסה %2$s של PageLines DMS ללא אלטרנטיבה זמינה."
+
+#: dms/includes/deprecated.php:1349
+msgid "No Image"
+msgstr "אין תמונה"
+
+#: dms/includes/deprecated.php:1557 dms/includes/deprecated.php:1558
+msgid "Add New "
+msgstr "הוסף חדש"
+
+#: dms/includes/deprecated.php:1559 dms/includes/deprecated.php:1560
+msgid "Edit "
+msgstr "ערוך"
+
+#: dms/includes/deprecated.php:1561 dms/includes/deprecated.php:1562
+msgid "View "
+msgstr "צפה"
+
+#: dms/includes/init.install.php:256
+msgid "Congratulations!"
+msgstr "מזל טוב!"
+
+#: dms/includes/less.legacy.php:460
+#, php-format
+msgid "%s/* CSS was compiled at %s and took %s seconds using %sMB of unicorn dust%s.*/"
+msgstr "%s /* ה-CSS עבר הידור ב-%s ולקח %s שניות תוך כדי שימוש ב-%sMB של אבק כוכבים%s */"
+
+#: dms/includes/less.legacy.php:495
+msgid "LESS Compile error!"
+msgstr "שגיאת קומפילציית LESS!"
+
+#: dms/includes/less.legacy.php:502
+#, php-format
+msgid "Error in %s Less code: %s"
+msgstr "שגיאה ב-%s ב-LESS: %s"
+
+#: dms/includes/less.legacy.php:763
+#, php-format
+msgid "%s/* CSS was compiled in legacy mode at %s and took %s seconds using %sMB of unicorn dust%s.*/"
+msgstr "%s/* CSS was compiled in legacy mode at %s and took %s seconds using %sMB of unicorn dust%s.*/"
+
+#: dms/includes/lib.editor.php:985 sections/flipper/section.php:74
+#: sections/masonic/section.php:65
+msgid "Total Posts Loaded"
+msgstr "סך כל הפוסטים לטעינה"
+
+#: dms/includes/lib.editor.php:1001 sections/flipper/section.php:148
+#: sections/masonic/section.php:123
+msgid "Meta Key"
+msgstr "מפתח מטא"
+
+#: dms/includes/lib.editor.php:1006 sections/flipper/section.php:155
+#: sections/masonic/section.php:130
+msgid "Meta Key Value"
+msgstr "ערך מפתח מטא"
+
+#: dms/includes/lib.editor.php:1007 sections/flipper/section.php:149
+#: sections/masonic/section.php:124
+msgid "Select only posts which have a certain meta key and corresponding meta value. Useful for featured posts, or similar."
+msgstr "Select only posts which have a certain meta key and corresponding meta value. Useful for featured posts, or similar."
+
+#: dms/includes/lib.elements.php:81
+msgid "Add Widgets &rarr;"
+msgstr "הוסף וידג'ט &rarr;"
+
+#: dms/includes/lib.elements.php:137
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "פוסט זה מוגן בסיסמא. הזן סיסמא לצפייה בתגובות."
+
+#: dms/includes/lib.elements.php:143
+#, php-format
+msgid "One Response to %2$s"
+msgid_plural "%1$s Responses to %2$s"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: dms/includes/lib.elements.php:151
+msgid "<span class='meta-nav'>&larr;</span> Older Comments"
+msgstr "<span class='meta-nav'> &larr;</span> תגובות ישנות יותר"
+
+#: dms/includes/lib.elements.php:152
+msgid "Newer Comments <span class='meta-nav'>&rarr;</span>"
+msgstr "תגובות חדשות יותר <span class='meta-nav'>&rarr;</span>"
+
+#: dms/includes/lib.elements.php:160
+msgid "Comments are closed."
+msgstr "מערכת התגובות סגורה."
+
+#: dms/includes/lib.elements.php:232
+msgid "&larr; Previous Entries"
+msgstr "&larr; רשומות קודמות"
+
+#: dms/includes/lib.elements.php:235
+msgid "Next Entries &rarr;"
+msgstr "רשומות הבאות &rarr;"
+
+#: dms/includes/lib.elements.php:262
+#, php-format
+msgid "<ul class='inline-list'>Please select a nav menu for this area in the <a href='%s'>WordPress menu admin</a>.</ul>"
+msgstr "<ul class='inline-list'>אנא בחר תפריט לאזור זה ב-<a href='%s'>לוח הבקרה של תפריטים בוורדפרס</a>.</ul>"
+
+#: dms/includes/lib.elements.php:368
+msgid "edit"
+msgstr "ערוך"
+
+#: dms/includes/lib.head.php:111
+msgid "Google Profile URL"
+msgstr "כתובת פרופיל Google"
+
+#: dms/includes/lib.head.php:349
+msgid "|"
+msgstr "|"
+
+#: dms/includes/lib.head.php:361
+#, php-format
+msgid "Search Results: %s"
+msgstr "תוצאות חיפוש: %s"
+
+#: dms/includes/lib.head.php:365
+#, php-format
+msgid "Page: %s"
+msgstr "עמוד: %s"
+
+#: dms/includes/lib.theming.php:142 dms/sections/postloop/class.posts.php:696
+#: dms/sections/postloop/section.php:300
+msgid "Nothing Found"
+msgstr "אין תוצאות"
+
+#: dms/includes/lib.theming.php:144 dms/sections/postloop/class.posts.php:698
+#: dms/sections/postloop/section.php:302
+msgid "Try another search?"
+msgstr "נסה חיפוש אחר?"
+
+#: dms/includes/lib.theming.php:144 dms/sections/postloop/class.posts.php:698
+#: dms/sections/postloop/section.php:302
+msgid "Sorry, what you are looking for isn't here."
+msgstr "מצטערים, מה שחיפשת אינו נמצא כאן."
+
+#: dms/includes/lib.utils.php:112 dms/sections/postauthor/section.php:67
+msgid "Author"
+msgstr "מחבר"
+
+#: dms/includes/lib.utils.php:133 dms/sections/postsinfo/section.php:31
+msgid "Currently viewing the category:"
+msgstr "קטגוריה בצפייה:"
+
+#: dms/includes/lib.utils.php:141 dms/sections/postsinfo/section.php:33
+msgid "Currently viewing the tag:"
+msgstr "תגית בצפייה:"
+
+#: dms/includes/lib.utils.php:149 dms/sections/postsinfo/section.php:40
+msgid "Posts by:"
+msgstr "פוסטים על-ידי:"
+
+#: dms/includes/lib.utils.php:151 dms/sections/postsinfo/section.php:42
+msgid "From the daily archives:"
+msgstr "מהארכיון היומי:"
+
+#: dms/includes/lib.utils.php:153 dms/sections/postsinfo/section.php:44
+msgid "From the monthly archives:"
+msgstr "מהארכיון החודשי:"
+
+#: dms/includes/lib.utils.php:155 dms/sections/postsinfo/section.php:46
+msgid "From the yearly archives:"
+msgstr "מהארכיון השנתי:"
+
+#: dms/includes/lib.utils.php:170 dms/sections/postsinfo/section.php:57
+msgid "Viewing archives for "
+msgstr "צפייה בארכיון של"
+
+#: dms/includes/lib.utils.php:404
+msgid "Configure this section"
+msgstr "הגדר מקטע זה"
+
+#: dms/includes/library.pagelines.php:20
+msgid "Upgrade to Pro!"
+msgstr "שדרג ל-Pro!"
+
+#: dms/includes/library.pagelines.php:22
+msgid "You are currently using the basic DMS version. Pro activate this site for tons more features and support."
+msgstr "You are currently using the basic DMS version. Pro activate this site for tons more features and support."
+
+#: dms/includes/library.pagelines.php:24
+msgid "Learn More About Pro"
+msgstr "למד עוד על Pro"
+
+#: dms/includes/library.pagelines.php:48
+msgid "(Pro Edition Only)"
+msgstr "(גרסת Pro בלבד)"
+
+#: dms/includes/library.pagelines.php:75
+msgid "Dashboard"
+msgstr "לוח בקרה"
+
+#: dms/includes/library.pagelines.php:1080 dms/editor/js/pl.xlist.js:157
+msgid "Close"
+msgstr "סגור"
+
+#: dms/sections/columnizer/section.php:52
+msgid "Columnizer Configuration"
+msgstr "תצורה"
+
+#: dms/sections/columnizer/section.php:59
+msgid "Select Widgetized Area"
+msgstr "בחר אזור וידג'טייזד"
+
+#: dms/sections/columnizer/section.php:60
+msgid "Select widgetized area"
+msgstr "בחר אזור וידג'טייזד"
+
+#: dms/sections/columnizer/section.php:61
+msgid "Select the widgetized area you would like to use with this instance."
+msgstr "בחר אזור וידג'טייזד שבו תרצה לעשות שימוש במופע זה."
+
+#: dms/sections/columnizer/section.php:69
+msgid "Number of Grid Columns for Each Widget (12 Col Grid)"
+msgstr "מספר העמודות עבור כל וידג'ט (הגריד בגודל 12 עמודות)"
+
+#: dms/sections/columnizer/section.php:79
+msgid "Widgetized Areas Help"
+msgstr "עזרת אזורי וידג'טייזד"
+
+#: dms/sections/columnizer/section.php:80
+msgid "Edit Widgetized Areas"
+msgstr "ערוך אזורי וידג'טייזד"
+
+#: dms/sections/columnizer/section.php:81
+msgid "This section uses widgetized areas that are created and edited in inside your admin."
+msgstr "אזור זה עושה שימוש באזורי וידג'טייזד שנוצרים ומנוהלים בלוח הבקרה של וורדפרס."
+
+#: dms/sections/columnizer/section.php:88
+#: dms/sections/columnizer/section.php:89
+msgid "Column Site Description"
+msgstr "עמודת תיאור האתר"
+
+#: dms/sections/columnizer/section.php:90
+msgid "If you use the default display of the columnizer, this field is used as a description of your company. You may want to add your address or links."
+msgstr "אם אתה משתמש בתצוגה הבסיסית של המקטע, שדה זה משמש לתיאור הארגון שלך. אולי תרצה להוסיף את הכתובת שלך או קישורים אחרים."
+
+#: dms/sections/columnizer/section.php:100
+msgid "Get A Sidebars Plugin"
+msgstr "קבל תוסף תפריטים צדדיים"
+
+#: dms/sections/columnizer/section.php:102
+msgid "We have detected that you don't either the Custom Sidebars or Sidebar Manager plugins installed. We recommend you install a plugin that allows you to create custom widgetized areas on demand."
+msgstr "זיהינו כי לא מותקן אצלך אחד מהתוספים Custom Sidebars או Sidebar Manager. אנו ממליצים לך להתקין אחד מהם על-מנת שתוכל ליצור אזורי וידג'טייזד בכל מקום שתרצה."
+
+#: dms/sections/highlight/section.php:29
+msgid "Select Format"
+msgstr "בחר פורמט"
+
+#: dms/sections/highlight/section.php:31
+msgid "Highlight Format"
+msgstr "פורמט"
+
+#: dms/sections/highlight/section.php:33
+msgid "Image on top of text"
+msgstr "תמונה מעל לטקסט"
+
+#: dms/sections/highlight/section.php:34
+msgid "Image on bottom of text"
+msgstr "תמונה מתחת לטקסט"
+
+#: dms/sections/highlight/section.php:35
+msgid "No text, just the image"
+msgstr "ללא טקסט, תמונה בלבד"
+
+#: dms/sections/highlight/section.php:41
+msgid "Highlight Text"
+msgstr "טקסט"
+
+#: dms/sections/highlight/section.php:48
+msgid "Highlight Header Text (Optional)"
+msgstr "טקסט לכותרת ראשית (אופציונלי)"
+
+#: dms/sections/highlight/section.php:54
+msgid "Highlight Subheader Text (Optional)"
+msgstr "טקסט לכותרת משנית (אופציונלי)"
+
+#: dms/sections/highlight/section.php:62
+msgid "Highlight Image and Format"
+msgstr "תמונה ופורמט"
+
+#: dms/sections/highlight/section.php:68
+msgid "Upload Splash Image"
+msgstr "העלה תמונה"
+
+#: dms/sections/highlight/section.php:73
+msgid "Add frame to image?"
+msgstr "הוספת מסגרת לתמונה?"
+
+#: dms/sections/highlight/section.php:103
+msgid "Here's to the crazy ones..."
+msgstr "כותרת ראשית ל-Masthead"
+
+#: dms/sections/highlight/section.php:104
+msgid "This is your Highlight section. Set up the options to configure."
+msgstr "זהו מקטע ה-Highlight. הגדר אותו כאות נפשך."
+
+#: dms/sections/ibox/section.php:23
+msgid "iBox Configuration"
+msgstr "תצורה"
+
+#: dms/sections/ibox/section.php:33
+msgid "Number of Columns for Each Box (12 Col Grid)"
+msgstr "מספר העמודות עבור כל תיבה (הגריד בגודל 12 עמודות)"
+
+#: dms/sections/ibox/section.php:39
+msgid "Icon Font"
+msgstr "אייקון גופן"
+
+#: dms/sections/ibox/section.php:41
+msgid "Images"
+msgstr "תמונות"
+
+#: dms/sections/ibox/section.php:42
+msgid "Text Only, No Media"
+msgstr "טקסט בלבד, ללא תמונות"
+
+#: dms/sections/ibox/section.php:45
+msgid "Select iBox Media Type"
+msgstr "בחר את סוג המדיה"
+
+#: dms/sections/ibox/section.php:51
+msgid "Media on Top"
+msgstr "מדיה מעל"
+
+#: dms/sections/ibox/section.php:52
+msgid "Media at Left"
+msgstr "מדיה בשמאל"
+
+#: dms/sections/ibox/section.php:55
+msgid "Select the iBox Media Location"
+msgstr "בחר את מיקום המדיה"
+
+#: dms/sections/ibox/section.php:65
+msgid "iBoxes Setup"
+msgstr "הגדרות iBoxes"
+
+#: dms/sections/ibox/section.php:66
+msgid "iBox"
+msgstr "iBox"
+
+#: dms/sections/ibox/section.php:70
+msgid "iBox Title"
+msgstr "כותרת"
+
+#: dms/sections/ibox/section.php:75
+msgid "iBox Text"
+msgstr "טקסט"
+
+#: dms/sections/ibox/section.php:80
+msgid "iBox Link (Optional)"
+msgstr "קישור (אופציונלי)"
+
+#: dms/sections/ibox/section.php:85
+msgid "iBox Class (Optional)"
+msgstr "מחלקת עיצוב (אופציונלי)"
+
+#: dms/sections/ibox/section.php:168 dms/sections/ibox/section.php:294
+#: sections/revslider/section.php:198
+msgid "More"
+msgstr "עוד"
+
+#: dms/sections/ibox/section.php:289
+msgid "iBox "
+msgstr "iBox"
+
+#: dms/sections/mediabox/section.php:29
+msgid "MediaBox Media"
+msgstr "מדיה"
+
+#: dms/sections/mediabox/section.php:36
+msgid "MediaBox Image"
+msgstr "תמונה"
+
+#: dms/sections/mediabox/section.php:42 sections/masthead/section.php:73
+#: sections/popthumbs/section.php:70 sections/propricing/section.php:53
+msgid "Title"
+msgstr "כותרת"
+
+#: dms/sections/mediabox/section.php:47
+msgid "Text and Embed HTML"
+msgstr "טקסט ו-HTML"
+
+#: dms/sections/mediabox/section.php:48
+msgid "Enter rich media \"embed\" HTML in this field to add videos, etc.. instead of an image."
+msgstr "הכנס קוד HTML בתיבה זו להוספת סרטוני וידאו וכו' במקום תמונה."
+
+#: dms/sections/mediabox/section.php:62
+msgid "Text/Media Alignment"
+msgstr "יישור טקסט/מדיה"
+
+#: dms/sections/mediabox/section.php:64
+msgid "Align Center (Default)"
+msgstr "ישור למרכז (ברירת מחדל)"
+
+#: dms/sections/mediabox/section.php:65 sections/docker/section.php:57
+msgid "Align Left"
+msgstr "יישור לשמאל"
+
+#: dms/sections/mediabox/section.php:66 sections/docker/section.php:56
+msgid "Align Right"
+msgstr "יישור לימין"
+
+#: dms/sections/mediabox/section.php:74
+msgid "MediaBox Min Height (px)"
+msgstr "גובה מינימלי (בפיקסלים)"
+
+#: dms/sections/mediabox/section.php:75
+msgid "Required for \"cover\" mode. Otherwise the mediabox will be drawn at the height of the media."
+msgstr "נדרש עבור מצב \"כיסוי\". אחרת ה-MediaBox יקבל את גודל המדיה."
+
+#: dms/sections/mediabox/section.php:80
+msgid "Disable Media Vertical Centering?"
+msgstr "ביטול מרכוז אנכי?"
+
+#: dms/sections/mediabox/section.php:90 dms/sections/textbox/section.php:98
+msgid "Viewport Animation"
+msgstr "הנפשת כניסה"
+
+#: dms/sections/mediabox/section.php:91 dms/sections/textbox/section.php:99
+msgid "Optionally animate the appearance of this section on view."
+msgstr "הנפשת כניסת המקטע ברגע שהוא נצפה לראשונה"
+
+#: dms/sections/mediabox/section.php:104
+msgid "MediaBox Background Image"
+msgstr "תמונת רקע"
+
+#: dms/sections/navbar/section.php:41 dms/sections/navbar/section.php:42
+msgid "NavBar Logo"
+msgstr "לוגו"
+
+#: dms/sections/navbar/section.php:55
+msgid "Standard NavBar - Select Theme"
+msgstr "תפריט ניווט רגיל - בחר ערכת נושא"
+
+#: dms/sections/navbar/section.php:57
+msgid "Base Color"
+msgstr "צבע בסיס"
+
+#: dms/sections/navbar/section.php:59 sections/hero/section.php:128
+msgid "Blue"
+msgstr "כחול"
+
+#: dms/sections/navbar/section.php:60
+msgid "Light Grey"
+msgstr "אפור בהיר"
+
+#: dms/sections/navbar/section.php:61 sections/hero/section.php:129
+msgid "Orange"
+msgstr "כתום"
+
+#: dms/sections/navbar/section.php:62 sections/hero/section.php:130
+msgid "Red"
+msgstr "אדום"
+
+#: dms/sections/navbar/section.php:66
+msgid "NavBar Theme"
+msgstr "עיצוב"
+
+#: dms/sections/navbar/section.php:67
+msgid "The NavBar comes with several color options. Select one to automatically configure."
+msgstr "תפריט הניווט מגיע עם מספר צבעים אפשריים. בחר אחד להגדרה אוטומטית."
+
+#: dms/sections/navbar/section.php:73
+msgid "NavBar Menu"
+msgstr "תפריט"
+
+#: dms/sections/navbar/section.php:74
+msgid "The NavBar uses WordPress menus. Select one for use."
+msgstr "תפריט הניווט עושה שימוש בתפריטים של וורדפרס. בחר אחד לשימוש."
+
+#: dms/sections/navbar/section.php:79 dms/sections/simple_nav/section.php:34
+#: dms/sections/simple_nav/section.php:40 sections/navi/section.php:63
+msgid "Select Menu"
+msgstr "בחר תפריט"
+
+#: dms/sections/navbar/section.php:88
+msgid "NavBar Configuration Options"
+msgstr "אפשרויות תצורה"
+
+#: dms/sections/navbar/section.php:94
+msgid "Activate dropdowns on hover."
+msgstr "הפעל הצגת התפריט הנפתח בשהייה עליו"
+
+#: dms/sections/navbar/section.php:101
+msgid "Align Menu Right? (Defaults Left)"
+msgstr "יישור תפריט לימין? (ברירת מחדל לשמאל)"
+
+#: dms/sections/navbar/section.php:107 sections/navi/section.php:68
+msgid "Hide Search?"
+msgstr "הסתר חיפוש?"
+
+#: dms/sections/navbar/section.php:168
+msgid "MENU"
+msgstr "תפריט"
+
+#: dms/sections/noposts/section.php:22
+msgid "Direct Previewing <em>of</em> &quot;Special Post Types&quot; Not Available... Yet"
+msgstr "תצוגה מקדימה <em>של</em> \"סוגי פוסטים מיוחדים\" לא זמין... עדיין"
+
+#: dms/sections/noposts/section.php:25
+msgid "To preview a &quot;custom post type&quot; just view a page with that &quot;section&quot; on it."
+msgstr "לצפייה ב- &quot;סוגים מיוחדים של פוסטים&quot; כנס לעמוד שמכיל פוסט כזה."
+
+#: dms/sections/noposts/section.php:30
+msgid "404!"
+msgstr "404!"
+
+#: dms/sections/noposts/section.php:31
+msgid "Sorry, This Page Does not exist."
+msgstr "מצטערים, העמוד אליו הגעת אינו קיים."
+
+#: dms/sections/noposts/section.php:31
+msgid "Go"
+msgstr "המשך"
+
+#: dms/sections/noposts/section.php:31
+msgid "home"
+msgstr "בית"
+
+#: dms/sections/noposts/section.php:31
+msgid "or try a search?"
+msgstr "או נסה חיפוש?"
+
+#: dms/sections/pl_area/section.php:38
+msgid "Set Area Padding"
+msgstr "הגדר מרווח מהצדדים"
+
+#: dms/sections/pl_area/section.php:47
+msgid "Area Padding (px)"
+msgstr "מרווח מהצדדים (פיקסלים)"
+
+#: dms/sections/pl_area/section.php:56
+msgid "Area Padding Bottom (if different)"
+msgstr "מרווח מלמטה (אם שונה)"
+
+#: dms/sections/pl_area/section.php:61
+msgid "Area Minimum Height (px)"
+msgstr "גובה מינימלי (פיקסלים)"
+
+#: dms/sections/pl_area/section.php:73
+msgid "Area Styling"
+msgstr "עיצוב"
+
+#: dms/sections/postauthor/section.php:34
+msgid "Author Setup"
+msgstr "הגדרות מחבר"
+
+#: dms/sections/postauthor/section.php:36
+msgid "This section uses the author's profile information. Set that in your admin."
+msgstr "מקטע זה עושה שימוש במידע מפרופיל העורך. הגדר אותו בלוח הבקרה."
+
+#: dms/sections/postauthor/section.php:76
+msgid "Visit Authors Website &rarr;"
+msgstr "בקר באתר העורך &rarr;"
+
+#: dms/sections/postauthor/section.php:79
+msgid "Authors Google Profile &rarr;"
+msgstr "פרופיל Google של העורך &rarr;"
+
+#: dms/sections/postloop/class.posts.php:37
+#: dms/sections/postloop/section.php:466
+msgid "Read More &raquo;"
+msgstr "קרא עוד &raquo;"
+
+#: dms/sections/postloop/class.posts.php:240
+msgid "<div class='pagination'><span class='desc'>pages:</span><ul>"
+msgstr "<div class='pagination'><span class='desc'>עמודים:</span><ul>"
+
+#: dms/sections/postloop/class.posts.php:253
+msgid "<span class='note'>Tagged with &rarr;</span> "
+msgstr "<span class='note'> מתוייג עם &rarr;</span> "
+
+#: dms/sections/postloop/class.posts.php:405
+msgid "Link To"
+msgstr "קישור ל-"
+
+#: dms/sections/postloop/class.posts.php:430
+#: dms/sections/postloop/class.posts.php:435
+msgid "On"
+msgstr "ב-"
+
+#: dms/sections/postloop/class.posts.php:430
+#: dms/sections/postloop/class.posts.php:435
+msgid "By"
+msgstr "על-ידי"
+
+#: dms/sections/postloop/class.posts.php:435
+msgid "In"
+msgstr "בתאריך"
+
+#: dms/sections/postloop/class.posts.php:505
+msgid "View"
+msgstr "צפה"
+
+#: dms/sections/postloop/class.posts.php:696
+#: dms/sections/postloop/section.php:300
+#, php-format
+msgid "No results for &quot;%s&quot;"
+msgstr "לא נמצאו תוצאות עבור &quot;%s&quot;"
+
+#: dms/sections/postloop/section.php:29
+msgid "Edit Post Content"
+msgstr "ערוך תוכן הפוסט"
+
+#: dms/sections/postloop/section.php:31
+msgid "This section uses WordPress posts. Edit post information using WordPress admin."
+msgstr "מקטע זה עושה שימוש בפוסטים. ערוך פוסטים בלוח הבקרה."
+
+#: dms/sections/postloop/section.php:75 dms/sections/postloop/section.php:367
+msgid "Use shortcodes to control the dynamic information in your metabar. Example shortcodes you can use are: <ul><li><strong>[post_categories]</strong> - List of categories</li><li><strong>[post_edit]</strong> - Link for admins to edit the post</li><li><strong>[post_tags]</strong> - List of post tags</li><li><strong>[post_comments]</strong> - Link to post comments</li><li><strong>[post_author_posts_link]</strong> - Author and link to archive</li><li><strong>[post_author_link]</strong> - Link to author URL</li><li><strong>[post_author]</strong> - Post author with no link</li><li><strong>[post_time]</strong> - Time of post</li><li><strong>[post_date]</strong> - Date of post</li><li><strong>[post_type]</strong> - Type of post</li></ul>"
+msgstr "השתמש בקוד מקוצר על-מנת להגדיר את שורת הפרטים הנוספים. קוד מקוצר לדוגמא הניתן לשימוש: <ul><li><strong>[post_categories]</strong> - רשימת הקטגוריות של הפוסט </li><li><strong>[post_edit]</strong> - לינק לעריכת הפוסט עבור מנהלים</li><li><strong>[post_tags]</strong> - רשימת התגיות של הפוסט</li><li><strong>[post_comments]</strong> - לינק לכתיבת תגובות</li><li><strong>[post_author_posts_link]</strong> - שם העורך ולינק לארכיון הפוסטים שלו</li><li><strong>[post_author_link]</strong> - קישור לאתר העורך</li><li><strong>[post_author]</strong> - שם העורך ללא קישור</li><li><strong>[post_time]</strong> - זמן פרסום הפוסט</li><li><strong>[post_date]</strong> - תאריך פרסום הפוסט</li><li><strong>[post_type]</strong> - סוג הפוסט</li></ul>"
+
+#: dms/sections/postloop/section.php:280
+msgid "Read More"
+msgstr "קרא עוד"
+
+#: dms/sections/postloop/section.php:316
+msgid "Layout <span class=\"spamp\">&amp;</span> Config"
+msgstr "עיצוב <span class=\"spamp\">&amp;</span> תצורה"
+
+#: dms/sections/postloop/section.php:324
+msgid "Page Title"
+msgstr "כותרת הדף"
+
+#: dms/sections/postloop/section.php:332
+msgid "Magazine Layout Mode"
+msgstr "מגזין"
+
+#: dms/sections/postloop/section.php:333
+msgid "List Layout Mode"
+msgstr "רשימה"
+
+#: dms/sections/postloop/section.php:335 dms/sections/postloop/section.php:336
+msgid "Posts Layout Mode"
+msgstr "מצבי פריסה לפוסטים"
+
+#: dms/sections/postloop/section.php:337
+msgid "Choose between two magazine or blog layout mode. <br/><br/> <strong>Magazine Layout Mode</strong><br/> Magazine layout mode makes use of post <strong>clips</strong>. These are summarized excerpts shown at half the width of the main content column.<br/>  <strong>Note:</strong> There is an option for showing <strong>full-width</strong> posts on your main <strong>posts</strong> page.<br/><br/><strong>List Layout Mode</strong><br/> This is your classical post list layout. Posts span the entire width of the main content column."
+msgstr "Choose between two magazine or blog layout mode. <br/><br/> <strong>Magazine Layout Mode</strong><br/> Magazine layout mode makes use of post <strong>clips</strong>. These are summarized excerpts shown at half the width of the main content column.<br/> <strong>Note:</strong> There is an option for showing <strong>full-width</strong> posts on your main <strong>posts</strong> page.<br/><br/><strong>List Layout Mode</strong><br/> This is your classical post list layout. Posts span the entire width of the main content column."
+
+#: dms/sections/postloop/section.php:346
+msgid "Number of Full Width Posts? (Mag. Mode)"
+msgstr "מספר הפוסטים שיוצגו ברוחב מלא? (מגזין)"
+
+#: dms/sections/postloop/section.php:347
+msgid "Full Width Posts (Magazine Layout Mode Only)"
+msgstr "פוסטים ברוחב מלא (מצב פריסה מגזין בלבד)"
+
+#: dms/sections/postloop/section.php:355
+msgid "Show Full Post Content"
+msgstr "הצג את הפוסט באופן מלא"
+
+#: dms/sections/postloop/section.php:356
+msgid "Optionally show full post content on special post listing pages."
+msgstr "Optionally show full post content on special post listing pages."
+
+#: dms/sections/postloop/section.php:364
+msgid "Meta Config"
+msgstr "הגדרות מטא"
+
+#: dms/sections/postloop/section.php:372
+msgid "Select Meta Mode"
+msgstr "בחר מצב מטא"
+
+#: dms/sections/postloop/section.php:373
+msgid "Meta Mode"
+msgstr "מצב מטא"
+
+#: dms/sections/postloop/section.php:378
+msgid "Instead of the standard metabar (beneath post title), you can use author meta mode. This mode displays the author avatar and publish date on left."
+msgstr "במקום התצוגה הרגילה של שורת הפרטים הנוספים (מתחת לכותרת הפוסט), ניתן להשתמש בתצוגת עורך. בתצוגה זו מוצג האוואטר של העורך ופרטי פרסום הפוסט בשמאל."
+
+#: dms/sections/postloop/section.php:385
+msgid "Configure Full Width Post Metabar"
+msgstr "הגדרת Metabar לפוסט ברוחב מלא"
+
+#: dms/sections/postloop/section.php:386
+msgid "Post Meta Information"
+msgstr "המטא-מידע של פוסט"
+
+#: dms/sections/postloop/section.php:394 dms/sections/postloop/section.php:395
+msgid "Configure Clip Metabar"
+msgstr "הגדרת שורת הפרטים הנוספים"
+
+#: dms/sections/postloop/section.php:402
+msgid "Thumbs"
+msgstr "תמונות מוקטנות"
+
+#: dms/sections/postloop/section.php:413 dms/sections/postloop/section.php:429
+msgid "Left Justified"
+msgstr "שמאל עם יישור לשני הצדדים את אורך השורות"
+
+#: dms/sections/postloop/section.php:414 dms/sections/postloop/section.php:430
+msgid "On Top"
+msgstr "מעל"
+
+#: dms/sections/postloop/section.php:415 dms/sections/postloop/section.php:431
+msgid "Left, In Excerpt"
+msgstr "שמאל, בתקציר"
+
+#: dms/sections/postloop/section.php:416 dms/sections/postloop/section.php:432
+msgid "Right, In Excerpt"
+msgstr "ימין, בתקציר"
+
+#: dms/sections/postloop/section.php:418
+msgid "Full Width Thumbs Layout"
+msgstr "תמונות מוקטנות לפוסטים שברוחב מלא"
+
+#: dms/sections/postloop/section.php:419
+msgid "Use this option to configure how thumbs will be shown in full-width posts on your blog page."
+msgstr "השתמש באפשרות זו כדי לקבוע כיצד תמונות מוקטנות יוצגו בהודעות ברוחב-מלא הודעות בעמוד הבלוג שלך."
+
+#: dms/sections/postloop/section.php:434
+msgid "Clip Thumbs Layout"
+msgstr "תמונות מוקטנות לפוסטים שאינם ברוחב מלא"
+
+#: dms/sections/postloop/section.php:441
+msgid "Hide thumbs?"
+msgstr "הסתר תמונות מוקטנות?"
+
+#: dms/sections/postloop/section.php:442
+msgid "Post Thumbnails"
+msgstr "תמונות מוקטנות של פוסט"
+
+#: dms/sections/postloop/section.php:443
+msgid "Use this option to hide or show thumbs for posts on pages."
+msgstr "סמן על-מנת להציג/להסתיר תמונות מוקטנות של פוסטים בעמודים."
+
+#: dms/sections/postloop/section.php:452
+msgid "Excerpts"
+msgstr "תקצירים"
+
+#: dms/sections/postloop/section.php:459
+msgid "Hide excerpts?"
+msgstr "הסתר תקצירים?"
+
+#: dms/sections/postloop/section.php:460
+msgid "Hide Post Excerpt"
+msgstr "הסתר תקציר פוסט"
+
+#: dms/sections/postloop/section.php:461
+msgid "Excerpts are short pieces of content that are shown to give users a preview of a post. Hide them using this option."
+msgstr "תקצירים הם קטע מתוך טקסט לצורך תצוגה מקדימה. הסתר אותם באמצעות שימוש באופציה זו."
+
+#: dms/sections/postloop/section.php:468
+msgid "Continue Reading Link Text"
+msgstr "הטקסט עבור הקישור להמשך קריאה"
+
+#: dms/sections/postloop/section.php:469
+msgid "Excerpts <strong>Continue Reading</strong> Text"
+msgstr "טקסט ל<strong>המשכת קריאה</strong> שבתקציר"
+
+#: dms/sections/postloop/section.php:470
+msgid "This text will be used as the link to your full article when viewing articles on your posts page (when excerpts are turned on)."
+msgstr "טקסט זה ישמש כקישור לכתבה המלאה שלך בעת הצגת כתבות בדף הפוסטים שלך (כאשר תקצירים מופעלים)."
+
+#: dms/sections/postloop/section.php:477
+msgid "Number of words."
+msgstr "מספר מילים."
+
+#: dms/sections/postloop/section.php:478
+msgid "Excerpt Length"
+msgstr "אורך התקציר"
+
+#: dms/sections/postloop/section.php:479
+msgid "Excerpts are set to 55 words by default."
+msgstr "התקציר מכיל 55 מילים כברירת מחדל."
+
+#: dms/sections/postloop/section.php:486
+msgid "Allowed Tags"
+msgstr "תגיות מורשות"
+
+#: dms/sections/postloop/section.php:487
+msgid "Allow Tags in Excerpt"
+msgstr "אפשר תגיות בתקציר"
+
+#: dms/sections/postloop/section.php:488
+msgid "By default WordPress strips all HTML tags from excerpts. You can use this option to allow certain tags. Simply enter the allowed tags in this field. <br/>An example of allowed tags could be: <strong>&lt;p&gt;&lt;br&gt;&lt;a&gt;</strong>. <br/><br/> <strong>Note:</strong> Enter a period <strong>.</strong> to disallow all tags."
+msgstr "כברירת מחדל וורדפרס מסיר את כל תגי ה-HTML מתקצירים. באפשרותך להשתמש באפשרות זו כדי לאפשר תגים מסוימים. פשוט הזן את התגים המותרים השדה זה. <br/> דוגמא לתגים מורשים: <strong>&&lt;p&gt;&lt;br&gt;&lt;a&gt;.</strong><br/> <br/> <strong>שים לב:</strong> הזן נקודה <strong>.</strong> כדי לאסור את כל התגים."
+
+#: dms/sections/postsinfo/section.php:29
+msgid "Search results for"
+msgstr "תוצאות חיפוש עבור"
+
+#: dms/sections/sb_primary/section.php:42
+msgid "Categories"
+msgstr "קטגוריות"
+
+#: dms/sections/sb_primary/section.php:51
+msgid "Archives"
+msgstr "ארכיון"
+
+#: dms/sections/sb_primary/section.php:60
+msgid "Calendar"
+msgstr "לוח שנה"
+
+#: dms/sections/sb_primary/section.php:69
+msgid "Meta"
+msgstr "מטא"
+
+#: dms/sections/sb_primary/section.php:74
+msgid "Entries (RSS)"
+msgstr "רשומות (RSS)"
+
+#: dms/sections/simple_nav/section.php:25
+msgid "Simple Nav Section"
+msgstr "מקטע SimpleNav"
+
+#: dms/sections/simple_nav/section.php:35
+msgid "The SimpleNav uses WordPress menus. Select one for use."
+msgstr "המקטע עושה שימוש בתפריטים של וורדפרס. בחר אחד לשימוש."
+
+#: dms/sections/simple_nav/section.php:51
+msgid "Select Alignment"
+msgstr "בחר ישור"
+
+#: dms/sections/textbox/section.php:35
+msgid "Title (Optional)"
+msgstr "כותרת (אופציונלי)"
+
+#: dms/sections/textbox/section.php:41
+msgid "Text Content"
+msgstr "תוכן"
+
+#: dms/sections/textbox/section.php:49
+msgid "Textbox Font Size"
+msgstr "גודל הגופן"
+
+#: dms/sections/textbox/section.php:90
+msgid "Padding <small>(CSS Shorthand)</small>"
+msgstr "מרווח מהצדדים <small>(CSS מקוצר)</small>"
+
+#: dms/sections/textbox/section.php:91
+msgid "This option uses CSS padding shorthand. For example, use \"15px 30px\" for 15px padding top/bottom, and 30 left/right."
+msgstr "אפשרות זו עושה שימוש ב-CSS מקוצר עבור ריווח מהצדדים. לדוגמא, השתמש ב-\"15px 30px\" בשביל ריווח של 15 פיקסלים מלמעלה/למטה וריווח של 30 פיקסלים מימין/שמאל."
+
+#: dms/sections/watermark/section.php:19
+msgid "Website Watermark"
+msgstr "סימן מים של האתר"
+
+#: dms/sections/watermark/section.php:20
+msgid "The website watermark is a small version of your logo for your footer. Recommended width/height is 90px."
+msgstr "סימן המים של האתר היא תמונה מוקטנת של הלוגו שלך למקטע התחתון של האתר. הגודל המומלץ הוא 90 פיקסלים על 90 פיקסלים."
+
+#: dms/sections/watermark/section.php:26
+msgid "Watermark Image"
+msgstr "תמונת סימן מים"
+
+#: dms/sections/watermark/section.php:33
+msgid "Watermark Link (Blank for None)"
+msgstr "קישור סימן מים (יש להשאיר ריק אם לינק לא רצוי)"
+
+#: dms/sections/watermark/section.php:39
+msgid "Watermark Link alt text"
+msgstr "טקסט בשהייה מעל סימן המים"
+
+#: dms/sections/watermark/section.php:40
+msgid "Build a website with PageLines"
+msgstr "בנה אתר עם PageLines"
+
+#: dms/sections/watermark/section.php:45
+msgid "Hide Watermark"
+msgstr "הסתר סימן מים"
+
+#: dms/sections/watermark/section.php:119
+msgid "was created with"
+msgstr "נוצר באמצעות"
+
+#: sections/flipper/section.php:42
+msgid "Which post type should Flipper use?"
+msgstr "באיזה סוג של פוסט להשתמש?"
+
+#: sections/flipper/section.php:43
+msgid "<strong>Note</strong><br/> Post types for this section must have \"featured images\" enabled and be public.<br/><strong>Tip</strong><br/> Use a plugin to create custom post types for use with Flipper."
+msgstr "<strong>שים לב</strong><br/> יש להגדיר תמונה ראשית לפוסטים במקטע זה.<br/><strong>טיפ</strong><br/>השתמש בתוסף על-מנת ליצור סוגים חדשים של פוסטים."
+
+#: sections/flipper/section.php:60
+msgid "Max Number of Posts Shown"
+msgstr "מספר מקסימלי של פוסטים מוצגים"
+
+#: sections/flipper/section.php:61
+msgid "This controls the maximum number of posts shown. A smaller amount may be shown based on layout width."
+msgstr "קובע את המספר המרבי של הפוסטים המוצגים. ייתכן שיוצגו פחות פוסטים בהתבסס על רוחב העיצוב."
+
+#: sections/flipper/section.php:92
+msgid "Options to control the text and link in the Flipper title."
+msgstr "אפשרויות להגדרת הטקסט והקישור בכותרת"
+
+#: sections/flipper/section.php:97
+msgid "Flipper Title Text"
+msgstr "טקסט לכותרת"
+
+#: sections/flipper/section.php:102
+msgid "Hide Title Link?"
+msgstr "הסתר קישור בכותרת?"
+
+#: sections/flipper/section.php:108
+msgid "Flipper Meta"
+msgstr "מטא דאטא"
+
+#: sections/flipper/section.php:109 sections/masonic/section.php:95
+msgid "Use shortcodes to control the dynamic meta info. Example shortcodes you can use are: <ul><li><strong>[post_categories]</strong> - List of categories</li><li><strong>[post_edit]</strong> - Link for admins to edit the post</li><li><strong>[post_tags]</strong> - List of post tags</li><li><strong>[post_comments]</strong> - Link to post comments</li><li><strong>[post_author_posts_link]</strong> - Author and link to archive</li><li><strong>[post_author_link]</strong> - Link to author URL</li><li><strong>[post_author]</strong> - Post author with no link</li><li><strong>[post_time]</strong> - Time of post</li><li><strong>[post_date]</strong> - Date of post</li><li><strong>[post_type]</strong> - Type of post</li></ul>"
+msgstr "השתמש בקוד מקוצר על-מנת להגדיר את שורת הפרטים הנוספים. קוד מקוצר לדוגמא הניתן לשימוש: <ul><li><strong>[post_categories]</strong> - רשימת הקטגוריות של הפוסט </li><li><strong>[post_edit]</strong> - לינק לעריכת הפוסט עבור מנהלים</li><li><strong>[post_tags]</strong> - רשימת התגיות של הפוסט</li><li><strong>[post_comments]</strong> - לינק לכתיבת תגובות</li><li><strong>[post_author_posts_link]</strong> - שם העורך ולינק לארכיון הפוסטים שלו</li><li><strong>[post_author_link]</strong> - קישור לאתר העורך</li><li><strong>[post_author]</strong> - שם העורך ללא קישור</li><li><strong>[post_time]</strong> - זמן פרסום הפוסט</li><li><strong>[post_date]</strong> - תאריך פרסום הפוסט</li><li><strong>[post_type]</strong> - סוג הפוסט</li></ul>"
+
+#: sections/flipper/section.php:165 sections/masonic/section.php:139
+msgid "Only applies for standard blog posts."
+msgstr "רלוונטי רק לפוסטים רגילים."
+
+#: sections/flipper/section.php:252
+msgid " / View All"
+msgstr "/ הצג הכל"
+
+#: sections/flipper/section.php:258
+msgid " / View Blog"
+msgstr "/ הצג בלוג"
+
+#: sections/hero/section.php:27
+msgid "Hero Settings"
+msgstr "הגדרות"
+
+#: sections/hero/section.php:34
+msgid "Heading"
+msgstr "כותרת ראשית"
+
+#: sections/hero/section.php:39
+msgid "Subtext"
+msgstr "טקסט מתחת"
+
+#: sections/hero/section.php:44
+msgid "Hero Image"
+msgstr "תמונה"
+
+#: sections/hero/section.php:51
+msgid "Upload Custom Image"
+msgstr "העלה תמונה מותאמת"
+
+#: sections/hero/section.php:56
+msgid "Reverse the Hero unit (image on left)"
+msgstr "הפוך את המקטע (תמונה משמאל)"
+
+#: sections/hero/section.php:60
+msgid "Content Widths"
+msgstr "רוכב"
+
+#: sections/hero/section.php:66
+msgid "Text Area Width"
+msgstr "רוחב אזור הטקסט"
+
+#: sections/hero/section.php:82
+msgid "Image Area Width"
+msgstr "רוחב אזור התמונה"
+
+#: sections/hero/section.php:100
+msgid "Hero Action Button"
+msgstr "לחצן פעולה"
+
+#: sections/hero/section.php:108
+msgid "Button link destination (URL - Required)"
+msgstr "כתובת הלינק לכפתור (URL - חובה)"
+
+#: sections/hero/section.php:113
+msgid "Hero Button Text"
+msgstr "טקסט לכפתור הפעולה"
+
+#: sections/hero/section.php:119 sections/icallout/section.php:72
+msgid "Open link in new window"
+msgstr "פתח קישור בחלון חדש"
+
+#: sections/hero/section.php:122 sections/masthead/section.php:115
+msgid "Select Button Color"
+msgstr "בחר צבע לכפתור"
+
+#: sections/hero/section.php:131
+msgid "Green"
+msgstr "ירוק"
+
+#: sections/hero/section.php:132
+msgid "Light Blue"
+msgstr "כחול בהיר"
+
+#: sections/hero/section.php:133
+msgid "Grey"
+msgstr "אפור"
+
+#: sections/hero/section.php:167
+msgid "The Hero!"
+msgstr "הגיבור!"
+
+#: sections/hero/section.php:168
+msgid "Now just set up your Hero section options"
+msgstr "כל שנשאר לעשות הוא לקבוע את אפשרויות המקטע"
+
+#: sections/icallout/section.php:24
+msgid "Callout Format"
+msgstr "פורמט"
+
+#: sections/icallout/section.php:26
+msgid "Text on top of button"
+msgstr "טקסט מעל הכפתור"
+
+#: sections/icallout/section.php:27
+msgid "Text/Button Inline"
+msgstr "טקסט לצד הכפתור"
+
+#: sections/icallout/section.php:33 sections/icallout/section.php:39
+msgid "Callout Text"
+msgstr "טקסט"
+
+#: sections/icallout/section.php:66
+msgid "URL"
+msgstr "URL"
+
+#: sections/icallout/section.php:77
+msgid "Text on Button"
+msgstr "טקסט שעל הכפתור"
+
+#: sections/icallout/section.php:82
+msgid "Button Color"
+msgstr "צבע כפתור"
+
+#: sections/icallout/section.php:105
+msgid "Call to action!"
+msgstr "קורא לפעולה!"
+
+#: sections/masonic/section.php:146
+msgid "Additional Post Selection"
+msgstr "Additional Post Selection"
+
+#: sections/masthead/section.php:41
+msgid "Masthead Splash Options"
+msgstr "אפשרויות אובייקט ראשי"
+
+#: sections/masthead/section.php:48
+msgid "Upload custom image"
+msgstr "העלאת תמונה מותאמת"
+
+#: sections/masthead/section.php:53
+msgid "Masthead Video (optional, to be used instead of image)"
+msgstr "וידאו (אופציונלי, לשימוש במקום תמונה)"
+
+#: sections/masthead/section.php:58
+msgid "Maximum width of splash in px (default is full width)"
+msgstr "רוחב מרבי של התמונה בפיקסלים (ברירת המחדל היא רוחב מלא)"
+
+#: sections/masthead/section.php:61
+msgid "Upload an image to serve as a splash image, or use an embed code for full width video."
+msgstr "העלה תמונה או הזן קוד עבור וידאו שנפרש לכל הרוחב"
+
+#: sections/masthead/section.php:67
+msgid "Masthead Text"
+msgstr "טקסט"
+
+#: sections/masthead/section.php:68
+msgid " Text"
+msgstr "טקסט"
+
+#: sections/masthead/section.php:78
+msgid "Tagline"
+msgstr "כותרת משנה"
+
+#: sections/masthead/section.php:91
+msgid "Masthead Action Button "
+msgstr "כפתור פעולה"
+
+#: sections/masthead/section.php:96
+msgid "Enter the link destination (URL - Required)"
+msgstr "הכנס את כתובת היעד (URL - נדרש)"
+
+#: sections/masthead/section.php:102
+msgid "Masthead Button Text"
+msgstr "טקסט"
+
+#: sections/masthead/section.php:109
+msgid "Open link in new window."
+msgstr "פתח קישור בחלון חדש."
+
+#: sections/masthead/section.php:128
+msgid "Masthead Menu"
+msgstr "תפריט"
+
+#: sections/masthead/section.php:129
+msgid "Select Masthead Menu"
+msgstr "בחר תפריט"
+
+#: sections/masthead/section.php:135
+msgid "Masthead Meta"
+msgstr "מטא"
+
+#: sections/masthead/section.php:136
+msgid "Enter Masthead Meta Text"
+msgstr "הכנס מטא טקסט"
+
+#: sections/masthead/section.php:194
+msgid "Start Here"
+msgstr "התחל כאן"
+
+#: sections/popthumbs/section.php:43
+msgid "PopThumb Configuration"
+msgstr "תצורה"
+
+#: sections/popthumbs/section.php:52
+msgid "Number of Columns for Each Thumb (12 Col Grid)"
+msgstr "מספר העמודות עבור כל תמונה מוקטנת (הגריד בגודל 12 עמודות)"
+
+#: sections/popthumbs/section.php:63
+msgid "PopThumbs Setup"
+msgstr "הגדרות"
+
+#: sections/popthumbs/section.php:64 sections/popthumbs/section.php:81
+msgid "Thumb"
+msgstr "תמונה מוקטנת"
+
+#: sections/popthumbs/section.php:75 sections/revslider/section.php:74
+#: sections/testimonials/section.php:67
+msgid "Text"
+msgstr "טקסט"
+
+#: sections/popthumbs/section.php:86 sections/quickcarousel/section.php:71
+msgid "Image"
+msgstr "תמונה"
+
+#: sections/propricing/section.php:28
+msgid "ProPricing Configuration"
+msgstr "תצורה"
+
+#: sections/propricing/section.php:38
+msgid "Number of Columns for Each Plan (12 Col Grid)"
+msgstr "מספר עמודות עבור כל תוכנית (הגריד בגודל 12 עמודות)"
+
+#: sections/propricing/section.php:48
+msgid "Pricing Setup"
+msgstr "הגדרות"
+
+#: sections/propricing/section.php:49
+msgid "Column"
+msgstr "עמודה"
+
+#: sections/propricing/section.php:58
+msgid "Price"
+msgstr "מחיר"
+
+#: sections/propricing/section.php:63
+msgid "Before Price Text"
+msgstr "טקסט לפני המחיר"
+
+#: sections/propricing/section.php:65
+msgid "Typically you will add the monetary unit here. E.g. \"$\""
+msgstr "בדרך כלל משתמשים בסימן של מטבע כאן, למשל, \"&#8362\""
+
+#: sections/propricing/section.php:69
+msgid "After Price Text"
+msgstr "טקסט אחרי המחיר"
+
+#: sections/propricing/section.php:71
+msgid "Typically you will add the recurring amount here. E.g. \"/ MO\""
+msgstr "בדרך כלל משתמשים בתקופה כאן, למשל \"/חודש\""
+
+#: sections/propricing/section.php:75
+msgid "Sub Text"
+msgstr "טקסט משני"
+
+#: sections/propricing/section.php:85
+msgid "Link Text"
+msgstr "טקסט קישור"
+
+#: sections/propricing/section.php:90
+msgid "Button Theme"
+msgstr "עיצוב לכפתור"
+
+#: sections/propricing/section.php:100
+msgid "Attributes"
+msgstr "מאפיינים"
+
+#: sections/propricing/section.php:102
+msgid "Add each attribute on a new line. Add a \"*\" in front to add emphasis."
+msgstr "הוסף כל מאפיין בשורה חדשה. הוסף \"*\" להדגשת השורה."
+
+#: sections/quickslider/section.php:147 sections/revslider/section.php:22
+msgid "Slider Configuration"
+msgstr "תצורה"
+
+#: sections/quickslider/section.php:154
+msgid "Select Transition Type"
+msgstr "בחר סוג מעבר"
+
+#: sections/quickslider/section.php:156
+msgid "Use Fading Transition"
+msgstr "עמעום"
+
+#: sections/quickslider/section.php:157
+msgid "Use Slide/Horizontal Transition"
+msgstr "גלישה אופקית"
+
+#: sections/quickslider/section.php:163
+msgid "Animate Slideshow Automatically?"
+msgstr "הנפש שקופיות אוטומטית?"
+
+#: sections/quickslider/section.php:175 sections/revslider/section.php:51
+msgid "Slides Setup"
+msgstr "הגדרות"
+
+#: sections/quickslider/section.php:176 sections/revslider/section.php:52
+msgid "Slide"
+msgstr "שקופית"
+
+#: sections/quickslider/section.php:180
+msgid "Slide Background Image"
+msgstr "תמונת רקע לשקופית"
+
+#: sections/quickslider/section.php:183 sections/revslider/section.php:59
+msgid "For high resolution, 2000px wide x 800px tall images. (2MB Limit)"
+msgstr "עבור רזולוציות גבוהות, השתמש בתמונות בגודל 2000px לרוחב ו-800px לגובה (הגבלה של 2מגה)"
+
+#: sections/quickslider/section.php:189 sections/revslider/section.php:69
+msgid "Slide Text"
+msgstr "טקסט"
+
+#: sections/quickslider/section.php:194
+msgid "Slide Link URL"
+msgstr "קישור"
+
+#: sections/rapidtabs/section.php:78
+msgid "Popular"
+msgstr "פופולרי"
+
+#: sections/rapidtabs/section.php:79
+msgid "Recent"
+msgstr "אחרונים"
+
+#: sections/rapidtabs/section.php:80
+msgid "Comments"
+msgstr "תגובות"
+
+#: sections/rapidtabs/section.php:81
+msgid "Tags"
+msgstr "תגיות"
+
+#: sections/revslider/section.php:83
+msgid "Slide Text Location"
+msgstr "מיקום הטקסט בשקופית"
+
+#: sections/revslider/section.php:94
+msgid "Slide Transition"
+msgstr "מעבר שקופית"
+
+#: sections/starbars/section.php:29
+msgid "StarBar Configuration"
+msgstr "תצורה"
+
+#: sections/starbars/section.php:38
+msgid "Number of StarBars to Configure"
+msgstr "מספר מדדים להגדרה"
+
+#: sections/starbars/section.php:44
+msgid "Starbar Total Count (Number)"
+msgstr "ערך מקסימלי למדדים (מספר)"
+
+#: sections/starbars/section.php:45
+msgid "This number will be used to calculate the percent of the bar filled. The StarBar values will be shown as a percentage of this value. Default is 100."
+msgstr "באמצעות מספר זה יחושבו האחוזים למילוי פס המדדים. הערכים יוצגו באחוזים ביחס לערך זה. ברירת המחדל היא 100."
+
+#: sections/starbars/section.php:52
+msgid "Starbar Modifier (Text Added to Stats)"
+msgstr " מאפיין נתונים מספריים (טקסט שיתווסף לכל נתון מספרי, % כברירת מחדל)"
+
+#: sections/starbars/section.php:53
+msgid "This will be added to the stat number."
+msgstr "זה יתווסף לנתונים המספריים."
+
+#: sections/starbars/section.php:63
+msgid "Starbar Format"
+msgstr "פורמט"
+
+#: sections/starbars/section.php:69
+msgid "StarBar Title (Optional)"
+msgstr "כותרת (אופציונלי)"
+
+#: sections/starbars/section.php:82
+msgid "Descriptor"
+msgstr "תיאור"
+
+#: sections/starbars/section.php:86
+msgid "Value"
+msgstr "ערך"
+
+#: sections/starbars/section.php:88
+msgid "Shown as a percentage of the StarBar total in the config."
+msgstr "מוצג באחוזים ביחס לערך המקסימלי של המדד."
+
+#: dms/editor/js/pl.ajax.js:21
+msgid "Are you sure?"
+msgstr "האם אתה בטוח?"
+
+#: dms/editor/js/pl.ajax.js:24 dms/editor/js/pl.editor.js:740
+msgid "Refreshing page..."
+msgstr "מרענן תצוגה..."
+
+#: dms/editor/js/pl.ajax.js:183
+msgid "Saving Settings"
+msgstr "שמירת הגדרות"
+
+#: dms/editor/js/pl.ajax.js:185
+msgid "Settings successfully saved! Refreshing page..."
+msgstr "ההגדרות נשמרו בהצלחה! מרענן תצוגה..."
+
+#: dms/editor/js/pl.ajax.js:209
+msgid "<h3>Turn Off DMS Editor?</h3><p>(Note: Draft mode is disabled when editor is off.)</p>"
+msgstr "<h3>כיבוי עורך ה-DMS?<p>(שים לב: מצב טיוטא לא פעיל כאשר העורך כבוי)</p></h3>"
+
+#: dms/editor/js/pl.ajax.js:217
+msgid "Deactivating..."
+msgstr "בתהליך נטרול..."
+
+#: dms/editor/js/pl.ajax.js:222
+msgid "Editor deactivated! Reloading page."
+msgstr "העורך נוטרל! רענון העמוד."
+
+#: dms/editor/js/pl.ajax.js:272
+#, javascript-format
+msgid "<h3>Are you sure?</h3><p>This will revert <strong>%s</strong> changes to your last published configuration.</p>"
+msgstr "<h3>Are you sure?</h3><p>This will revert <strong>%s</strong> changes to your last published configuration.</p>"
+
+#: dms/editor/js/pl.ajax.js:273
+msgid "Reverting Draft"
+msgstr "שחזור טיוטא"
+
+#: dms/editor/js/pl.ajax.js:274
+msgid "Template successfully updated!"
+msgstr "תבנית העיצוב עודכנה בהצלחה!"
+
+#: dms/editor/js/pl.areas.js:203
+msgid "<h3>Are you sure?</h3><p>This action will delete this area and all its elements from this page.</p>"
+msgstr "<h3>האם אתה בטוח?</h3><p>פעולה זו תמחק את האזור ואת כל המקטעים שבתוכו מהמסך.</p>"
+
+#: dms/editor/js/pl.configdata.js:31 dms/editor/js/pl.optpanel.js:1158
+msgid "Importing From Child Theme"
+msgstr "ייבוא מתת ערכת נושא"
+
+#: dms/editor/js/pl.configdata.js:32 dms/editor/js/pl.optpanel.js:1159
+msgid "Successfully Imported. Refreshing page"
+msgstr "יובא בהצלחה. מרענן תצוגה"
+
+#: dms/editor/js/pl.editor.js:569
+msgid "Learn more about being a PRO"
+msgstr "למד עוד על Pro"
+
+#: dms/editor/js/pl.editor.js:572
+msgid "<h4>This capability is pro edition only.</h4>"
+msgstr "<h4>יכולת זו היא רק עבור משתמשי Pro.</h4>"
+
+#: dms/editor/js/pl.editor.js:576
+msgid "Edit (Pro Only)"
+msgstr "עריכה (Pro בלבד)"
+
+#: dms/editor/js/pl.editor.js:577
+msgid "<h4>This is a Pro Section</h4>Editing Pro sections requires Pro Membership.<br/>"
+msgstr "<h4>זהו מקטע Pro</h4>עריכת מקטעי Pro מחייב חברות Pro.<br/>"
+
+#: dms/editor/js/pl.editor.js:635
+msgid "<h3>Are you sure?</h3><p>This will remove this section and its settings from this page.</p>"
+msgstr "<h3>האם אתה בטוח?</h3><p>פעולה זו תמחק את המקטע וההגדרות שלו מהעמוד.</p>"
+
+#: dms/editor/js/pl.optpanel.js:117 dms/editor/js/pl.optpanel.js:118
+msgid "No Options"
+msgstr "אין אפשרויות"
+
+#: dms/editor/js/pl.optpanel.js:127
+msgid "scope"
+msgstr "היקף"
+
+#: dms/editor/js/pl.optpanel.js:595
+msgid "Refresh for preview."
+msgstr "רעונן לתצוגה מקדימה."
+
+#: dms/editor/js/pl.optpanel.js:595
+msgid "Syncs with element."
+msgstr "מסתנכרן עם אלמנט."
+
+#: dms/editor/js/pl.optpanel.js:716
+msgid "Remove"
+msgstr "הסר"
+
+#: dms/editor/js/pl.optpanel.js:828
+msgid "Configure Menus"
+msgstr "הגדרת תפריטים"
+
+#: dms/editor/js/pl.optpanel.js:888
+msgid "SELECT"
+msgstr "SELECT"
+
+#: dms/editor/js/pl.optpanel.js:1023
+msgid "Edit Sets"
+msgstr "עריכת סטים"
+
+#: dms/editor/js/pl.optpanel.js:1028
+msgid "Select which registered thumbnail size to use for the images. To add new sizes see: <a href='http://codex.wordpress.org/Function_Reference/add_image_size'>The Codex</a>"
+msgstr "Select which registered thumbnail size to use for the images. To add new sizes see: <a href='http://codex.wordpress.org/Function_Reference/add_image_size'>The Codex</a>"
+
+#: dms/editor/js/pl.optpanel.js:1049
+msgid "Select Font"
+msgstr "בחר גופן"
+
+#: dms/editor/js/pl.optpanel.js:1051
+msgid "Font Preview"
+msgstr "תצוגה מקדימה של גופן"
+
+#: dms/editor/js/pl.optpanel.js:1052
+msgid "The quick brown fox jumps over the lazy dog"
+msgstr "דג סקרן שט לו בים זך ולפתע מצא חבורה נחמדה"
+
+#: dms/editor/js/pl.optpanel.js:1064
+msgid "Type Still Needed"
+msgstr "סוג עדיין נדרש"
+
+#: dms/editor/js/pl.optpanel.js:1082
+msgid "More Info"
+msgstr "פרטים נוספים"
+
+#: dms/editor/js/pl.optpanel.js:1138
+msgid "global site options"
+msgstr "אפשרויות אתר כללית"
+
+#: dms/editor/js/pl.optpanel.js:1142
+msgid "local page options"
+msgstr "אפשרויות אתר מקומיות"
+
+#: dms/editor/js/pl.optpanel.js:1144
+#, javascript-format
+msgid "<h3>Are you sure?</h3><p>This will reset <strong>%s</strong> to their defaults.<br/>(Once reset, this will still need to be published live.)</p>"
+msgstr "<h3>האם אתה בטוח?</h3><p>זה יאפס את <strong>%s</strong> להגדרות ברירת המחדל שלהן. <br/>(לאחר האיפוס, יש לפרסם את השינויים)</p>"
+
+#: dms/editor/js/pl.optpanel.js:1149
+msgid "<span class='btn btn-mini btn-info'>Page Templates</span>&nbsp;"
+msgstr "<span class='btn btn-mini btn-info'> תבניות עמוד</span>&nbsp;"
+
+#: dms/editor/js/pl.optpanel.js:1150
+msgid "<span class='btn btn-mini btn-info'>Global Options</span>&nbsp;"
+msgstr "<span class='btn btn-mini btn-info'>אפשרויות כלליות</span>"
+
+#: dms/editor/js/pl.optpanel.js:1151
+msgid "<span class='btn btn-mini btn-info'>Type Options</span>"
+msgstr "<span class='btn btn-mini btn-info'> אפשרויות סוג</span>"
+
+#: dms/editor/js/pl.optpanel.js:1152
+msgid "Resetting Options"
+msgstr "מאפס אפשרויות"
+
+#: dms/editor/js/pl.optpanel.js:1153
+msgid "Successfully Reset. Refreshing page"
+msgstr "אופס בהצלחה. מרענן תצוגה"
+
+#: dms/editor/js/pl.optpanel.js:1190
+msgid "Flushing Caches"
+msgstr "מנקה Cache"
+
+#: dms/editor/js/pl.optpanel.js:1192
+msgid "Success! Refreshing page"
+msgstr "הצלחה! מרענן תצוגה"
+
+#: dms/editor/js/pl.optpanel.js:1203
+msgid "<h3>Are you sure?</h3><p>This will write all settings to a config file in your child theme named pl-config.json</p>"
+msgstr "<h3>Are you sure?</h3><p>This will write all settings to a config file in your child theme named pl-config.json</p>"
+
+#: dms/editor/js/pl.optpanel.js:1212
+msgid "Exporting Options"
+msgstr "אפשרויות ייצוא"
+
+#: dms/editor/js/pl.optpanel.js:1348
+msgid "Page Templates"
+msgstr "תבניות עמוד"
+
+#: dms/editor/js/pl.optpanel.js:1349
+msgid "Global Options"
+msgstr "אפשרויות כלליות"
+
+#: dms/editor/js/pl.optpanel.js:1350
+msgid "Type Options"
+msgstr "אפשרויות סוג"
+
+#: dms/editor/js/pl.optpanel.js:1386
+msgid "<h3>Settings Imported</h3>"
+msgstr "<h3>הגדרות מיובאות</h3>"
+
+#: dms/editor/js/pl.optpanel.js:1404
+msgid "Imported Settings"
+msgstr "הגדרות מיובאות"
+
+#: dms/editor/js/pl.optpanel.js:1405
+msgid "Importing"
+msgstr "ייבוא"
+
+#: dms/editor/js/pl.saving.js:17
+msgid "Saving."
+msgstr "שמירה."
+
+#: dms/editor/js/pl.saving.js:19
+msgid "Successfully saved! Refreshing page..."
+msgstr "נשמר בהצלחה! מרענן תצוגה..."
+
+#: dms/editor/js/pl.sections.js:20
+msgid "Reloading and Registering Sections"
+msgstr "טעינה מחדש ורישום מקטעים"
+
+#: dms/editor/js/pl.sections.js:21
+msgid "Sections reloaded. Refreshing page!"
+msgstr "המקטעים נטענו מחדש. מרענן תצוגה!"
+
+#: dms/editor/js/pl.sections.js:158
+msgid "<div class='loaded-notice'><div class='the-notice'>Loaded! Note: For this section, page refresh may be needed for complete functionality (Javascript Loading).</div></div>"
+msgstr "<div class='loaded-notice'><div class='the-notice'>הטעינה הסתיימה! שים לב: יש לרענן את התצוגה עבור מקטע זה לפונקציונליות מלאה (טעינת JavaScript).</div></div>"
+
+#: dms/editor/js/pl.sections.js:181 dms/editor/js/pl.sections.js:191
+msgid "Loading"
+msgstr "בטעינה"
+
+#: dms/editor/js/pl.templates.js:121
+msgid "<h3>Are you sure?</h3><p>This will delete this template. All pages using this template will be reverted to their default page configuration.</p>"
+msgstr "<h3>האם אתה בטוח?</h3><p>פעולה זה תמחק את תבנית העיצוב. כל העמודים שמשתמשים בתבנית עיצוב זו יקושרו לתבנית עיצוב ברירת מחדל.</p>"
+
+#: dms/editor/js/pl.themes.js:15
+msgid "<h3>Are you sure?</h3> <p>This will activate this theme sitewide.</p>"
+msgstr "<h3>האםנאתה בטוח?</h3> <p>זה יפעיל את ערכת הנושא בכל האתר.</p>"
+
+#: dms/editor/js/pl.themes.js:16
+msgid "Activating Theme"
+msgstr "ערכת נושא בתהליך הפעלה"
+
+#: dms/editor/js/pl.themes.js:19
+msgid "Successfully Activated. Refreshing page"
+msgstr "הופעל בהצלחה! מרענן תצוגה..."
+
+#: dms/editor/js/pl.themes.js:33
+msgid "Activate"
+msgstr "הפעל"
+
+#: dms/editor/js/pl.xlist.js:67
+msgid "Drag Thumb to Page"
+msgstr "גרור תמונה מוקטנת לעמוד"
+
+#: dms/editor/js/pl.xlist.js:163
+msgid "Description"
+msgstr "תיאור"
+
+#: dms/editor/js/pl.xlist.js:171
+msgid "Drag This"
+msgstr "גרור את זה"
+

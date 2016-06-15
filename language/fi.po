@@ -1,0 +1,42 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: VERSION\n"
+"POT-Creation-Date: 2014-11-26 18:08+0000\n"
+"PO-Revision-Date: 2014-11-26 18:08+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE TEAM <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: dms/admin/admin.account.php:65
+msgid "Pro Activated!"
+msgstr "Pro Aktivoitu!"
+
+#: dms/admin/admin.account.php:68
+msgid "Site Not Activated"
+msgstr "Sivusto ei ole aktivoitu"
+
+#: dms/admin/admin.actions.php:21
+msgid "DMS Tools"
+msgstr "DMS Työkalut"
+
+#: dms/admin/admin.actions.php:37
+msgid "PageLines DMS"
+msgstr "PageLines DMS"
+
+#: dms/admin/admin.actions.php:155
+msgid "dismiss this notice"
+msgstr "poistaa tämä kokouskutsu"
+
+#: dms/admin/admin.actions.php:156
+msgid "This theme recommends"
+msgstr "Teeman suosittelee"
+
+#: dms/admin/admin.actions.php:157
+msgid "a plugin"
+msgid_plural "some plugins"
+msgstr[0] ""
+msgstr[1] ""
+
