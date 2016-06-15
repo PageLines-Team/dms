@@ -21,6 +21,9 @@
 
 require_once( 'includes/init.php' );
 
+/**
+ * Tell Platform 5 we are a supported theme and add header and footers into the builder.
+ */
 class PL5_Integration {
   
   function __construct() {
@@ -46,6 +49,3 @@ class PL5_Integration {
   }
 }
 new PL5_Integration;
-
-
-// pl5 integration
