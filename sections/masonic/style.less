@@ -1,0 +1,144 @@
+.masonic-header-content-pad{
+
+	padding: 15px;
+	.masonic-title{
+		font-size: 20px;
+		float: left;
+	}
+
+	.masonic-nav{
+		float: right;
+		max-width: 85%;
+		.lh{
+			font-weight: 600;
+			font-size:100%
+		}
+		li{
+			margin-left: 18px;
+			font-size: 85%;
+		}
+	}
+}
+
+.pl-grid-text{
+	float: left;
+	width: 75%;
+	padding: 15px 0;
+	h4{
+		font-size: 16px;
+		margin: 0;
+	}
+	.pl-grid-metabar{
+		font-size: 12px;
+	}
+}
+.pl-grid-meta{
+	float: right;
+	text-align: right;
+	width: 25%;
+	padding: 15px 0;
+}
+
+.pl-grid-excerpt{
+	p{
+		font-size: 85%;
+		line-height: 1.4em;
+		margin: 5px 0;
+		&:first-child{
+			margin-top: 0;
+		}
+	}
+}
+
+.pl-grid-image{
+	position: relative;
+	img{
+		max-width: 100%;
+	}
+	.pl-grid-image-info {
+		opacity: 0;
+		position: absolute;
+		display: block;
+		height: 100%;
+		width: 100%;
+		top: 0px;
+		left: 0px;
+		color: #fff;
+		.transition(all 0.2s linear);
+		.info-text {
+			opacity: 0;
+		//	.translate( 0, -10px);
+			background-color: rgba(0,0,0,.6);
+			padding: 9px 15px;
+			color: #fff;
+			font-size: 12px;
+			line-height: 1.3em;
+			margin: 5px;
+			display: inline-block;
+			border-radius: 3px;
+			.transition(all 0.1s linear);
+			&:hover {
+				opacity: 0.8;
+			}
+		}
+		.view,
+		.image,
+		.video {
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			height: 100%;
+			width: 100%;
+			text-indent: -9999px;
+			color: #fff;
+			display: block;
+		}
+		/*span {
+					top: 0px;
+					left: 0px;
+					position: absolute;
+					display: block;
+					height: 42px;
+					width: 42px;
+					background-repeat: no-repeat;
+					background-position: center;
+					opacity: 0.8;
+					.transition(all 0.2s linear);
+				}
+				.pl-center {
+					.transition(all 0.2s linear);
+					text-align: center;
+					margin-top: 60px;
+					p {
+						padding-bottom: 0px;
+					}
+				}*/
+	}
+
+	.pl-grid-image-hover {
+		opacity: 0;
+		height: 100%;
+		width: 100%;
+		top: 0px;
+		left: 0px;
+		background-color: @linkColor;
+		position: absolute;
+		.transition(all 0.2s linear);
+	}
+
+	&:hover {
+
+		.pl-grid-image-info {
+			opacity: 1;
+			.info-text {
+	//			.translate( 0, 0);
+				opacity: 1;
+			}
+		}
+		.pl-grid-image-hover {
+			opacity: 0.7;
+			filter: alpha(opacity=90);
+		}
+
+	}
+}

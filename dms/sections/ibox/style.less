@@ -1,0 +1,141 @@
+.ibox{
+	text-align: center;
+	.ibox-text h4{
+		margin-bottom: 5px;
+		line-height: 1.4em;
+	}
+	.ibox-desc{
+
+		.ibox-link{
+			display: block;
+			margin-top: .5em;
+			i{
+				.transition(all 0.2s ease-in-out);
+
+			}
+			a:hover i{
+				margin-left: 6px;
+			}
+		}
+	}
+	
+	&:hover .ibox-icon-border{
+		//.scale( 1.1 );
+		//.translate3d(0, 5px, 0);
+		
+	}
+
+	.ibox-media{
+		text-align: center;
+		a{color: inherit;}
+		.pl-counter{
+			font-size: 80px;
+			font-weight: 600;
+			letter-spacing: -1px;
+			line-height: 1em;
+		}
+		.ibox-icon-border{
+			margin-bottom: 12px;
+			display: inline-block;
+			text-align: center;
+			.transition(all 0.2s ease-in-out);
+		
+			border-radius: 500px;
+			position: relative;
+			.invert-icon{
+				position: absolute; 
+				width: 100%; 
+				height: 100%;
+				border-radius: 500px;
+				z-index: 0;
+				left: 0;
+				top: 0;
+				opacity: 0;
+				.transition(all 0.2s ease-in-out);
+			}
+			.iii{
+				position: relative; 
+				z-index: 10;
+			}
+			
+			&.media-type-image {
+				overflow: hidden;
+				
+				img{
+					border-radius: 500px;
+				}
+				background-size: cover;
+				display: block;
+				margin-right: auto;
+				margin-left: auto;
+			}
+			&.media-type-icon {
+		
+				i{
+					font-size: 80px;
+					display: inline-block;
+				}
+				
+			}
+		}
+		
+	}
+	
+		
+	&.top-aligned{
+		.ibox-desc{
+			max-width: 300px;
+			margin: 0 auto;
+		}
+		.ibox-media{
+			max-width: 70%;
+			&.wrap-count{
+				max-width: 100%;
+			}
+			margin-right: auto;
+			margin-left: auto;
+			.media-type-image {
+			
+				height: 0; 
+				padding: 50% 0;
+			}
+			
+		}
+		
+	}
+	&.left-aligned{
+		text-align: left;
+		.ibox-icon-border{
+			.pl-counter{
+				font-size: 25px;
+				line-height: 1em;
+			}
+			&.media-type-count{
+				min-width: 100px;
+				text-align: right;
+			}
+			&.media-type-icon {
+				background: transparent;
+				width: 40px;
+				height: 40px;
+				line-height: 40px;
+				i{
+					font-size: 30px;
+				}
+
+			}
+			&.media-type-image {
+				padding: auto;
+				width: 80px;
+				height: 80px;
+				img{
+					width: 80px;
+				}
+
+			}
+		}
+	}
+}
+
+
+

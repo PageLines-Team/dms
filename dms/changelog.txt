@@ -1,0 +1,235 @@
+********************************************************
+
+  DMS Release Notes:
+
+********************************************************
+
+Version 2.2.1.2
+  
+  CORE - Fixed (again) Twitter API calls producing console errors. 
+
+Version 2.2.1.1
+
+  CORE - Fix for unsupported PHP versions.
+
+Version 2.2.1
+
+  CORE - Stop Twitter social link javascript from trying to use an API that is no longer public.
+  CORE - QuickCarousel,RevSlider - Support image alt using pl_get_image_id_from_src() function.
+
+Version 2.2
+
+  CORE - Fix issue with global reset buttons throwing a javascript error in WP 4.3
+  CORE - Run a check at runtime to see if the ABSPATH has changed, if so reset sections data.
+         Fixes issues with certain hosts moving customer installs and changing the PATHS without notification.
+  CORE - Update less.js library to 2.5.1 
+
+Version 2.1.9.9
+
+  CORE - Fix jQuery error with WP 4.3
+
+Version 2.1.9.7
+
+  CORE - Updated FontAwesome to 4.4.0 http://fontawesome.io/whats-new/
+  CORE - Added patch to use jQuery from WP 4.2 while editor is open.
+
+Version 2.1.9.6
+
+  CORE - Make database entries LONGTEXT to follow WordPress database standards and allow for options bigger than 64kb
+  CORE - On publish remove all .css files in uploads/pagelines folder, sometimes these files are not deleted.
+  CORE - Added alternative Parallax option to canvas area section. Hopefully fixes the long running Parallax issues.
+
+Version 2.1.9.5
+
+  CORE - Fixed an issue where clicking publish in the DMS editor was not clearing the varnish cache on WPENGINE.
+  CORE - Sections cache is now cleared when wp-admin is loaded, this will help during site migrations.
+  BUG  - Added a check to make sure the sections table is present in the database before attempting to add data.
+
+Version 2.1.9.4
+
+  CORE - WordPress Customizer now works, this is a requirement for WordPress 4.3 and above.
+
+Version 2.1.9.3
+
+  CORE - Update FontAwesome to version 4.3, http://fortawesome.github.io/Font-Awesome/whats-new/
+  CORE - Template Exports: You can now select which templates to export rather than all of them exporting every time.
+  CORE - New filter 'pl_breaker_type', allows developers to set page types at will.
+  CORE - Small CSS fix for Woocommerce product quantity selector.
+  CORE - Mediabox Section cross browser CSS fix.
+
+Version 2.1.9.2
+
+  CORE - $content_width global now synced with DMS content width (pixel mode only). Fixes embed video widths.
+  CORE - Update support links for http://answers.pagelines.com
+  CORE - Flipper Section - Added 'suppress_filters' to query. Allows translated pages to be found.
+         ( See http://forum.pagelines.com/topic/36869-flipper-sections-does-not-filter-for-post-language/ )
+
+Version 2.1.9.1
+
+  CORE - Fix draft url rare 404 issue.
+  CORE - Flipper Section - Shortcodes in meta area were not working correctly.
+
+Version 2.1.9
+
+  CORE - Add support for WP 4.1 wp_title. See https://make.wordpress.org/core/2014/10/29/title-tags-in-4-1/
+  CORE - Load editor CSS with protocol relative URL, fixes an issue with wp-admin being SSL.
+  CORE - Added new shortcode, [post_terms] via pull request from Cliff.
+  CORE - [post_categories] shortcode, if no category assigned, don't output anything. Pull request from Cliff.
+  CORE - flexslider.js slides displaying in wrong order. Patch provided by woothemes, pull request from Cliff.
+
+Version 2.1.8
+
+	CORE - Use protocol relative URI for ajaxurl.
+	       This fixes issues where DMS has difficulty saving settings when FORCE_SSL_ADMIN is enabled.
+
+Version 2.1.7
+
+	CORE - Open Sans google font is enqueued by WordPress by default since WP3.7 so no longer needed.
+	CORE - Various HTML validation fixes in columnizer section default output.
+	CORE - Use wp_enqueue_style for main google fonts.
+	CORE - Fix the Facebook follow button in watermark section.
+	CORE - SEO fixes to postloop section.
+	CORE - Only load shares javascript if the share data is needed on the page - speeds up pageload.
+	CORE - Small position fix for icons when in an &lt;li&gt; (HTML 'li' tag).
+
+Version 2.1.6.1
+
+	CORE - Fix for mobile menu, removed touchstart.
+
+Version 2.1.6
+
+	CORE - Disable ajax share count when editor is open, speeds up pageload.
+	CORE - Added continue_reading_link filter.
+	CORE - Option added to disable search in mobile menu.
+	CORE - Updated Font Awesome to version 4.2
+	CORE - Add a link to Font Awesome reference page next to icons options.
+
+Version 2.1.5
+
+	CORE - Change the way editor CSS file is loaded, Quite a big speed boost for page refreshes.
+	CORE - Fixed styling issue in editor, Page Templates dropdown option was obscured.
+	CORE - Better support for 'core' themes in header attribution.
+	BUG - Added missing target attribute to social links, fixes undefined index warning.
+	BUG - Fixed share-alt icon, props Mikey.
+
+Version 2.1.4
+
+	- CORE - Fixed error when importing json from dms1 child themes.
+	- CORE - Sanitize custom css and scripts in wp-admin, should be no more \\\\\\' now.
+	- BUG - Removed preload from revslider, fixes video not loading in chrome glitch.
+	- BUG - Fixed small typo in debug info.
+
+Version 2.1.3
+
+	- CORE - Fixed bug with googlefont url if extra fonts were added url was malformatted.
+
+Version 2.1.2
+
+	- CORE - Add the ability to totally turn of template areas, fixed, header and footer.
+	- CORE - Make sure google fonts url is encoded properly so page validates.
+	- CORE - Fixed the partner link in footer if user has added an affiliate link.
+	- CORE - Unregister any plugins that have the PageLines header from the WP update queue, stops WP trying to update them from wp.org
+	- CORE - TextBox - Add pl-editor-only if there is no content.
+	- CORE - Updated POT file.
+	- CORE - Fix bug in pl_do_shortcode()
+	- CORE - Only run installer once. Code added to intercept WP customizer and redirect to front page with the editor open.
+	- CORE - Added inline docs links for sections ( not fully implemented yet )
+
+Version 2.1.1
+
+	- CORE - Moved bulk edit for pages to Pro Plugin, along with bulk edit for posts.
+	- CORE - pl-area-inner-classes and pl-area-inner-style filters now have section meta array passed as a 2nd variable.
+	- BUG - Use correct option in postloop for thumb image.
+	- BUG - Fixed pl_setting filter running at wrong time.
+
+Version 2.1
+
+	- CORE - New Page/Post template modes (local/type).
+	- CORE - Updated Font Awesome to latest 4.1
+	- CORE - Tweaked CSS file writing code, might help a bit with real cheap hosts.
+	- CORE - Tweak to menus CSS to fix flicker.
+	- CORE - Tour/Wizard Font tweaked.
+	- CORE - PHPUnit tests added ( very basic tests, will be iterated later ).
+	- CORE - Watermark and Pagination sections added to new installs.
+	- CORE - variables.less - Use variables not hardcoded widths, props Tourkick.
+	- CORE - New filters: pl-area-inner-classes and pl-area-inner-style.
+	- CORE - PostLoop Section - New settings to disable Media and Author meta, and Karma.
+	- CORE - Add new attribute to pl_video shortcode 'wmode' props Tourkick.
+	- CORE - Added new .row-squared class props Tourkick.
+	- CORE - Hook added to editor image uploader: after_pl_up_image.
+	- CORE - Tweak IE version detection function to properly find IE11.
+	- CORE - You can now enable debug mode via the PageLines settings in wp-admin.
+
+Version 2.0.7
+
+	- CORE - IE9 has a selector limit of 4096, so optimise LESS files.
+	- CORE - Various installer tweaks.
+	- CORE - Various tour/wizard tweaks.
+	- CORE - New LESS variable: pl-link-inverse.
+	- CORE - MediaBox tweaked added no-pad option.
+	- CORE - Templates panel layout tweaked.
+	- BUG - Draft LESS file priority changed, fixes no CSS with wp-property plugin.
+
+Version 2.0.6
+
+	- CORE - Introducing the new DMS Wizard!
+	- BUG - Fix label font color.
+
+Version 2.0.5
+
+	- CORE - Now possible to bulk apply templates in wp-admin.
+	- CORE - Various woocommerce tweaks.
+	- CORE - Various import/export fixes.
+	- CORE - Add close button to media uploader.
+	- CORE - Add 'pl_theme_classes' filter.
+	- CORE - Navigation themes added.
+	- CORE - New shortcode [pl_themename] returns active themes 'nice' name.
+	- CORE - Load pl-config.json if exists on activation.
+	- CORE - Added missing row-closed spans props Cliff.
+	- BUG - Fixed section controls in boxed site mode.
+
+
+Version 2.0.4
+
+	- CORE - Tweaks full window section code.
+	- CORE - Added new btn-ol-link class.
+	- CORE - Remove text shadow from labels/badges.
+	- BUG - Fix for Chrome Aw Snap with count_select props Evan Mattson.
+	- BUG - Fix for illegal offset 'clone' error.
+	- BUG - Fix template drop down on post edit page.
+	- BUG - Fix pl_video links with SSL props Dave Moppert.
+	- BUG - Fix buddypress/bbpress error on multisite props Margaret Saizan.
+
+
+Version 2.0.3
+
+	- CORE - Fix possible settings issue on certain configs of MYSQL if strict mode is enabled.
+	- CORE - Fix non translatable string 'on' props kakadong.
+	- CORE - Fix unreadable chars in recent comments widget props kakadong.
+	- CORE - Dev Panel moved to Developer plugin.
+
+Version 2.0.2
+
+	- BUG - pl_setting() should only fetch global settings. This fixes the weird post level css issues.
+	- BUG - Watermark section - user settings being ignored.
+
+
+Version 2.0.1
+
+	- CORE - Various responsive fixes.
+	- CORE - Allow mobile menu to be disabled with 'pl_no_mobile_menu' action.
+	- CORE - Editor upload filesize set to 2M instead of 500k.
+	- CORE - Use // URLS for shares etc.
+	- CORE - Add titles to sharebar.
+	- BUG - Fixed search on Safari Desktop.
+	- BUG - Fixed broken mobile menu on Android =< 4.3
+	- BUG - Shortcode JS was being included more than once.
+	- BUG - Watermark section - Scripts being inserted where not needed.
+	- BUG - Fixed old navbar theme select.
+	- BUG - Fixed broken image alt code.
+	- BUG - Only show the post-format meta panels if the post has post-formats capabilities.
+
+
+Version 2.0
+
+	Standalone DMS2 Released

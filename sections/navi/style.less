@@ -1,0 +1,127 @@
+.section-navi{
+	
+	text-align: center;
+	width: 100%;
+	position:relative; // without this there is issues with centered elements
+
+	.nav-searchform, 
+	ul{
+		vertical-align: top;	
+		font-size: 12px;
+	}
+	.navi-wrap{
+		height: 50px;
+		position: relative;
+	}
+	.navi-container{
+		height: 36px;
+		padding: 7px;
+	}
+	.navi-right{
+		float: right;
+	}
+	.navi-left{
+		float: left;
+	}
+	.navi-center{
+		
+		display: inline-block;
+	}
+	.navi-searchform{
+		height: 50px;
+		line-height: 50px;
+		margin-bottom: 0;
+		
+		position: relative;
+		display: inline-block;
+		.btn-search{
+		
+		/*
+					font-size: 1.3em;
+					line-height: 1em;*/
+			padding: 0 20px;
+		}
+		input{
+			vertical-align: top;
+			margin: 0;
+			font-family: @defaultFont;
+			border: none;
+			
+			height: 50px;
+			width: 0;
+			background: transparent;
+			padding: 0;
+			.transition(width .5s ease-in-out);
+			border-radius: 0;
+			box-shadow: none;
+			&:focus{
+				box-shadow: none;
+			}
+		}
+		&.has-focus{
+		
+			input{
+				width: 130px;
+			}
+			 .btn-search{
+				color: @pl-link;
+			}
+		}
+	}
+	img{
+		max-height: 100%;
+	}
+	.navi-site-title,
+	.navi-site-description{
+		margin: 0;	
+	}
+	.navi-site-title{
+		font-size: 40px;	
+	}
+	.navi-site-description{
+		font-size: 15px;
+		text-align: left;
+		opacity: .8;
+	}
+	.pl-nav > li{
+		
+		> a{
+			line-height: 50px;
+			padding: 0 13px;
+		
+			opacity: .7;
+		}
+		.mm-toggle{
+			
+			padding: 0 20px;
+		}
+		
+		&.current-menu-item > a,
+		&:hover > a{
+			opacity: 1;
+			background: rgba(0,0,0,.03);
+		}
+	
+	} 
+	
+	@media screen and ( max-width:@resPortraitTablet ){
+		.navi-searchform{
+			display: none;
+		}
+		.navi-site-title{
+			font-size: 28px;
+		}
+		.navi-site-description{
+			font-size: 14px;
+		}
+
+	}
+	
+			
+}
+
+
+
+
+
+

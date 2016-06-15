@@ -1,0 +1,79 @@
+.docker-wrapper{
+	position: relative;
+	
+	.docker-title{
+		margin: 0 0 15px; 
+	}
+	.sticky-wrapper{
+		position: absolute;
+	}
+	.docker-sidebar{
+		border-style: solid; 
+		border-width: 1px;
+		width: 280px;
+		position: absolute;
+		.docker-mobile-drop{
+			text-align: center; 
+			font-size: 15px;
+			line-height: 40px;
+			display: none;
+			cursor: pointer;
+			text-transform: uppercase; 
+			letter-spacing: 1px;
+		}
+		ul{
+			padding: 10px 0;
+			lh{
+				font-weight: 600;
+				font-size: 1.2em;
+				margin-bottom: 0px;
+			}
+			
+		} 
+		&.sticky{
+			float: none; 
+			position: fixed; 
+			top: 20px; 
+			z-index: 6; 
+			left: auto;
+
+		}
+	}
+	.docker-content{
+		margin-left: 320px;
+		padding: 20px 0;
+		min-height: 500px;
+	}
+	@media (max-width: @resPortraitTablet) {
+		
+		
+		.sticky-wrapper, 
+		.docker-sidebar{
+			width: auto;
+			position: static !important; 
+			height: auto !important; 
+		}
+		.docker-sidebar{
+			.docker-mobile-drop{
+				display: block;
+			}
+			ul{
+				display: none;
+				&.show-me{
+					display: block;
+				}
+			}
+		}
+		.docker-content{
+			margin-left: 20px;
+		}
+
+	}
+}
+
+.section-docker.pl-area{
+	.docker-wrapper{
+		padding: 0 15px;
+		box-sizing: border-box;
+	}
+}

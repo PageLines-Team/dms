@@ -1,0 +1,54 @@
+
+/* METABOXES */
+.pagelines-metabox-table th{
+	width: 30%;
+}
+
+.pagelines-metabox-table label{
+	font-weight: 300;
+}
+.pagelines-metabox-table label strong{
+	display: block;
+}
+
+.pagelines-metabox-table .redux-opts-screenshot{
+	max-width: 250px;
+}
+
+.CodeMirror{
+	border: 1px solid #ccc;
+}
+
+.saving-confirm{
+	
+	display: none;
+	margin: 0 15px; 
+	color: #000;
+}
+
+/* Forms */
+.pl-input-field{
+	margin: 1em 0;
+}
+
+.pl-input-field label{
+	
+	font-size: 90%;
+	display: block;
+}
+
+.pagelines-admin .form-table{
+	margin-bottom: 0;
+}
+.pagelines-admin td p{
+	max-width: 600px;
+	font-size: 14px;
+	line-height: 1.4em;
+	margin-bottom: 1em;
+}
+
+.pagelines-admin td .update-nag{
+	margin: 0;
+	padding: 6px 15px;
+	text-align: left;
+}

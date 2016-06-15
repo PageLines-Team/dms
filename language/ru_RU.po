@@ -1,0 +1,2478 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: VERSION\n"
+"POT-Creation-Date: 2014-11-25 20:00+0000\n"
+"PO-Revision-Date: 2014-11-25 20:00+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE TEAM <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: dms/admin/admin.account.php:65
+msgid "Pro Activated!"
+msgstr "Pro активирован!"
+
+#: dms/admin/admin.account.php:68
+msgid "Site Not Activated"
+msgstr "Сайт не активирован"
+
+#: dms/admin/admin.actions.php:21
+msgid "DMS Tools"
+msgstr "DMS инструменты"
+
+#: dms/admin/admin.actions.php:37
+msgid "PageLines DMS"
+msgstr "PageLines DMS"
+
+#: dms/admin/admin.editor.php:18
+msgid "PageLines DMS Settings"
+msgstr "Настройки PageLines DMS"
+
+#: dms/admin/admin.editor.php:22
+msgid "Editing Your Site With DMS"
+msgstr "Редактируйте свой сайт с помощью DMS"
+
+#: dms/admin/admin.editor.php:26
+msgid "Welcome to DMS!"
+msgstr "Добро пожаловать в DMS!"
+
+#: dms/admin/admin.editor.php:31
+msgid "DMS Fallbacks"
+msgstr "Резервные настройки DMS"
+
+#: dms/admin/admin.editor.php:32
+msgid "Below are secondary fallbacks to the DMS code editors. You may need these if you create errors or issues on the front end."
+msgstr "Ниже приведены вторичные настройки DMS для редакторов кода. Это может пригодиться, если вы допустите ошибки или проблемы в интерфейсе."
+
+#: dms/admin/admin.editor.php:36
+msgid "DMS LESS Fallback"
+msgstr "Настройки DMS LESS"
+
+#: dms/admin/admin.editor.php:40
+msgid "DMS Header Scripts Fallback"
+msgstr "Настройки скриптов DMS Header"
+
+#: dms/admin/admin.editor.php:58
+msgid "Editing with DMS is done completely on the front end of your site. This allows you to customize in a way that feels more direct and intuitive than when using the admin."
+msgstr "Работа с DMS осуществляется полностью на фронтенде вашего сайта. Это позволяет вам делать настройки проще и интуитивней, чем через консоль администратора."
+
+#: dms/admin/admin.editor.php:59
+msgid "Just visit the front end of your site (as an admin) and get started!"
+msgstr "Просто зайдите на фронтенд вашего сайта (в роли администратора) и приступайте!"
+
+#: dms/admin/admin.editor.php:61
+msgid "Edit Site Using DMS"
+msgstr "Изменение сайта с помощью DMS"
+
+#: dms/admin/admin.editor.php:73
+msgid "Save LESS"
+msgstr "Сохранить LESS"
+
+#: dms/admin/admin.editor.php:85
+msgid "Save Scripts"
+msgstr "Сохранить скрипты"
+
+#: dms/admin/admin.editor.php:96
+msgid "Update"
+msgstr "Обновить"
+
+#: dms/admin/admin.postmeta.php:69 sections/propricing/section.php:80
+msgid "Link URL"
+msgstr "Ссылка URL"
+
+#: dms/editor/editor.actions.php:303
+msgid "Unsupported file type!"
+msgstr "Неподдерживаемый тип файла!"
+
+#: dms/editor/editor.actions.php:306
+#, php-format
+msgid "Upload Error: %s"
+msgstr "Ошибка загрузки: %s"
+
+#: dms/editor/editor.actions.php:349
+msgid "Install DMS Utilities"
+msgstr "Установить утилиты DMS"
+
+#: dms/editor/editor.areas.php:57 dms/editor/editor.interface.php:631
+msgid "Delete"
+msgstr "Удалить"
+
+#: dms/editor/editor.areas.php:59 dms/editor/editor.interface.php:630
+msgid "Clone"
+msgstr "Клон"
+
+#: dms/editor/editor.areas.php:64
+msgid "Move"
+msgstr "Переместить"
+
+#: dms/editor/editor.areas.php:66 dms/editor/editor.interface.php:629
+#: dms/includes/class.objects.php:109
+msgid "Edit"
+msgstr "Редактировать"
+
+#: dms/editor/editor.color.php:180
+msgid "Color <span class=\"spamp\">&amp;</span> BG"
+msgstr "Цвет <span class=\"spamp\">&amp;</span> BG"
+
+#: dms/editor/editor.color.php:195
+msgid "Site Base Colors"
+msgstr "Базовые цвета сайта"
+
+#: dms/editor/editor.color.php:201
+msgid "Background Base Color"
+msgstr "Базовый цвет фона"
+
+#: dms/editor/editor.color.php:208
+msgid "Text Base Color"
+msgstr "Базовый цвет текста"
+
+#: dms/editor/editor.color.php:216
+msgid "Link Base Color"
+msgstr "Базовый цвет ссылки"
+
+#: dms/editor/editor.color.php:226 dms/includes/lib.editor.php:934
+msgid "Background Image"
+msgstr "Фоновое изображение"
+
+#: dms/editor/editor.color.php:235
+msgid "Page Background Image"
+msgstr "Изображение фона страницы"
+
+#: dms/editor/editor.color.php:243
+msgid "Fit image to page?"
+msgstr "Вписать изображение в размер страницы?"
+
+#: dms/editor/editor.color.php:246
+msgid "If you use this option the image will be fit \"responsively\" to the background of your page. This means the settings below will have no effect."
+msgstr "Если вы используете этот параметр, изображение будет «отзывчиво» размещено на фоне вашей страницы. Это также означает, что следующие настройки не будут иметь никакого эффекта."
+
+#: dms/editor/editor.color.php:251
+msgid "Background Repeat"
+msgstr "Повторять фон"
+
+#: dms/editor/editor.color.php:254
+msgid "No Repeat"
+msgstr "Без повторения"
+
+#: dms/editor/editor.color.php:255
+msgid "Repeat"
+msgstr "Повторять"
+
+#: dms/editor/editor.color.php:256
+msgid "Repeat Horizontally"
+msgstr "Повторять по горизонтали"
+
+#: dms/editor/editor.color.php:257
+msgid "Repeat Vertically"
+msgstr "Повторять по вертикали"
+
+#: dms/editor/editor.color.php:265
+msgid "Vertical Background Position in Percent"
+msgstr "Вертикальное положение фона в процентах"
+
+#: dms/editor/editor.color.php:276
+msgid "Horizontal Background Position in Percent"
+msgstr "Горизонтальное положение фона в процентах"
+
+#: dms/editor/editor.color.php:287
+msgid "Set Background Attachment"
+msgstr "Настроить прикреплённый фон"
+
+#: dms/editor/editor.color.php:290
+msgid "Scroll"
+msgstr "Прокручивать"
+
+#: dms/editor/editor.color.php:291
+msgid "Fixed"
+msgstr "Зафиксирован"
+
+#: dms/editor/editor.importexport.php:18
+msgid "Import + Export"
+msgstr "Импорт + Экспорт"
+
+#: dms/editor/editor.importexport.php:42
+msgid "Import Page Templates"
+msgstr "Импорт шаблонов страниц"
+
+#: dms/editor/editor.importexport.php:44
+msgid "Add new templates and overwrite ones with the same name."
+msgstr "Добавьте новые шаблоны и перезапишите те с тем же именем."
+
+#: dms/editor/editor.importexport.php:51
+msgid "Import New Global Settings"
+msgstr "Импорт новых глобальных параметров"
+
+#: dms/editor/editor.importexport.php:53
+msgid "Overwrite global settings with ones from this import."
+msgstr "Импортировать и заменить глобальные параметры"
+
+#: dms/editor/editor.importexport.php:60
+msgid "Import Post Type Settings"
+msgstr "Импорт параметров типа записи"
+
+#: dms/editor/editor.importexport.php:62
+msgid "Overwrite post type settings with ones from this import."
+msgstr "Импортировать и заменить параметры типа записи."
+
+#: dms/editor/editor.importexport.php:70
+msgid "DMS Config Import"
+msgstr "Импорт конфигурации DMS"
+
+#: dms/editor/editor.importexport.php:75
+msgid "Select config file (.json)"
+msgstr "Выберите файл конфигурации (.json)"
+
+#: dms/editor/editor.importexport.php:84
+msgid "Child Theme Config Import"
+msgstr "Импорт конфигурации дочерней темы"
+
+#: dms/editor/editor.importexport.php:88
+msgid "Load Child Theme Config"
+msgstr "Загрузить конфигурацию дочерней темы"
+
+#: dms/editor/editor.importexport.php:91
+msgid "Reset theme settings using custom config file from child theme.<br />\n\t\t\t\t\t<strong>Note:</strong> Once you have completed this action, you may want to publish these changes to your live site."
+msgstr "Сброс параметров темы, с применением файла конфигурации из дочерней темы.<br />⏎\n⇥⇥⇥⇥⇥<strong>Примечание:</strong>после завершения этого действия, возможно потребуется опубликовать изменения на вашем сайте."
+
+#: dms/editor/editor.importexport.php:108
+msgid "Select User Templates"
+msgstr "Выбор пользовательских шаблов"
+
+#: dms/editor/editor.importexport.php:116
+msgid "Select All"
+msgstr "Выбрать все"
+
+#: dms/editor/editor.importexport.php:116
+msgid "Deselect All"
+msgstr "Отменить все выбранное"
+
+#: dms/editor/editor.importexport.php:137 dms/editor/panel.settings.php:51
+msgid "Global Settings"
+msgstr "Общие настройки"
+
+#: dms/editor/editor.importexport.php:141
+msgid "Export Site Global Settings"
+msgstr "Экспорт глобальных параметров сайта"
+
+#: dms/editor/editor.importexport.php:143
+msgid "This will export your sites global settings. This includes everything in the options panel, as well as settings directed at sections in your \"global\" regions like your header and footer."
+msgstr "Будут экспортированы  глобальные параметры вашего сайта. Это включает все настройки панелей, а также параметры, нацеленные на модули в ваших «глобальных» областях, таких как Header и Footer."
+
+#: dms/editor/editor.importexport.php:148
+msgid "Post Type Settings"
+msgstr "Параметры типа записи"
+
+#: dms/editor/editor.importexport.php:153
+msgid "Export Post Type Settings"
+msgstr "Экспорт параметров типа записи"
+
+#: dms/editor/editor.importexport.php:155
+msgid "This exports settings such as the template defaults for various post types."
+msgstr "Экспортируемые параметры, такие как исходный шаблон для различных типов записей."
+
+#: dms/editor/editor.importexport.php:160
+msgid "Theme Config Publishing"
+msgstr "Публикация конфигурации темы"
+
+#: dms/editor/editor.importexport.php:170
+msgid "(Disabled! No child theme active)"
+msgstr "(Отключено! Нет активной дочерней темы)"
+
+#: dms/editor/editor.importexport.php:170
+msgid "Publish Configuration to Child Theme (No Download File)"
+msgstr "Опубликовать конфигурацию в дочерней теме (не скачивая файл)"
+
+#: dms/editor/editor.importexport.php:172
+msgid "Check this to publish your site configuration as a theme configuration file in your themes root directory. When a user activates your theme it will ask if it can overwrite their settings to attain a desired initial experience to the theme."
+msgstr "Отметьте тут, чтобы опубликовать конфигурацию сайта как файл конфигурации темы, корневом каталоге ваших тем. Когда пользователь активирует вашу тему, то получит вопрос, хочет ли он переписать ее настройки для достижения желаемого начального изучения темы."
+
+#: dms/editor/editor.importexport.php:178 dms/editor/editor.interface.php:406
+msgid "Publish"
+msgstr "Опубликовать"
+
+#: dms/editor/editor.importexport.php:179
+msgid "Download DMS Config"
+msgstr "Скачать конфигурацию DMS"
+
+#: dms/editor/editor.importexport.php:195
+msgid "Export DMS Config"
+msgstr "Экспорт конфигурации DMS"
+
+#: dms/editor/editor.importexport.php:201
+msgid "Import DMS Config"
+msgstr "Импорт конфигурации DMS "
+
+#: dms/editor/editor.interface.php:171
+msgid "Deactivate Editor (View Live)"
+msgstr "Отключить редактор (живой просмотр)"
+
+#: dms/editor/editor.interface.php:184
+msgid "Preview (alt+a)"
+msgstr " Предпросмотр (alt+a)"
+
+#: dms/editor/editor.interface.php:282
+msgid "Undo All Unpublished Changes"
+msgstr "Отменить все неопубликованные изменения"
+
+#: dms/editor/editor.interface.php:284
+msgid "Undo Unpublished Global Changes"
+msgstr "Отменить неопубликованные глобальные изменения"
+
+#: dms/editor/editor.interface.php:287
+msgid "Undo Unpublished Post Type Changes"
+msgstr "Отменить неопубликованные изменения записей данного типа"
+
+#: dms/editor/editor.interface.php:289
+msgid "Undo Unpublished Local Changes"
+msgstr "Отменить неопубликованные локальные изменения"
+
+#: dms/editor/editor.interface.php:291
+msgid "No Unpublished Changes"
+msgstr "Нет неопубликованных изменений"
+
+#: dms/editor/editor.interface.php:403
+msgid "Refresh needed to view changes."
+msgstr "Требуется обновление для просмотра изменений."
+
+#: dms/editor/editor.interface.php:405
+msgid "Publish Live"
+msgstr "Мгновенная публикация"
+
+#: dms/editor/editor.interface.php:411
+msgid "Saving"
+msgstr "Сохранение"
+
+#: dms/editor/editor.interface.php:414
+msgid "Width"
+msgstr "Ширина"
+
+#: dms/editor/editor.interface.php:620
+msgid "Decrease Width"
+msgstr "Уменьшить ширину"
+
+#: dms/editor/editor.interface.php:621
+msgid "Column Width"
+msgstr "Ширина столбца"
+
+#: dms/editor/editor.interface.php:622
+msgid "Increase Width"
+msgstr "Увеличить ширину"
+
+#: dms/editor/editor.interface.php:623
+msgid "Offset Left"
+msgstr "Смещение влево"
+
+#: dms/editor/editor.interface.php:624
+msgid "Offset Amount"
+msgstr "Величина смещения"
+
+#: dms/editor/editor.interface.php:625
+msgid "Offset Right"
+msgstr "Смещение право"
+
+#: dms/editor/editor.interface.php:626
+msgid "Force to New Row"
+msgstr "Принудительно перевести на новую строку"
+
+#: dms/editor/editor.layout.php:25
+msgid "Layout <span class=\"spamp\">&amp;</span> Nav"
+msgstr "Макет <span class=\"spamp\"> &amp;</span> Nav"
+
+#: dms/editor/editor.layout.php:49
+msgid "Layout Mode"
+msgstr "Режим компоновки"
+
+#: dms/editor/editor.layout.php:51
+msgid "Pixel Width Based Layout"
+msgstr "Макет на базе пиксельной ширины"
+
+#: dms/editor/editor.layout.php:52
+msgid "Percentage Width Based Layout"
+msgstr "Макет на базе процентной ширины"
+
+#: dms/editor/editor.layout.php:59
+msgid "Select Layout Display"
+msgstr "Выберите макет отображения"
+
+#: dms/editor/editor.layout.php:60
+msgid "Display Mode"
+msgstr "Режим отображения"
+
+#: dms/editor/editor.layout.php:62
+msgid "Full Width Display"
+msgstr "Отображение на всю ширину"
+
+#: dms/editor/editor.layout.php:63
+msgid "Boxed Display"
+msgstr "Болчное отображение"
+
+#: dms/editor/editor.loader.php:64
+msgid "Loading DMS Editor"
+msgstr "Загрузка DMS редактора"
+
+#: dms/editor/editor.objects.php:24 dms/editor/editor.sections.php:466
+#: dms/editor/editor.sections.php:494
+msgid "No Name"
+msgstr "Без имени"
+
+#: dms/editor/editor.sections.php:39
+msgid "Your Sections"
+msgstr "Ваши модули"
+
+#: dms/editor/editor.sections.php:41
+msgid "Drag on to page to add"
+msgstr "Перетащите на страницу чтобы добавить"
+
+#: dms/editor/editor.sections.php:42
+msgid "Reload Sections"
+msgstr "Перезагрузка модули"
+
+#: dms/editor/editor.sections.php:48
+msgid "Get More Sections"
+msgstr "Получить еще модули"
+
+#: dms/editor/editor.sections.php:58 dms/editor/editor.sections.php:167
+msgid "Components"
+msgstr "Компоненты"
+
+#: dms/editor/editor.sections.php:66 dms/editor/editor.sections.php:168
+msgid "Layouts"
+msgstr "Макеты"
+
+#: dms/editor/editor.sections.php:72 dms/editor/editor.sections.php:169
+#: dms/editor/editor.sections.php:289 dms/editor/editor.sections.php:301
+msgid "Full Width"
+msgstr "Полная ширина"
+
+#: dms/editor/editor.sections.php:78 dms/editor/editor.sections.php:170
+msgid "Post Layouts"
+msgstr "Макеты записей"
+
+#: dms/editor/editor.sections.php:84 dms/editor/editor.sections.php:171
+msgid "Galleries"
+msgstr "Галереи"
+
+#: dms/editor/editor.sections.php:90 dms/editor/editor.sections.php:172
+msgid "Navigation"
+msgstr "Навигация"
+
+#: dms/editor/editor.sections.php:96 dms/editor/editor.sections.php:173
+msgid "Sliders"
+msgstr "Слайдеры"
+
+#: dms/editor/editor.sections.php:102 dms/editor/editor.sections.php:174
+msgid "Social"
+msgstr "Соц. сети"
+
+#: dms/editor/editor.sections.php:108 dms/editor/editor.sections.php:175
+msgid "Widgetized"
+msgstr "Виджеты"
+
+#: dms/editor/editor.sections.php:114 dms/editor/panel.code.php:37
+msgid "Custom"
+msgstr "Пользовательские"
+
+#: dms/editor/editor.sections.php:121 dms/editor/editor.sections.php:176
+msgid "Miscellaneous"
+msgstr "Прочее"
+
+#: dms/editor/editor.sections.php:152
+msgid "Add To Page"
+msgstr "Добавить на страницу"
+
+#: dms/editor/editor.sections.php:257
+msgid "<span class=\"badge badge-important\">PRO ONLY</span>"
+msgstr "<span class=\"badge badge-important\">Только для подписки PRO</span>"
+
+#: dms/editor/editor.settings.config.php:22
+msgid "Site Images"
+msgstr "Изображения сайта"
+
+#: dms/editor/editor.settings.config.php:30
+msgid "Social <span class=\"spamp\">&amp;</span> Local"
+msgstr "Социальные <span class=\"spamp\">&amp;</span> Локальные"
+
+#: dms/editor/editor.settings.config.php:37
+msgid "Advanced"
+msgstr "Расширенный"
+
+#: dms/editor/editor.settings.config.php:44
+msgid "Resets"
+msgstr "Сбросы"
+
+#: dms/editor/editor.settings.config.php:88
+msgid "Upload Favicon (32px by 32px)"
+msgstr "Загрузить Favicon (32 х 32 pix)"
+
+#: dms/editor/editor.settings.config.php:92
+msgid "Favicon Image"
+msgstr "Изображение Favicon"
+
+#: dms/editor/editor.settings.config.php:93
+msgid "Enter the full URL location of your custom <strong>favicon</strong> which is visible in browser favorites and tabs.<br/> <strong>Must be .png or .ico file - 32px by 32px</strong>."
+msgstr "Введите полный URL-адрес к файлу пользовательской <strong>favicon</strong>, которая видна в \"Избранном\" браузера и на ярлычке вкладки. <br/> <strong>Файл должен быть файл в формате .png или .ICO, размер 32 х 32 пикселя</strong>."
+
+#: dms/editor/editor.settings.config.php:105
+msgid "Login Page Image"
+msgstr "Изображение для страницы входа"
+
+#: dms/editor/editor.settings.config.php:107
+msgid "This image will be used on the login page to your admin. Use an image that is approximately <strong>80px</strong> in height."
+msgstr "Это изображение будет использоваться на странице входа в консоль администратора. Рекомендуемый размер изображения <strong>80 пикселей</strong> в высоту."
+
+#: dms/editor/editor.settings.config.php:113
+msgid "Upload Touch Image (144px by 144px)"
+msgstr "Загрузить картинку для сенсорных устройств (144px на144px)"
+
+#: dms/editor/editor.settings.config.php:116
+msgid "Mobile Touch Image"
+msgstr "Иконка мобильного приложения"
+
+#: dms/editor/editor.settings.config.php:118
+msgid "Enter the full URL location of your Apple Touch Icon which is visible when your users set your site as a <strong>webclip</strong> in Apple Iphone and Touch Products. It is an image approximately 144px by 144px in either .jpg, .gif or .png format."
+msgstr "Введите полный URL-адрес значка мобильного приложения, который отображается, когда пользователи <strong>сохраняют</strong> страницу сайта на устройствах Apple Iphone и любого другого сенсорного устройства. Это изображение должно иметь размер примерно 144px на 144px в одном из форматов .jpg, .gif или .png."
+
+#: dms/editor/editor.settings.config.php:142
+msgid "Your Twitter Username"
+msgstr "Ваше имя пользователя в Twitter"
+
+#: dms/editor/editor.settings.config.php:143
+msgid "Twitter Integration"
+msgstr "Интеграция с Twitter"
+
+#: dms/editor/editor.settings.config.php:144
+msgid "This places your Twitter feed on the site. Leave blank if you want to hide or not use."
+msgstr "Теперь ваша Twitter лента размещена на сайте. Оставьте пустым, если вы хотите ее скрыть или не используете."
+
+#: dms/editor/editor.settings.config.php:156
+msgid "Your Facebook Page Name"
+msgstr "Имя вашей страницы в Facebook"
+
+#: dms/editor/editor.settings.config.php:157
+msgid "Facebook Page"
+msgstr "Страница в Facebook "
+
+#: dms/editor/editor.settings.config.php:158
+msgid "Enter the name component of your Facebook page URL. (For example, what comes after the facebook url: www.facebook.com/[name])"
+msgstr "Введите компонент имени в адресе страницы Facebook. (К примеру та часть строки, что следует после URL сайта facebook: www.facebook.com/[имя])"
+
+#: dms/editor/editor.settings.config.php:163
+msgid "Your Facebook App ID"
+msgstr "Ваш ID приложения Facebook"
+
+#: dms/editor/editor.settings.config.php:164
+msgid "Facebook App ID"
+msgstr "ID приложения Facebook"
+
+#: dms/editor/editor.settings.config.php:165
+msgid "Add your Facebook Application ID here."
+msgstr "Добавьте ID приложения Facebook."
+
+#: dms/editor/editor.settings.config.php:174
+msgid "Your Website Hashtag"
+msgstr "Ваш хэштэг веб-сайта"
+
+#: dms/editor/editor.settings.config.php:175
+msgid "Website Hashtag"
+msgstr "Хэштэг веб-сайта"
+
+#: dms/editor/editor.settings.config.php:176
+msgid "This hashtag will be used in social media (e.g. Twitter) and elsewhere to create feeds."
+msgstr "Этот хэштег будет использоваться в социальных сетях (например, Twitter) и в других местах, для создания каналов."
+
+#: dms/editor/editor.settings.config.php:213
+msgid "Debug Options"
+msgstr "Опции отладки"
+
+#: dms/editor/editor.settings.config.php:218
+msgid "Enable debug?"
+msgstr "Включить отладку?"
+
+#: dms/editor/editor.settings.config.php:219
+msgid "PageLines debug"
+msgstr "Отладка PageLines"
+
+#: dms/editor/editor.settings.config.php:220
+#, php-format
+msgid "This information can be useful in the forums if you have a problem. %s"
+msgstr "Эта информация может быть полезной в форумах, если у вас проблема. %s"
+
+#: dms/editor/editor.settings.config.php:228
+msgid "Disable Error Notices?"
+msgstr "Отключить уведомления об ошибках?"
+
+#: dms/editor/editor.settings.config.php:229
+msgid "Less Notices"
+msgstr "Уведомления LESS"
+
+#: dms/editor/editor.settings.config.php:230
+msgid "Disable any error notices sent to wp-admin by the less system"
+msgstr "Отключить все уведомления об ошибках, отсылаемые администратору системой LESS"
+
+#: dms/editor/editor.settings.config.php:243
+msgid "Enable Code Prettify?"
+msgstr "Включить \"Code Prettify\"?"
+
+#: dms/editor/editor.settings.config.php:244
+msgid "Google Prettify Code"
+msgstr "Код \"Google Prettify\""
+
+#: dms/editor/editor.settings.config.php:245
+msgid "Add a class of 'prettyprint' to code or pre tags, or optionally use the [pl_codebox] shortcode. Wrap the codebox shortcode using [pl_raw] if Wordpress inserts line breaks."
+msgstr "Добавьте в код класс 'prettyprint' или тэг pre, или же используйте шорткод [pl_codebox], при необходимости. Оберните шорткод с помощью [pl_raw], если Wordpress вставляет разрывы строк."
+
+#: dms/editor/editor.settings.config.php:251
+msgid "Enter Partner Link"
+msgstr "Введите партнерскую ссылку"
+
+#: dms/editor/editor.settings.config.php:252
+msgid "PageLines Affiliate/Partner Link"
+msgstr "PageLines Партнерская программа /Link партнёра"
+
+#: dms/editor/editor.settings.config.php:259
+msgid "Install Class"
+msgstr "Установить класс"
+
+#: dms/editor/editor.settings.config.php:260
+msgid "Current Install Class"
+msgstr "Установить текущий класс"
+
+#: dms/editor/editor.settings.config.php:261
+msgid "Use this option to add a class to the &gt;body&lt; element of the website. This can be useful when using the same child theme on several installations or sub domains and can be used to control CSS customizations."
+msgstr "Используйте этот параметр для добавления элемента класса &gt;body&lt; вашего веб-сайта. Это может быть полезно при использовании одной и той же дочерней темы на нескольких инсталляциях или суб-доменах и может использоваться для управления CSS персонализацией."
+
+#: dms/editor/editor.settings.config.php:289
+msgid "Reset Global Site Settings"
+msgstr "Сброс общих параметров сайта"
+
+#: dms/editor/editor.settings.config.php:290
+msgid "Use this button to reset all global settings to their default state. <br/><strong>Note:</strong> Once you've completed this action, you may want to publish these changes to your live site."
+msgstr "Используйте эту кнопку для сброса всех параметров текущей страницы в их исходное состояние. <br/> <strong>Примечание:</strong> после завершения этого действия, возможно потребуется опубликовать изменения на вашем сайте."
+
+#: dms/editor/editor.settings.config.php:297
+msgid "Reset Current Page Settings"
+msgstr "Сброс параметров текущей страницы"
+
+#: dms/editor/editor.settings.config.php:298
+msgid "Use this button to reset all settings on the current page back to their default state. <br/><strong>Note:</strong> Once you've completed this action, you may want to publish these changes to your live site."
+msgstr "Используйте эту кнопку для сброса всех параметров текущей страницы в их исходное состояние. <br/> <strong>Примечание:</strong> после завершения этого действия, возможно потребуется опубликовать изменения на вашем сайте."
+
+#: dms/editor/editor.settings.config.php:314
+msgid "Clear all CSS/LESS cached data."
+msgstr "Очистить все кэшированные данные CSS/LESS."
+
+#: dms/editor/editor.settings.config.php:315
+msgid "Use this button to purge the stored LESS/CSS data. This will also clear cached pages if wp-super-cache or w3-total-cache are detected."
+msgstr "Используйте эту кнопку для удаления сохраненных данных CSS/LESS. Также  будет очищен кэш страниц, если используются \"wp-super-cache\" или \"w3-total-cache\"."
+
+#: dms/editor/editor.settings.config.php:339
+msgid "Standard Options"
+msgstr "Стандартные параметры"
+
+#: dms/editor/editor.templates.php:281
+msgid "Templates"
+msgstr "Шаблоны"
+
+#: dms/editor/editor.templates.php:358
+msgid "Update Template with Current Configuration"
+msgstr "Обновление шаблона с текущей конфигурацией"
+
+#: dms/editor/editor.templates.php:363
+msgid "Set as Page Global Default"
+msgstr "Задать в качестве глобального стандарта для страниц"
+
+#: dms/editor/editor.templates.php:368
+msgid "Delete This Template"
+msgstr "Удалить шаблон"
+
+#: dms/editor/editor.templates.php:404
+msgid "Template Name (required)"
+msgstr "Имя шаблона (обязательно)"
+
+#: dms/editor/editor.templates.php:408
+msgid "Template Description"
+msgstr "Описание шаблона"
+
+#: dms/editor/editor.templates.php:412
+msgid "Save New Template"
+msgstr "Сохранить новый шаблон"
+
+#: dms/editor/editor.templates.php:511
+msgid "DMS Page Setup"
+msgstr "DMS Параметры страницы"
+
+#: dms/editor/editor.templates.php:561
+msgid "Load PageLines Template"
+msgstr "Загрузить PageLines шаблоны"
+
+#: dms/editor/editor.templates.php:574
+msgid "(no parent)"
+msgstr "(без родителя)"
+
+#: dms/editor/editor.templates.php:582
+msgid "Parent Page"
+msgstr "Родительская страница"
+
+#: dms/editor/editor.templates.php:587
+msgid "Page Order"
+msgstr "Порядок страниц"
+
+#: dms/editor/editor.templates.php:607 dms/editor/js/pl.optpanel.js:826
+msgid "Default"
+msgstr "По умолчанию"
+
+#: dms/editor/editor.templates.php:608
+msgid "Standard page configuration. (Content and Primary Sidebar.)"
+msgstr "Стандартные настройки страницы (содержание и основная боковая панель)."
+
+#: dms/editor/editor.templates.php:615
+msgid "Feature Template"
+msgstr "Перспективный шаблон"
+
+#: dms/editor/editor.templates.php:616
+msgid "A page template designed to quickly and concisely show off key features or points. (RevSlider, iBoxes, Flipper)"
+msgstr "Шаблон страницы предназначен для быстрой и четкой демонстрации ключевых особенностей или пунктов. (RevSlider, iBoxes, Flipper)"
+
+#: dms/editor/editor.templates.php:637
+msgid "Landing Page"
+msgstr "Целевая страница"
+
+#: dms/editor/editor.templates.php:638
+msgid "A simple page design with highlight section and postloop (content)."
+msgstr "Простой дизайн страницы с компонентом Highlight и записями (контент)."
+
+#: dms/editor/editor.typography.php:69
+msgid "Typography"
+msgstr "Типографика"
+
+#: dms/editor/editor.typography.php:85
+msgid "Primary Text"
+msgstr "Основной текст"
+
+#: dms/editor/editor.typography.php:86
+msgid "The base font size is a reference that will be scaled for text used throughout the site. "
+msgstr "Базовый размер шрифта представляет собой ссылку, которая будет использоваться на всем сайте для масштабирования текста. "
+
+#: dms/editor/editor.typography.php:91
+msgid "Select Font Face"
+msgstr "Выберите начертание шрифта"
+
+#: dms/editor/editor.typography.php:101 dms/editor/editor.typography.php:142
+msgid "Base Font Size"
+msgstr "Базовый размер шрифта"
+
+#: dms/editor/editor.typography.php:108 dms/editor/editor.typography.php:149
+msgid "Font Weight"
+msgstr "Плотность шрифта"
+
+#: dms/editor/editor.typography.php:116
+msgid "*These weights don't always have an effect."
+msgstr "*Указание этого свойства не всегда приносит эффект."
+
+#: dms/editor/editor.typography.php:125
+msgid "Text Headers <small>(h1-h6)</small>"
+msgstr "Текст заголовков <small>(h1-h6)</small>"
+
+#: dms/editor/editor.typography.php:126
+msgid "Configure the typography for the text headers across your site."
+msgstr "Настройка типографики текста заголовков, для всего сайта."
+
+#: dms/editor/editor.typography.php:131
+msgid "Header Font"
+msgstr "Шрифт заголовка"
+
+#: dms/editor/editor.typography.php:164
+msgid "Extra Fonts"
+msgstr "Дополнительные шрифты"
+
+#: dms/editor/editor.typography.php:165
+msgid "<p>Add additional <a href=\"http://www.google.com/fonts\" target=\"_blank\">Google fonts</a> to your sites using this option.</p><p>For example, to add \"Yellowtail\" and \"Lato Bold\" you would enter: <strong>Yellowtail|Lato:700</strong>.</p><p> You can then reference these fonts in custom CSS.</p>"
+msgstr "<p>Добавьте дополнительные <a href=\"http://www.google.com/fonts\" target=\"_blank\"> шрифты Google</a> на ваш сайт, используя этот параметр.</p><p>Например, чтобы добавить \"Yellowtail\" и \"Lato Bold\", нужно ввести: <strong>Yellowtail|Lato:700</strong>.</p><p>Теперь вы можете ссылаться на эти шрифты в пользовательских CSS.</p>"
+
+#: dms/editor/editor.typography.php:170
+msgid "Extra Google Fonts"
+msgstr "Дополнительные шрифты Google"
+
+#: dms/editor/panel.code.php:42
+msgid "Custom Design"
+msgstr "Индивидуальный дизайн"
+
+#: dms/editor/panel.code.php:45 dms/editor/panel.code.php:71
+msgid "Custom LESS/CSS"
+msgstr "Пользовательские LESS/CSS"
+
+#: dms/editor/panel.code.php:50
+msgid "Custom Scripts"
+msgstr "Пользовательские скрипты"
+
+#: dms/editor/panel.code.php:72
+msgid "Tip"
+msgstr "Подсказка"
+
+#: dms/editor/panel.code.php:72
+msgid "Hit [Cmd&#8984;+Return] or [Ctrl+Return] to Preview Live"
+msgstr "Нажмите [Cmd&#8984;+Ruturn] или [Ctrl+Return] для быстрого просмотра"
+
+#: dms/editor/panel.code.php:85
+msgid "Custom Javascript or Header HTML"
+msgstr "Пользовательский Javascript или HTML Header"
+
+#: dms/editor/panel.extend.php:21
+msgid "Store"
+msgstr "Магазин"
+
+#: dms/editor/panel.extend.php:25
+msgid "Extend PageLines"
+msgstr "Расширение PageLines"
+
+#: dms/editor/panel.extend.php:27
+msgid "PageLines Store"
+msgstr "Магазин PageLines"
+
+#: dms/editor/panel.extend.php:36
+msgid "Featured"
+msgstr "Отмеченный"
+
+#: dms/editor/panel.extend.php:43
+msgid "Sections"
+msgstr "Секции"
+
+#: dms/editor/panel.extend.php:49
+msgid "Plugins"
+msgstr "Плагины"
+
+#: dms/editor/panel.extend.php:55
+msgid "Themes"
+msgstr "Темы"
+
+#: dms/editor/panel.extend.php:61
+msgid "Free"
+msgstr "Бесплатно"
+
+#: dms/editor/panel.extend.php:67
+msgid "Premium"
+msgstr "Премиум"
+
+#: dms/editor/panel.extend.php:79 dms/includes/lib.elements.php:181
+#: dms/includes/lib.utils.php:106
+msgid "Search"
+msgstr "Найти"
+
+#: dms/editor/panel.extend.php:94
+msgid "Upload a .zip extension into your PageLines install using this tool."
+msgstr "Загрузите .zip расширение в вашу инсталляцию PageLines, с помощью этого инструмента."
+
+#: dms/editor/panel.extend.php:96
+msgid "Extension File (zip file - required)"
+msgstr "Файл расширения (требуется .zip файл)"
+
+#: dms/editor/panel.extend.php:99
+msgid "Upload Extension"
+msgstr "Загрузить расширение"
+
+#: dms/editor/panel.extend.php:111
+msgid "Search the PageLines store for extensions."
+msgstr "Поиск расширений в магазине PageLines."
+
+#: dms/editor/panel.extend.php:116
+msgid "Search Store"
+msgstr "Поиск в магазине"
+
+#: dms/editor/panel.extend.php:138
+msgid " found for "
+msgstr " Найдено по "
+
+#: dms/editor/panel.extend.php:146
+msgid "Demo "
+msgstr "Демо"
+
+#: dms/editor/panel.extend.php:152
+msgid "Overview "
+msgstr "Обзор"
+
+#: dms/editor/panel.extend.php:187 dms/editor/panel.extend.php:190
+msgid "Free!"
+msgstr "Бесплатно!"
+
+#: dms/editor/panel.settings.php:27
+msgid "Site Settings"
+msgstr "Настройки сайта "
+
+#: dms/editor/panel.settings.php:34 dms/editor/panel.settings.php:73
+msgid "Section Options"
+msgstr "Параметры модулей"
+
+#: dms/includes/class.shortcodes.php:176
+msgid "<span class='editpage sc'>Edit</span>"
+msgstr "<span class='editpage sc'>Редактировать</span>"
+
+#: dms/includes/class.shortcodes.php:258
+msgid "Tagged With: "
+msgstr "Отмечено с:"
+
+#: dms/includes/class.shortcodes.php:282
+msgid "Type: "
+msgstr "Тип: "
+
+#: dms/includes/class.shortcodes.php:313
+msgid "Add Comment"
+msgstr "Комментировать"
+
+#: dms/includes/class.shortcodes.php:401
+#, php-format
+msgid "Visit %s&#8217;s website"
+msgstr "Посетите %s&#8217;s сайт"
+
+#: dms/includes/deprecated.php:272
+#, php-format
+msgid "%1$s is <strong>deprecated</strong> since version %2$s of PageLines DMS! Use %3$s instead."
+msgstr "%1$s является <strong>устаревшим</strong>, начиная с версии %2$s PageLines DMS! Используйте вместо этого %3$s."
+
+#: dms/includes/deprecated.php:274
+#, php-format
+msgid "%1$s is <strong>deprecated</strong> since version %2$s of PageLines DMS with no alternative available."
+msgstr "%1$s <strong>устарел</strong> с версии %2$s PageLines DMS, без доступной альтернативы."
+
+#: dms/includes/deprecated.php:1349
+msgid "No Image"
+msgstr "Нет изображения"
+
+#: dms/includes/deprecated.php:1557 dms/includes/deprecated.php:1558
+msgid "Add New "
+msgstr "Добавить"
+
+#: dms/includes/deprecated.php:1559 dms/includes/deprecated.php:1560
+msgid "Edit "
+msgstr "Редактировать"
+
+#: dms/includes/deprecated.php:1561 dms/includes/deprecated.php:1562
+msgid "View "
+msgstr "Показать"
+
+#: dms/includes/init.install.php:256
+msgid "Congratulations!"
+msgstr "Поздравляем!"
+
+#: dms/includes/less.legacy.php:460
+#, php-format
+msgid "%s/* CSS was compiled at %s and took %s seconds using %sMB of unicorn dust%s.*/"
+msgstr "%s/* CSS был откомпилирован в %s и занял %s секунд, используя  %sMB пыли Единорога%s.*/"
+
+#: dms/includes/less.legacy.php:495
+msgid "LESS Compile error!"
+msgstr "LESS - Ошибка компиляции!"
+
+#: dms/includes/less.legacy.php:502
+#, php-format
+msgid "Error in %s Less code: %s"
+msgstr "Ошибка в коде %s LESS: %s"
+
+#: dms/includes/lib.editor.php:985 sections/flipper/section.php:74
+#: sections/masonic/section.php:65
+msgid "Total Posts Loaded"
+msgstr "Всего загружено постов"
+
+#: dms/includes/lib.editor.php:1001 sections/flipper/section.php:148
+#: sections/masonic/section.php:123
+msgid "Meta Key"
+msgstr "Мета ключ"
+
+#: dms/includes/lib.editor.php:1006 sections/flipper/section.php:155
+#: sections/masonic/section.php:130
+msgid "Meta Key Value"
+msgstr "Значение мета ключа "
+
+#: dms/includes/lib.editor.php:1007 sections/flipper/section.php:149
+#: sections/masonic/section.php:124
+msgid "Select only posts which have a certain meta key and corresponding meta value. Useful for featured posts, or similar."
+msgstr "Выберите только те записи, которые имеют определенный мета ключ и соответствующее значение метаданных. Применимо для постов с миниатюрами, или аналогичных."
+
+#: dms/includes/lib.elements.php:81
+msgid "Add Widgets &rarr;"
+msgstr "Добавить виджеты &rarr;"
+
+#: dms/includes/lib.elements.php:137
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Это сообщение защищено паролем. Введите пароль для просмотра комментариев."
+
+#: dms/includes/lib.elements.php:143
+#, php-format
+msgid "One Response to %2$s"
+msgid_plural "%1$s Responses to %2$s"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: dms/includes/lib.elements.php:151
+msgid "<span class='meta-nav'>&larr;</span> Older Comments"
+msgstr "<span class='meta-nav'> &larr;</span> Предыдущие комментарии"
+
+#: dms/includes/lib.elements.php:152
+msgid "Newer Comments <span class='meta-nav'>&rarr;</span>"
+msgstr "Следующие комментарии <span class='meta-nav'> &rarr;</span>"
+
+#: dms/includes/lib.elements.php:160
+msgid "Comments are closed."
+msgstr "Коментарии закрыты"
+
+#: dms/includes/lib.elements.php:232
+msgid "&larr; Previous Entries"
+msgstr "&larr; Предыдущие"
+
+#: dms/includes/lib.elements.php:235
+msgid "Next Entries &rarr;"
+msgstr "Следующие &rarr;"
+
+#: dms/includes/lib.elements.php:262
+#, php-format
+msgid "<ul class='inline-list'>Please select a nav menu for this area in the <a href='%s'>WordPress menu admin</a>.</ul>"
+msgstr "<ul class='inline-list'>Пожалуйста, выберите навигационное меню для этой области в <a href='%s'>меню администратора WordPress</a>.</ul>"
+
+#: dms/includes/lib.elements.php:368
+msgid "edit"
+msgstr "редактировать"
+
+#: dms/includes/lib.head.php:111
+msgid "Google Profile URL"
+msgstr "URL-адрес профиля Google"
+
+#: dms/includes/lib.head.php:349
+msgid "|"
+msgstr "|"
+
+#: dms/includes/lib.head.php:361
+#, php-format
+msgid "Search Results: %s"
+msgstr "Результаты поиска: %s"
+
+#: dms/includes/lib.head.php:365
+#, php-format
+msgid "Page: %s"
+msgstr "Страница: %s"
+
+#: dms/includes/lib.theming.php:142 dms/sections/postloop/class.posts.php:696
+#: dms/sections/postloop/section.php:300
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+#: dms/includes/lib.theming.php:144 dms/sections/postloop/class.posts.php:698
+#: dms/sections/postloop/section.php:302
+msgid "Try another search?"
+msgstr "Попробуйте искать иначе?"
+
+#: dms/includes/lib.theming.php:144 dms/sections/postloop/class.posts.php:698
+#: dms/sections/postloop/section.php:302
+msgid "Sorry, what you are looking for isn't here."
+msgstr "Извините, здесь нет того, что вы ищете."
+
+#: dms/includes/lib.utils.php:112 dms/sections/postauthor/section.php:67
+msgid "Author"
+msgstr "Автор"
+
+#: dms/includes/lib.utils.php:133 dms/sections/postsinfo/section.php:31
+msgid "Currently viewing the category:"
+msgstr "Текущая категория:"
+
+#: dms/includes/lib.utils.php:141 dms/sections/postsinfo/section.php:33
+msgid "Currently viewing the tag:"
+msgstr "Текущая метка:"
+
+#: dms/includes/lib.utils.php:149 dms/sections/postsinfo/section.php:40
+msgid "Posts by:"
+msgstr "Опубликовано:"
+
+#: dms/includes/lib.utils.php:151 dms/sections/postsinfo/section.php:42
+msgid "From the daily archives:"
+msgstr "Из ежедневных архивов:"
+
+#: dms/includes/lib.utils.php:153 dms/sections/postsinfo/section.php:44
+msgid "From the monthly archives:"
+msgstr "Из ежемесячных архивов:"
+
+#: dms/includes/lib.utils.php:155 dms/sections/postsinfo/section.php:46
+msgid "From the yearly archives:"
+msgstr "Из ежегодных архивов:"
+
+#: dms/includes/lib.utils.php:170 dms/sections/postsinfo/section.php:57
+msgid "Viewing archives for "
+msgstr "Просмотр архивов для"
+
+#: dms/includes/lib.utils.php:404
+msgid "Configure this section"
+msgstr "Настроить этот раздел"
+
+#: dms/includes/library.pagelines.php:20
+msgid "Upgrade to Pro!"
+msgstr "Обновись до Pro!"
+
+#: dms/includes/library.pagelines.php:22
+msgid "You are currently using the basic DMS version. Pro activate this site for tons more features and support."
+msgstr "В настоящее время вы пользуетесь базовой версией DMS. Активируйте \"Pro\" для этого сайта, и вы получите мега-возможности и поддержку."
+
+#: dms/includes/library.pagelines.php:24
+msgid "Learn More About Pro"
+msgstr "Узнайте больше о \"Pro\""
+
+#: dms/includes/library.pagelines.php:48
+msgid "(Pro Edition Only)"
+msgstr "(Только для \"Pro\")"
+
+#: dms/includes/library.pagelines.php:75
+msgid "Dashboard"
+msgstr "Консоль"
+
+#: dms/includes/library.pagelines.php:1080 dms/editor/js/pl.xlist.js:157
+msgid "Close"
+msgstr "Закрыть"
+
+#: dms/sections/columnizer/section.php:52
+msgid "Columnizer Configuration"
+msgstr "Конфигурация Columnizer"
+
+#: dms/sections/columnizer/section.php:59
+msgid "Select Widgetized Area"
+msgstr "Выберите область виджетов"
+
+#: dms/sections/columnizer/section.php:60
+msgid "Select widgetized area"
+msgstr "Выберите область виджетов"
+
+#: dms/sections/columnizer/section.php:61
+msgid "Select the widgetized area you would like to use with this instance."
+msgstr "Выберите область виджетов, которую вы хотели бы использовать с этим экземпляром."
+
+#: dms/sections/columnizer/section.php:69
+msgid "Number of Grid Columns for Each Widget (12 Col Grid)"
+msgstr "Количество столбцов сетки для каждого виджета (сетка в 12 колонок)"
+
+#: dms/sections/columnizer/section.php:79
+msgid "Widgetized Areas Help"
+msgstr "Справка областей виджетов"
+
+#: dms/sections/columnizer/section.php:80
+msgid "Edit Widgetized Areas"
+msgstr "Редактировать области виджетов"
+
+#: dms/sections/columnizer/section.php:81
+msgid "This section uses widgetized areas that are created and edited in inside your admin."
+msgstr "В данном разделе используются области виджетов, которые создаются и редактируются в вашей консоли администратора."
+
+#: dms/sections/columnizer/section.php:88
+#: dms/sections/columnizer/section.php:89
+msgid "Column Site Description"
+msgstr "Описание столбцов сайта"
+
+#: dms/sections/columnizer/section.php:90
+msgid "If you use the default display of the columnizer, this field is used as a description of your company. You may want to add your address or links."
+msgstr "Если вы используете исходное отображение \"columnizer\", то это поле используется для описания вашей компании. Вы можете добавить свой адрес или ссылки."
+
+#: dms/sections/columnizer/section.php:100
+msgid "Get A Sidebars Plugin"
+msgstr "Взять плагин боковой панели"
+
+#: dms/sections/columnizer/section.php:102
+msgid "We have detected that you don't either the Custom Sidebars or Sidebar Manager plugins installed. We recommend you install a plugin that allows you to create custom widgetized areas on demand."
+msgstr "Мы обнаружили, что ни один из плагинов не установлен - Custom Sidebars или Sidebar Manager. Мы рекомендуем вам установить любой из плагинов - они позволяют создавать настраиваемый боковые панели."
+
+#: dms/sections/highlight/section.php:29
+msgid "Select Format"
+msgstr "Выберите формат"
+
+#: dms/sections/highlight/section.php:31
+msgid "Highlight Format"
+msgstr "Формат Highlight"
+
+#: dms/sections/highlight/section.php:33
+msgid "Image on top of text"
+msgstr "Изображение сверху текста"
+
+#: dms/sections/highlight/section.php:34
+msgid "Image on bottom of text"
+msgstr "Изображение снизу текста"
+
+#: dms/sections/highlight/section.php:35
+msgid "No text, just the image"
+msgstr "Без текста, только изображение"
+
+#: dms/sections/highlight/section.php:41
+msgid "Highlight Text"
+msgstr "Текст Highlight"
+
+#: dms/sections/highlight/section.php:48
+msgid "Highlight Header Text (Optional)"
+msgstr "Текста заголовка Highlight (опционально)"
+
+#: dms/sections/highlight/section.php:54
+msgid "Highlight Subheader Text (Optional)"
+msgstr "Текст подзаголовка Highlight (опционально)"
+
+#: dms/sections/highlight/section.php:62
+msgid "Highlight Image and Format"
+msgstr "Изображения и формат Highlight"
+
+#: dms/sections/highlight/section.php:68
+msgid "Upload Splash Image"
+msgstr "Загрузить изображение заставки"
+
+#: dms/sections/highlight/section.php:73
+msgid "Add frame to image?"
+msgstr "Добавить рамку к изображению?"
+
+#: dms/sections/highlight/section.php:103
+msgid "Here's to the crazy ones..."
+msgstr "Хвала безумцам..."
+
+#: dms/sections/highlight/section.php:104
+msgid "This is your Highlight section. Set up the options to configure."
+msgstr "Это ваш компонент Highlight. Установите параметры для его настройки."
+
+#: dms/sections/ibox/section.php:23
+msgid "iBox Configuration"
+msgstr "Конфигурация iBox"
+
+#: dms/sections/ibox/section.php:33
+msgid "Number of Columns for Each Box (12 Col Grid)"
+msgstr "Количество столбцов под каждый Box (сетка в 12 колонок)"
+
+#: dms/sections/ibox/section.php:39
+msgid "Icon Font"
+msgstr "Шрифт Icon"
+
+#: dms/sections/ibox/section.php:41
+msgid "Images"
+msgstr "Изображения"
+
+#: dms/sections/ibox/section.php:42
+msgid "Text Only, No Media"
+msgstr "Только текст, без медиа"
+
+#: dms/sections/ibox/section.php:45
+msgid "Select iBox Media Type"
+msgstr "Выберите тип медиа для iBox"
+
+#: dms/sections/ibox/section.php:51
+msgid "Media on Top"
+msgstr "Медиа сверху"
+
+#: dms/sections/ibox/section.php:52
+msgid "Media at Left"
+msgstr "Медиа слева"
+
+#: dms/sections/ibox/section.php:55
+msgid "Select the iBox Media Location"
+msgstr "Выберите расположение медиа в iBox"
+
+#: dms/sections/ibox/section.php:65
+msgid "iBoxes Setup"
+msgstr "iBoxes настройки"
+
+#: dms/sections/ibox/section.php:66
+msgid "iBox"
+msgstr "iBox"
+
+#: dms/sections/ibox/section.php:70
+msgid "iBox Title"
+msgstr "Название iBox "
+
+#: dms/sections/ibox/section.php:75
+msgid "iBox Text"
+msgstr "Текст iBox"
+
+#: dms/sections/ibox/section.php:80
+msgid "iBox Link (Optional)"
+msgstr "Ссылка iBox (опционально)"
+
+#: dms/sections/ibox/section.php:85
+msgid "iBox Class (Optional)"
+msgstr "Класс iBox (опционально)"
+
+#: dms/sections/ibox/section.php:168 dms/sections/ibox/section.php:294
+#: sections/revslider/section.php:198
+msgid "More"
+msgstr "Подробнее"
+
+#: dms/sections/ibox/section.php:289
+msgid "iBox "
+msgstr "iBox "
+
+#: dms/sections/mediabox/section.php:29
+msgid "MediaBox Media"
+msgstr "Медиа MediaBox"
+
+#: dms/sections/mediabox/section.php:36
+msgid "MediaBox Image"
+msgstr "Изображение MediaBox"
+
+#: dms/sections/mediabox/section.php:42 sections/masthead/section.php:73
+#: sections/popthumbs/section.php:70 sections/propricing/section.php:53
+msgid "Title"
+msgstr "Название"
+
+#: dms/sections/mediabox/section.php:47
+msgid "Text and Embed HTML"
+msgstr "Текст и встроенный HTML"
+
+#: dms/sections/mediabox/section.php:48
+msgid "Enter rich media \"embed\" HTML in this field to add videos, etc.. instead of an image."
+msgstr "Вставьте \"встраиваемый\" HTML в это поле, чтобы добавить мультимедиа, видео, и т.д., вместо изображения."
+
+#: dms/sections/mediabox/section.php:62
+msgid "Text/Media Alignment"
+msgstr "Выравнивание текста/медиа"
+
+#: dms/sections/mediabox/section.php:64
+msgid "Align Center (Default)"
+msgstr "Выравнивание по центру (исходно)"
+
+#: dms/sections/mediabox/section.php:65 sections/docker/section.php:57
+msgid "Align Left"
+msgstr "Выровнять по левому краю"
+
+#: dms/sections/mediabox/section.php:66 sections/docker/section.php:56
+msgid "Align Right"
+msgstr "Выровнять по правому краю"
+
+#: dms/sections/mediabox/section.php:74
+msgid "MediaBox Min Height (px)"
+msgstr "Минимальная высота MediaBox (px)"
+
+#: dms/sections/mediabox/section.php:75
+msgid "Required for \"cover\" mode. Otherwise the mediabox will be drawn at the height of the media."
+msgstr "Необходимо для режима «обложка». Иначе, MediaBox будет приведен по размеру к высоте медиа."
+
+#: dms/sections/mediabox/section.php:80
+msgid "Disable Media Vertical Centering?"
+msgstr "Отключить вертикальное центрирование медиа?"
+
+#: dms/sections/mediabox/section.php:90 dms/sections/textbox/section.php:98
+msgid "Viewport Animation"
+msgstr "Анимация окна просмотра"
+
+#: dms/sections/mediabox/section.php:91 dms/sections/textbox/section.php:99
+msgid "Optionally animate the appearance of this section on view."
+msgstr "Опционально, анимировать появление этого раздела на экране."
+
+#: dms/sections/mediabox/section.php:104
+msgid "MediaBox Background Image"
+msgstr "Фоновое изображение MediaBox"
+
+#: dms/sections/navbar/section.php:41 dms/sections/navbar/section.php:42
+msgid "NavBar Logo"
+msgstr "Логотип NavBar"
+
+#: dms/sections/navbar/section.php:43
+msgid "Use this feature to add the NavBar section as a fixed navigation bar on the top of your site.<br/><br/><strong>Notes:</strong> <br/>1. Only visible in Fixed Mode.<br/>2. Image Height is constricted to a maximum 29px."
+msgstr "Используйте эту функцию для добавления раздела NavBar в качестве фиксированной панели навигации, вверху вашего сайта.<br/><br/><strong>Примечание:</strong><br/>1. Видимо только в фиксированном режиме.<br/>2. Высота изображения ограничена, максимально до 29 пикселей."
+
+#: dms/sections/navbar/section.php:55
+msgid "Standard NavBar - Select Theme"
+msgstr "Стандартный NavBar - выберите тему"
+
+#: dms/sections/navbar/section.php:57
+msgid "Base Color"
+msgstr "Базовый цвет"
+
+#: dms/sections/navbar/section.php:59 sections/hero/section.php:128
+msgid "Blue"
+msgstr "Синий"
+
+#: dms/sections/navbar/section.php:60
+msgid "Light Grey"
+msgstr "Светло-серый"
+
+#: dms/sections/navbar/section.php:61 sections/hero/section.php:129
+msgid "Orange"
+msgstr "Оранжевый"
+
+#: dms/sections/navbar/section.php:62 sections/hero/section.php:130
+msgid "Red"
+msgstr "Красный"
+
+#: dms/sections/navbar/section.php:66
+msgid "NavBar Theme"
+msgstr "Тема NavBar"
+
+#: dms/sections/navbar/section.php:67
+msgid "The NavBar comes with several color options. Select one to automatically configure."
+msgstr "NavBar имеет несколько вариантов расцветки. Выберите один для автоматической настройки."
+
+#: dms/sections/navbar/section.php:73
+msgid "NavBar Menu"
+msgstr "Меню NavBar"
+
+#: dms/sections/navbar/section.php:74
+msgid "The NavBar uses WordPress menus. Select one for use."
+msgstr "NavBar использует WordPress меню. Выберите одно из них для использования."
+
+#: dms/sections/navbar/section.php:79 dms/sections/simple_nav/section.php:34
+#: dms/sections/simple_nav/section.php:40 sections/navi/section.php:63
+msgid "Select Menu"
+msgstr "Выбрать меню"
+
+#: dms/sections/navbar/section.php:88
+msgid "NavBar Configuration Options"
+msgstr "Параметры конфигурации NavBar"
+
+#: dms/sections/navbar/section.php:94
+msgid "Activate dropdowns on hover."
+msgstr "Активировать выпадающие меню при наведении."
+
+#: dms/sections/navbar/section.php:101
+msgid "Align Menu Right? (Defaults Left)"
+msgstr "Меню по правому краю? (исходно - слева)"
+
+#: dms/sections/navbar/section.php:107 sections/navi/section.php:68
+msgid "Hide Search?"
+msgstr "Скрыть Поиск?"
+
+#: dms/sections/navbar/section.php:168
+msgid "MENU"
+msgstr "МЕНЮ"
+
+#: dms/sections/noposts/section.php:23
+msgid "Sorry, direct previewing of special post types such as <strong>features</strong> or <strong>boxes</strong> is unavailable. This WordPress functionality is new and rapidly developing, so it should be available soon."
+msgstr "К сожалению, прямой предпросмотр записей особого типа, такие как <strong>\"Features\"</strong> или <strong>\"Boxes\"</strong> недоступен. Это новый и стремительно развивающийся функционал WordPress, и поэтому должен быть скоро доступен."
+
+#: dms/sections/noposts/section.php:25
+msgid "To preview a &quot;custom post type&quot; just view a page with that &quot;section&quot; on it."
+msgstr "Для просмотра записи &quot;пользовательского типа&quot; просто откройте страницу с размещенным на ней «компонентом»."
+
+#: dms/sections/noposts/section.php:30
+msgid "404!"
+msgstr "404!"
+
+#: dms/sections/noposts/section.php:31
+msgid "Sorry, This Page Does not exist."
+msgstr "К сожалению, эта страница не существует."
+
+#: dms/sections/noposts/section.php:31
+msgid "Go"
+msgstr "Перейти"
+
+#: dms/sections/noposts/section.php:31
+msgid "home"
+msgstr "домой"
+
+#: dms/sections/noposts/section.php:31
+msgid "or try a search?"
+msgstr "или попробуйте поиск?"
+
+#: dms/sections/pl_area/section.php:38
+msgid "Set Area Padding"
+msgstr "Задать padding области"
+
+#: dms/sections/pl_area/section.php:47
+msgid "Area Padding (px)"
+msgstr "Padding области (px)"
+
+#: dms/sections/pl_area/section.php:56
+msgid "Area Padding Bottom (if different)"
+msgstr "Нижний padding области (если отличается)"
+
+#: dms/sections/pl_area/section.php:61
+msgid "Area Minimum Height (px)"
+msgstr "Минимальная высота области (px)"
+
+#: dms/sections/pl_area/section.php:73
+msgid "Area Styling"
+msgstr "Стилизация области"
+
+#: dms/sections/postauthor/section.php:34
+msgid "Author Setup"
+msgstr "Установки Автора"
+
+#: dms/sections/postauthor/section.php:36
+msgid "This section uses the author's profile information. Set that in your admin."
+msgstr "Этот раздел использует сведения из профиля автора. Настраивайте эти сведения в консоли администратора."
+
+#: dms/sections/postauthor/section.php:76
+msgid "Visit Authors Website &rarr;"
+msgstr "Посетите веб-сайт Автора &rarr;"
+
+#: dms/sections/postauthor/section.php:79
+msgid "Authors Google Profile &rarr;"
+msgstr "Google-профиль Автора &rarr;"
+
+#: dms/sections/postloop/class.posts.php:37
+#: dms/sections/postloop/section.php:466
+msgid "Read More &raquo;"
+msgstr "Подробнее &raquo;"
+
+#: dms/sections/postloop/class.posts.php:240
+msgid "<div class='pagination'><span class='desc'>pages:</span><ul>"
+msgstr "<div class='pagination'><span class='desc'>страниц:</span> <ul>"
+
+#: dms/sections/postloop/class.posts.php:253
+msgid "<span class='note'>Tagged with &rarr;</span> "
+msgstr "<span class='note'>Отмечено с &rarr;</span> "
+
+#: dms/sections/postloop/class.posts.php:405
+msgid "Link To"
+msgstr "Ссылка на"
+
+#: dms/sections/postloop/class.posts.php:430
+#: dms/sections/postloop/class.posts.php:435
+msgid "On"
+msgstr "На"
+
+#: dms/sections/postloop/class.posts.php:430
+#: dms/sections/postloop/class.posts.php:435
+msgid "By"
+msgstr "По"
+
+#: dms/sections/postloop/class.posts.php:435
+msgid "In"
+msgstr "В"
+
+#: dms/sections/postloop/class.posts.php:505
+msgid "View"
+msgstr "Показать"
+
+#: dms/sections/postloop/class.posts.php:696
+#: dms/sections/postloop/section.php:300
+#, php-format
+msgid "No results for &quot;%s&quot;"
+msgstr "Нет результатов для &quot;%s&quot;"
+
+#: dms/sections/postloop/section.php:29
+msgid "Edit Post Content"
+msgstr "Редактировать содержимое записи"
+
+#: dms/sections/postloop/section.php:31
+msgid "This section uses WordPress posts. Edit post information using WordPress admin."
+msgstr "Этот раздел использует записи WordPress. Редактируйте записи с помощью консоли администратора WordPress."
+
+#: dms/sections/postloop/section.php:280
+msgid "Read More"
+msgstr "Подробнее"
+
+#: dms/sections/postloop/section.php:316
+msgid "Layout <span class=\"spamp\">&amp;</span> Config"
+msgstr "Настройка <span class=\"spamp\">&amp;</span> компоновки макета"
+
+#: dms/sections/postloop/section.php:324
+msgid "Page Title"
+msgstr "Заголовок страницы"
+
+#: dms/sections/postloop/section.php:332
+msgid "Magazine Layout Mode"
+msgstr "Режим журнальной компоновки"
+
+#: dms/sections/postloop/section.php:333
+msgid "List Layout Mode"
+msgstr "Список режимов компоновки"
+
+#: dms/sections/postloop/section.php:335 dms/sections/postloop/section.php:336
+msgid "Posts Layout Mode"
+msgstr "Режим блоговой компоновки"
+
+#: dms/sections/postloop/section.php:346
+msgid "Number of Full Width Posts? (Mag. Mode)"
+msgstr "Количество полноширинных записей? (Журнальный режим)"
+
+#: dms/sections/postloop/section.php:347
+msgid "Full Width Posts (Magazine Layout Mode Only)"
+msgstr "Полноширинный пост (только в режиме журнальной компоновки)"
+
+#: dms/sections/postloop/section.php:348
+msgid "Select the number of posts you would like shown at the full width of the main content column in magazine layout mode (the rest will be half-width post <strong>clips</strong>)."
+msgstr "Выберите количество постов, которые вы хотели бы показано на полную ширину колонки с основным контентом, в режиме журнальной компоновки (остальные посты будут в виде полуширинных <strong>клипов</strong>)."
+
+#: dms/sections/postloop/section.php:355
+msgid "Show Full Post Content"
+msgstr "Показывать запись полностью"
+
+#: dms/sections/postloop/section.php:356
+msgid "Optionally show full post content on special post listing pages."
+msgstr "Опционально, показывать все содержимое записи на специальной странице со списком записей."
+
+#: dms/sections/postloop/section.php:364
+msgid "Meta Config"
+msgstr "Конфигурация Мета"
+
+#: dms/sections/postloop/section.php:372
+msgid "Select Meta Mode"
+msgstr "Выберите режим Мета"
+
+#: dms/sections/postloop/section.php:373
+msgid "Meta Mode"
+msgstr "Режим Мета"
+
+#: dms/sections/postloop/section.php:378
+msgid "Instead of the standard metabar (beneath post title), you can use author meta mode. This mode displays the author avatar and publish date on left."
+msgstr "Вместо стандартного метабара (под заголовком записи), вы можете использовать авторский мета-режим. В этом режиме слева отображается аватар автора и дата публикации."
+
+#: dms/sections/postloop/section.php:385
+msgid "Configure Full Width Post Metabar"
+msgstr "Настройка метабара полноширинного поста"
+
+#: dms/sections/postloop/section.php:386
+msgid "Post Meta Information"
+msgstr "Мета-информация записи"
+
+#: dms/sections/postloop/section.php:394 dms/sections/postloop/section.php:395
+msgid "Configure Clip Metabar"
+msgstr "Настройка метабара клипов"
+
+#: dms/sections/postloop/section.php:402
+msgid "Thumbs"
+msgstr "Иконки"
+
+#: dms/sections/postloop/section.php:413 dms/sections/postloop/section.php:429
+msgid "Left Justified"
+msgstr "Выровнять слева"
+
+#: dms/sections/postloop/section.php:414 dms/sections/postloop/section.php:430
+msgid "On Top"
+msgstr "Сверху"
+
+#: dms/sections/postloop/section.php:415 dms/sections/postloop/section.php:431
+msgid "Left, In Excerpt"
+msgstr "Слева, в выдержке"
+
+#: dms/sections/postloop/section.php:416 dms/sections/postloop/section.php:432
+msgid "Right, In Excerpt"
+msgstr "Справа, в выдержке"
+
+#: dms/sections/postloop/section.php:418
+msgid "Full Width Thumbs Layout"
+msgstr "Компоновка на всю ширину с иконкой"
+
+#: dms/sections/postloop/section.php:419
+msgid "Use this option to configure how thumbs will be shown in full-width posts on your blog page."
+msgstr "Используйте этот параметр для настройки отображения миниатюры в полноширинном посте на странице своего блога."
+
+#: dms/sections/postloop/section.php:434
+msgid "Clip Thumbs Layout"
+msgstr "Компоновка клип с иконкой"
+
+#: dms/sections/postloop/section.php:435
+msgid "Use this option to configure how thumbs will be shown in clips. These are the smaller <strong>magazine</strong> style excerpts on your blog page."
+msgstr "Используйте этот параметр для настройки отображения миниатюр в клипах. Это небольшая выдержка <strong>журнального</strong> стиля на странице своего блога."
+
+#: dms/sections/postloop/section.php:441
+msgid "Hide thumbs?"
+msgstr "Скрыть иконки?"
+
+#: dms/sections/postloop/section.php:442
+msgid "Post Thumbnails"
+msgstr "Иконки записей"
+
+#: dms/sections/postloop/section.php:443
+msgid "Use this option to hide or show thumbs for posts on pages."
+msgstr "Используйте этот параметр, чтобы скрыть или показать иконки для записей на страницах."
+
+#: dms/sections/postloop/section.php:452
+msgid "Excerpts"
+msgstr "Выдержка"
+
+#: dms/sections/postloop/section.php:459
+msgid "Hide excerpts?"
+msgstr "Скрыть выдержки?"
+
+#: dms/sections/postloop/section.php:460
+msgid "Hide Post Excerpt"
+msgstr "Скрыть выдержки записей"
+
+#: dms/sections/postloop/section.php:461
+msgid "Excerpts are short pieces of content that are shown to give users a preview of a post. Hide them using this option."
+msgstr "Выдержки - это короткие фрагменты записей, показаны для предварительного ознакомления пользователя с записью. Скройте их с помощью этого параметра."
+
+#: dms/sections/postloop/section.php:468
+msgid "Continue Reading Link Text"
+msgstr "Текст ссылки \"Читать далее\""
+
+#: dms/sections/postloop/section.php:469
+msgid "Excerpts <strong>Continue Reading</strong> Text"
+msgstr "Текст выдержки <strong>Продолжить чтение</strong>"
+
+#: dms/sections/postloop/section.php:470
+msgid "This text will be used as the link to your full article when viewing articles on your posts page (when excerpts are turned on)."
+msgstr "Этот текст будет использоваться как ссылка на полный текст поста, при просмотре списка ваших постов (когда включены выдержки)."
+
+#: dms/sections/postloop/section.php:477
+msgid "Number of words."
+msgstr "Количество слов."
+
+#: dms/sections/postloop/section.php:478
+msgid "Excerpt Length"
+msgstr "Длина выдержки"
+
+#: dms/sections/postloop/section.php:479
+msgid "Excerpts are set to 55 words by default."
+msgstr "По умолчанию, длина выдержки установлена в 55 слов."
+
+#: dms/sections/postloop/section.php:486
+msgid "Allowed Tags"
+msgstr "Допустимые теги"
+
+#: dms/sections/postloop/section.php:487
+msgid "Allow Tags in Excerpt"
+msgstr "Разрешить теги в выдержках"
+
+#: dms/sections/postsinfo/section.php:29
+msgid "Search results for"
+msgstr "Результаты поиска для"
+
+#: dms/sections/sb_primary/section.php:42
+msgid "Categories"
+msgstr "Рубрики"
+
+#: dms/sections/sb_primary/section.php:51
+msgid "Archives"
+msgstr "Архив"
+
+#: dms/sections/sb_primary/section.php:60
+msgid "Calendar"
+msgstr "Календарь"
+
+#: dms/sections/sb_primary/section.php:69
+msgid "Meta"
+msgstr "Мета"
+
+#: dms/sections/sb_primary/section.php:74
+msgid "Entries (RSS)"
+msgstr "Записи (RSS)"
+
+#: dms/sections/simple_nav/section.php:25
+msgid "Simple Nav Section"
+msgstr "Секция Simple Nav"
+
+#: dms/sections/simple_nav/section.php:35
+msgid "The SimpleNav uses WordPress menus. Select one for use."
+msgstr "SimpleNav использует меню Wordpress. Выберите одно из них для использования."
+
+#: dms/sections/simple_nav/section.php:51
+msgid "Select Alignment"
+msgstr "Выберите выравнивание"
+
+#: dms/sections/textbox/section.php:35
+msgid "Title (Optional)"
+msgstr "Заголовок (опционально)"
+
+#: dms/sections/textbox/section.php:41
+msgid "Text Content"
+msgstr "Текстовое содержимое"
+
+#: dms/sections/textbox/section.php:49
+msgid "Textbox Font Size"
+msgstr "Размер шрифта TextBox"
+
+#: dms/sections/textbox/section.php:90
+msgid "Padding <small>(CSS Shorthand)</small>"
+msgstr "Отступы <small>(сокращенный CSS)</small>"
+
+#: dms/sections/textbox/section.php:91
+msgid "This option uses CSS padding shorthand. For example, use \"15px 30px\" for 15px padding top/bottom, and 30 left/right."
+msgstr "Этот параметр использует отступы в сокращенном CSS описании. Например укажите «15px 30px» для отступа на 15px сверху/снизу и 30px слева/справа."
+
+#: dms/sections/watermark/section.php:19
+msgid "Website Watermark"
+msgstr " Водяной знак вэб-сайта"
+
+#: dms/sections/watermark/section.php:20
+msgid "The website watermark is a small version of your logo for your footer. Recommended width/height is 90px."
+msgstr "Водяной знак веб-сайта — это уменьшенная версия вашего логотипа для нижнего колонтитула. Рекомендуемая ширина/высота — 90px."
+
+#: dms/sections/watermark/section.php:26
+msgid "Watermark Image"
+msgstr "Изображение водяного знака"
+
+#: dms/sections/watermark/section.php:33
+msgid "Watermark Link (Blank for None)"
+msgstr "Ссылка на водяной знак (оставить пустым, если не нужно)"
+
+#: dms/sections/watermark/section.php:39
+msgid "Watermark Link alt text"
+msgstr "Alt-текст ссылки водяного знака"
+
+#: dms/sections/watermark/section.php:40
+msgid "Build a website with PageLines"
+msgstr "Постройте веб-сайт с PageLines"
+
+#: dms/sections/watermark/section.php:45
+msgid "Hide Watermark"
+msgstr "Скрыть водяной знак"
+
+#: dms/sections/watermark/section.php:119
+msgid "was created with"
+msgstr "создан с"
+
+#: sections/flipper/section.php:42
+msgid "Which post type should Flipper use?"
+msgstr "Какой тип поста будет использовать Flipper?"
+
+#: sections/flipper/section.php:43
+msgid "<strong>Note</strong><br/> Post types for this section must have \"featured images\" enabled and be public.<br/><strong>Tip</strong><br/> Use a plugin to create custom post types for use with Flipper."
+msgstr "<strong>Примечание</strong><br/>В этом разделе должны быть только опубликованные посты, со включенными миниатюрами.<br/><strong>Совет</strong><br/>Используйте плагин чтобы создать пользовательский типов постов, которые будут использоваться с Flipper."
+
+#: sections/flipper/section.php:60
+msgid "Max Number of Posts Shown"
+msgstr "Максимальное количество показанных постов"
+
+#: sections/flipper/section.php:61
+msgid "This controls the maximum number of posts shown. A smaller amount may be shown based on layout width."
+msgstr "Этим контролируется максимальное количество показываемых постов. На основании ширины макета может быть показано меньшее количество."
+
+#: sections/flipper/section.php:92
+msgid "Options to control the text and link in the Flipper title."
+msgstr "Параметры для управления текстом и ссылкой в заголовке Flipper."
+
+#: sections/flipper/section.php:97
+msgid "Flipper Title Text"
+msgstr "Текст заголовка Flipper"
+
+#: sections/flipper/section.php:102
+msgid "Hide Title Link?"
+msgstr "Скрыть ссылку заголовка?"
+
+#: sections/flipper/section.php:108
+msgid "Flipper Meta"
+msgstr "Настройки Flipper"
+
+#: sections/flipper/section.php:165 sections/masonic/section.php:139
+msgid "Only applies for standard blog posts."
+msgstr "Применимо только для стандартных постов блога."
+
+#: sections/flipper/section.php:252
+msgid " / View All"
+msgstr "/ Показать все"
+
+#: sections/flipper/section.php:258
+msgid " / View Blog"
+msgstr "/ Показать все записи"
+
+#: sections/hero/section.php:27
+msgid "Hero Settings"
+msgstr "Параметры Hero"
+
+#: sections/hero/section.php:34
+msgid "Heading"
+msgstr "Заглавие"
+
+#: sections/hero/section.php:39
+msgid "Subtext"
+msgstr "Подтекст"
+
+#: sections/hero/section.php:44
+msgid "Hero Image"
+msgstr "Изображение Hero"
+
+#: sections/hero/section.php:51
+msgid "Upload Custom Image"
+msgstr "Загрузка пользовательского изображения"
+
+#: sections/hero/section.php:56
+msgid "Reverse the Hero unit (image on left)"
+msgstr "Отражение блока Hero (изображение слева)"
+
+#: sections/hero/section.php:60
+msgid "Content Widths"
+msgstr "Ширина контента"
+
+#: sections/hero/section.php:66
+msgid "Text Area Width"
+msgstr "Ширина области текста"
+
+#: sections/hero/section.php:82
+msgid "Image Area Width"
+msgstr "Ширина области изображения"
+
+#: sections/hero/section.php:100
+msgid "Hero Action Button"
+msgstr "Кнопка действия Hero"
+
+#: sections/hero/section.php:108
+msgid "Button link destination (URL - Required)"
+msgstr "Назначение ссылки кнопки (требуется URL)"
+
+#: sections/hero/section.php:113
+msgid "Hero Button Text"
+msgstr "Текст кнопки Hero"
+
+#: sections/hero/section.php:119 sections/icallout/section.php:72
+msgid "Open link in new window"
+msgstr "Открыть ссылку в новом окне"
+
+#: sections/hero/section.php:122 sections/masthead/section.php:115
+msgid "Select Button Color"
+msgstr "Выбор цвета кнопки"
+
+#: sections/hero/section.php:131
+msgid "Green"
+msgstr "Зелёный"
+
+#: sections/hero/section.php:132
+msgid "Light Blue"
+msgstr "Голубой"
+
+#: sections/hero/section.php:133
+msgid "Grey"
+msgstr "Серый"
+
+#: sections/hero/section.php:167
+msgid "The Hero!"
+msgstr "The Hero!"
+
+#: sections/hero/section.php:168
+msgid "Now just set up your Hero section options"
+msgstr "Теперь просто настройте ваши параметры для раздела Hero"
+
+#: sections/icallout/section.php:24
+msgid "Callout Format"
+msgstr "Формат Callout"
+
+#: sections/icallout/section.php:26
+msgid "Text on top of button"
+msgstr "Текст сверху кнопки"
+
+#: sections/icallout/section.php:27
+msgid "Text/Button Inline"
+msgstr "Встроенные текст/кнопка"
+
+#: sections/icallout/section.php:33 sections/icallout/section.php:39
+msgid "Callout Text"
+msgstr "Текст Callout"
+
+#: sections/icallout/section.php:66
+msgid "URL"
+msgstr "URL"
+
+#: sections/icallout/section.php:77
+msgid "Text on Button"
+msgstr "Текст на кнопке"
+
+#: sections/icallout/section.php:82
+msgid "Button Color"
+msgstr "Цвет кнопки"
+
+#: sections/icallout/section.php:105
+msgid "Call to action!"
+msgstr "Призыв к действию!"
+
+#: sections/masonic/section.php:146
+msgid "Additional Post Selection"
+msgstr "Дополнительный выбор записи"
+
+#: sections/masthead/section.php:41
+msgid "Masthead Splash Options"
+msgstr "Опции заставки Masthead"
+
+#: sections/masthead/section.php:48
+msgid "Upload custom image"
+msgstr "Загрузка пользовательского изображения"
+
+#: sections/masthead/section.php:53
+msgid "Masthead Video (optional, to be used instead of image)"
+msgstr "Видео Masthead (опционально, чтобы использовать вместо изображения)"
+
+#: sections/masthead/section.php:58
+msgid "Maximum width of splash in px (default is full width)"
+msgstr "Максимальная ширина заставки в пикселях (исходно - на полную ширину)"
+
+#: sections/masthead/section.php:61
+msgid "Upload an image to serve as a splash image, or use an embed code for full width video."
+msgstr "Загрузить изображение в качестве заставки, или использовать код для встраивания видео на полную ширину."
+
+#: sections/masthead/section.php:67
+msgid "Masthead Text"
+msgstr "Текст Masthead"
+
+#: sections/masthead/section.php:68
+msgid " Text"
+msgstr " Текст"
+
+#: sections/masthead/section.php:78
+msgid "Tagline"
+msgstr "Слоган"
+
+#: sections/masthead/section.php:91
+msgid "Masthead Action Button "
+msgstr "Masthead управляющая кнопка"
+
+#: sections/masthead/section.php:96
+msgid "Enter the link destination (URL - Required)"
+msgstr "Введите назначение ссылки (требуется URL)"
+
+#: sections/masthead/section.php:102
+msgid "Masthead Button Text"
+msgstr "Текст кнопки Masthead"
+
+#: sections/masthead/section.php:109
+msgid "Open link in new window."
+msgstr "Открыть ссылку в новом окне"
+
+#: sections/masthead/section.php:128
+msgid "Masthead Menu"
+msgstr "Меню Masthead"
+
+#: sections/masthead/section.php:129
+msgid "Select Masthead Menu"
+msgstr "Выбрать меню Masthead"
+
+#: sections/masthead/section.php:135
+msgid "Masthead Meta"
+msgstr "Masthead мета"
+
+#: sections/masthead/section.php:136
+msgid "Enter Masthead Meta Text"
+msgstr "Введите текст Masthead мета"
+
+#: sections/masthead/section.php:194
+msgid "Start Here"
+msgstr "Начните с этого места"
+
+#: sections/popthumbs/section.php:43
+msgid "PopThumb Configuration"
+msgstr "Конфигурация PopThumb"
+
+#: sections/popthumbs/section.php:52
+msgid "Number of Columns for Each Thumb (12 Col Grid)"
+msgstr "Количество столбцов под каждый Thumb (сетка в 12 колонок)"
+
+#: sections/popthumbs/section.php:63
+msgid "PopThumbs Setup"
+msgstr "Установка PopThumbs"
+
+#: sections/popthumbs/section.php:64 sections/popthumbs/section.php:81
+msgid "Thumb"
+msgstr "Миниатюра"
+
+#: sections/popthumbs/section.php:75 sections/revslider/section.php:74
+#: sections/testimonials/section.php:67
+msgid "Text"
+msgstr "Текст"
+
+#: sections/popthumbs/section.php:86 sections/quickcarousel/section.php:71
+msgid "Image"
+msgstr "Картинка"
+
+#: sections/propricing/section.php:28
+msgid "ProPricing Configuration"
+msgstr "Конфигурация ProPricing"
+
+#: sections/propricing/section.php:38
+msgid "Number of Columns for Each Plan (12 Col Grid)"
+msgstr "Количество столбцов под каждый План (сетка в 12 колонок)"
+
+#: sections/propricing/section.php:48
+msgid "Pricing Setup"
+msgstr "Настройки прайса"
+
+#: sections/propricing/section.php:49
+msgid "Column"
+msgstr "Колонка"
+
+#: sections/propricing/section.php:58
+msgid "Price"
+msgstr "Цена"
+
+#: sections/propricing/section.php:63
+msgid "Before Price Text"
+msgstr "Текст ДО цены"
+
+#: sections/propricing/section.php:65
+msgid "Typically you will add the monetary unit here. E.g. \"$\""
+msgstr "Обычно, тут обозначают символ валютной единицы. Например, «$»"
+
+#: sections/propricing/section.php:69
+msgid "After Price Text"
+msgstr "Текст ПОСЛЕ цены"
+
+#: sections/propricing/section.php:71
+msgid "Typically you will add the recurring amount here. E.g. \"/ MO\""
+msgstr "Обычно, тут обозначают платежный период. Например «/ мес.»"
+
+#: sections/propricing/section.php:75
+msgid "Sub Text"
+msgstr "Дополнительный текст"
+
+#: sections/propricing/section.php:85
+msgid "Link Text"
+msgstr "Текст ссылки"
+
+#: sections/propricing/section.php:90
+msgid "Button Theme"
+msgstr "Оформление кнопки"
+
+#: sections/propricing/section.php:100
+msgid "Attributes"
+msgstr "Свойства"
+
+#: sections/propricing/section.php:102
+msgid "Add each attribute on a new line. Add a \"*\" in front to add emphasis."
+msgstr "Каждый атрибут добавляется на новой строке. Для обозначения акцента вставьте «*» в начало строки."
+
+#: sections/quickslider/section.php:147 sections/revslider/section.php:22
+msgid "Slider Configuration"
+msgstr "Конфигурация Slider"
+
+#: sections/quickslider/section.php:154
+msgid "Select Transition Type"
+msgstr "Выберите тип перехода"
+
+#: sections/quickslider/section.php:156
+msgid "Use Fading Transition"
+msgstr "Использовать переход с выцветанием"
+
+#: sections/quickslider/section.php:157
+msgid "Use Slide/Horizontal Transition"
+msgstr "Использовать переход в виде горизонтального слайда"
+
+#: sections/quickslider/section.php:163
+msgid "Animate Slideshow Automatically?"
+msgstr "Анимировать слайд-шоу автоматически?"
+
+#: sections/quickslider/section.php:175 sections/revslider/section.php:51
+msgid "Slides Setup"
+msgstr "Настройки слайдов"
+
+#: sections/quickslider/section.php:176 sections/revslider/section.php:52
+msgid "Slide"
+msgstr "Слайд"
+
+#: sections/quickslider/section.php:180
+msgid "Slide Background Image"
+msgstr "Фоновое изображение слайда"
+
+#: sections/quickslider/section.php:183 sections/revslider/section.php:59
+msgid "For high resolution, 2000px wide x 800px tall images. (2MB Limit)"
+msgstr "Для высокого разрешения, изображения 2000px в ширину на 800px в высоту. (Лимит 2 МБ)"
+
+#: sections/quickslider/section.php:189 sections/revslider/section.php:69
+msgid "Slide Text"
+msgstr "Текст слайда"
+
+#: sections/quickslider/section.php:194
+msgid "Slide Link URL"
+msgstr "URL-адрес ссылки слайда"
+
+#: sections/rapidtabs/section.php:78
+msgid "Popular"
+msgstr "Популярное"
+
+#: sections/rapidtabs/section.php:79
+msgid "Recent"
+msgstr "Последние"
+
+#: sections/rapidtabs/section.php:80
+msgid "Comments"
+msgstr "Комментарии"
+
+#: sections/rapidtabs/section.php:81
+msgid "Tags"
+msgstr "Метки"
+
+#: sections/revslider/section.php:83
+msgid "Slide Text Location"
+msgstr "Расположение текста слайда"
+
+#: sections/revslider/section.php:94
+msgid "Slide Transition"
+msgstr "Переход между слайдами"
+
+#: sections/starbars/section.php:29
+msgid "StarBar Configuration"
+msgstr "Настройки StarBar"
+
+#: sections/starbars/section.php:38
+msgid "Number of StarBars to Configure"
+msgstr "Количество элементов StarBars для настройки"
+
+#: sections/starbars/section.php:44
+msgid "Starbar Total Count (Number)"
+msgstr "Всего элементов StarBar (число)"
+
+#: sections/starbars/section.php:45
+msgid "This number will be used to calculate the percent of the bar filled. The StarBar values will be shown as a percentage of this value. Default is 100."
+msgstr "Этот число будет использоваться для вычисления процента выполнения. Значения элементов StarBar будут показаны как процент от этого значения. Значение по умолчанию — 100."
+
+#: sections/starbars/section.php:52
+msgid "Starbar Modifier (Text Added to Stats)"
+msgstr "Модификатор StarBar (отображение текста)"
+
+#: sections/starbars/section.php:53
+msgid "This will be added to the stat number."
+msgstr "Это будет добавлено к значению статистики."
+
+#: sections/starbars/section.php:63
+msgid "Starbar Format"
+msgstr "Формат StarBar"
+
+#: sections/starbars/section.php:69
+msgid "StarBar Title (Optional)"
+msgstr "Заголовок StarBar (опционально)"
+
+#: sections/starbars/section.php:82
+msgid "Descriptor"
+msgstr "Описатель"
+
+#: sections/starbars/section.php:86
+msgid "Value"
+msgstr "Значение"
+
+#: sections/starbars/section.php:88
+msgid "Shown as a percentage of the StarBar total in the config."
+msgstr "Показывается как процент от общего итога StarBar в настройке."
+
+#: dms/editor/js/pl.ajax.js:21
+msgid "Are you sure?"
+msgstr "Вы уверены? Точно не употребляли?"
+
+#: dms/editor/js/pl.ajax.js:24 dms/editor/js/pl.editor.js:740
+msgid "Refreshing page..."
+msgstr "Обновление страницы..."
+
+#: dms/editor/js/pl.ajax.js:183
+msgid "Saving Settings"
+msgstr "Сохранение настроек"
+
+#: dms/editor/js/pl.ajax.js:185
+msgid "Settings successfully saved! Refreshing page..."
+msgstr "Настройки успешно сохранены! Обновление страницы..."
+
+#: dms/editor/js/pl.ajax.js:209
+msgid "<h3>Turn Off DMS Editor?</h3><p>(Note: Draft mode is disabled when editor is off.)</p>"
+msgstr "<h3>Выключить редактор DMS?</h3><p>(Заметка: Режим черновиков отключается, если редактор выключен.)</p>"
+
+#: dms/editor/js/pl.ajax.js:217
+msgid "Deactivating..."
+msgstr "Деактивация..."
+
+#: dms/editor/js/pl.ajax.js:222
+msgid "Editor deactivated! Reloading page."
+msgstr "Редактор выключен! Перезагружаем страницу."
+
+#: dms/editor/js/pl.ajax.js:272
+#, javascript-format
+msgid "<h3>Are you sure?</h3><p>This will revert <strong>%s</strong> changes to your last published configuration.</p>"
+msgstr "<h3>Вы уверены?</h3><p>Это вернет <strong>%s</strong> к последним опубликованным настройкам.</p>"
+
+#: dms/editor/js/pl.ajax.js:273
+msgid "Reverting Draft"
+msgstr "Отмена изменений в черновике"
+
+#: dms/editor/js/pl.ajax.js:274
+msgid "Template successfully updated!"
+msgstr "Шаблон успешно обновлен!"
+
+#: dms/editor/js/pl.areas.js:203
+msgid "<h3>Are you sure?</h3><p>This action will delete this area and all its elements from this page.</p>"
+msgstr "<h3>Вы уверены?</h3><p>Это действие удалит секцию и все ее элементы на этой странице.</p>"
+
+#: dms/editor/js/pl.configdata.js:31 dms/editor/js/pl.optpanel.js:1158
+msgid "Importing From Child Theme"
+msgstr "Импорт из дочерней темы"
+
+#: dms/editor/js/pl.configdata.js:32 dms/editor/js/pl.optpanel.js:1159
+msgid "Successfully Imported. Refreshing page"
+msgstr "Импорт прошел успешно. Обновление страницы"
+
+#: dms/editor/js/pl.editor.js:569
+msgid "Learn more about being a PRO"
+msgstr "Узнайте больше о подписке PRO"
+
+#: dms/editor/js/pl.editor.js:572
+msgid "<h4>This capability is pro edition only.</h4>"
+msgstr "<h4>Эта возможность доступна только для редакции PRO.</h4>"
+
+#: dms/editor/js/pl.editor.js:576
+msgid "Edit (Pro Only)"
+msgstr "Редактировать (только для Pro)"
+
+#: dms/editor/js/pl.editor.js:577
+msgid "<h4>This is a Pro Section</h4>Editing Pro sections requires Pro Membership.<br/>"
+msgstr "<h4>Это Pro-секция</h4>Для редактирования Pro-секции требуется подписка Pro. <br/>"
+
+#: dms/editor/js/pl.editor.js:635
+msgid "<h3>Are you sure?</h3><p>This will remove this section and its settings from this page.</p>"
+msgstr "<h3>Вы уверены?</h3><p>Это удалит секцию и ее параметры на этой странице.</p>"
+
+#: dms/editor/js/pl.optpanel.js:117 dms/editor/js/pl.optpanel.js:118
+msgid "No Options"
+msgstr "Нет настроек"
+
+#: dms/editor/js/pl.optpanel.js:127
+msgid "scope"
+msgstr "область"
+
+#: dms/editor/js/pl.optpanel.js:595
+msgid "Refresh for preview."
+msgstr "Обновить просмотр."
+
+#: dms/editor/js/pl.optpanel.js:595
+msgid "Syncs with element."
+msgstr "Синхронизируется с элементом."
+
+#: dms/editor/js/pl.optpanel.js:716
+msgid "Remove"
+msgstr "Удалить"
+
+#: dms/editor/js/pl.optpanel.js:828
+msgid "Configure Menus"
+msgstr "Настроить меню"
+
+#: dms/editor/js/pl.optpanel.js:888
+msgid "SELECT"
+msgstr "ВЫБРАТЬ"
+
+#: dms/editor/js/pl.optpanel.js:1023
+msgid "Edit Sets"
+msgstr "Редактировать наборы"
+
+#: dms/editor/js/pl.optpanel.js:1028
+msgid "Select which registered thumbnail size to use for the images. To add new sizes see: <a href='http://codex.wordpress.org/Function_Reference/add_image_size'>The Codex</a>"
+msgstr "Выберите размер миниатюры для изображений. Чтобы добавить новый размер см.: <a href='http://codex.wordpress.org/Function_Reference/add_image_size'> Кодекс</a>"
+
+#: dms/editor/js/pl.optpanel.js:1049
+msgid "Select Font"
+msgstr "Выбрать шрифт"
+
+#: dms/editor/js/pl.optpanel.js:1051
+msgid "Font Preview"
+msgstr "Просмотр шрифта"
+
+#: dms/editor/js/pl.optpanel.js:1052
+msgid "The quick brown fox jumps over the lazy dog"
+msgstr "Друг мой эльф! Яшке б свёз птиц южных чащ!"
+
+#: dms/editor/js/pl.optpanel.js:1064
+msgid "Type Still Needed"
+msgstr "Образец по-прежнему необходим"
+
+#: dms/editor/js/pl.optpanel.js:1082
+msgid "More Info"
+msgstr "Информация"
+
+#: dms/editor/js/pl.optpanel.js:1138
+msgid "global site options"
+msgstr "глобальные параметры"
+
+#: dms/editor/js/pl.optpanel.js:1142
+msgid "local page options"
+msgstr "параметры локальной страницы"
+
+#: dms/editor/js/pl.optpanel.js:1144
+#, javascript-format
+msgid "<h3>Are you sure?</h3><p>This will reset <strong>%s</strong> to their defaults.<br/>(Once reset, this will still need to be published live.)</p>"
+msgstr "<h3>Вы уверены?</h3><p>Это сбросит <strong>%s</strong> до стандартных настроек.<br/>(После сброса требуется публикация.)</p>"
+
+#: dms/editor/js/pl.optpanel.js:1149
+msgid "<span class='btn btn-mini btn-info'>Page Templates</span>&nbsp;"
+msgstr "<span class='btn btn-mini btn-info'>Шаблоны страниц</span>"
+
+#: dms/editor/js/pl.optpanel.js:1150
+msgid "<span class='btn btn-mini btn-info'>Global Options</span>&nbsp;"
+msgstr "<span class='btn btn-mini btn-info'>Глобальные параметры</span>"
+
+#: dms/editor/js/pl.optpanel.js:1151
+msgid "<span class='btn btn-mini btn-info'>Type Options</span>"
+msgstr "<span class='btn btn-mini btn-info'>Настройки шрифтов</span>"
+
+#: dms/editor/js/pl.optpanel.js:1152
+msgid "Resetting Options"
+msgstr "Сброс параметров"
+
+#: dms/editor/js/pl.optpanel.js:1153
+msgid "Successfully Reset. Refreshing page"
+msgstr "Успешно сброшено. Обновление страницы"
+
+#: dms/editor/js/pl.optpanel.js:1190
+msgid "Flushing Caches"
+msgstr "Очистка кэша"
+
+#: dms/editor/js/pl.optpanel.js:1192
+msgid "Success! Refreshing page"
+msgstr "Получилось! Обновление страницы"
+
+#: dms/editor/js/pl.optpanel.js:1203
+msgid "<h3>Are you sure?</h3><p>This will write all settings to a config file in your child theme named pl-config.json</p>"
+msgstr "<h3>Вы уверены?</h3><p>Файл настроек дочерней темы pl-config.json будет записан со всеми текущими настройками</p>"
+
+#: dms/editor/js/pl.optpanel.js:1212
+msgid "Exporting Options"
+msgstr "Экспорт параметров"
+
+#: dms/editor/js/pl.optpanel.js:1348
+msgid "Page Templates"
+msgstr "Страница шаблона"
+
+#: dms/editor/js/pl.optpanel.js:1349
+msgid "Global Options"
+msgstr "Глобальные параметры"
+
+#: dms/editor/js/pl.optpanel.js:1350
+msgid "Type Options"
+msgstr "Настройки шрифтов"
+
+#: dms/editor/js/pl.optpanel.js:1386
+msgid "<h3>Settings Imported</h3>"
+msgstr "<h3>Параметры загружены</h3>"
+
+#: dms/editor/js/pl.optpanel.js:1404
+msgid "Imported Settings"
+msgstr "Импортированные параметры"
+
+#: dms/editor/js/pl.optpanel.js:1405
+msgid "Importing"
+msgstr "Загрузка"
+
+#: dms/editor/js/pl.saving.js:17
+msgid "Saving."
+msgstr "Сохранение."
+
+#: dms/editor/js/pl.saving.js:19
+msgid "Successfully saved! Refreshing page..."
+msgstr "Успешно сохранено! Обновление страницы..."
+
+#: dms/editor/js/pl.sections.js:20
+msgid "Reloading and Registering Sections"
+msgstr "Перезагрузка и регистрация секции"
+
+#: dms/editor/js/pl.sections.js:21
+msgid "Sections reloaded. Refreshing page!"
+msgstr "Секции перезагружены. Обновление страницу!"
+
+#: dms/editor/js/pl.sections.js:158
+msgid "<div class='loaded-notice'><div class='the-notice'>Loaded! Note: For this section, page refresh may be needed for complete functionality (Javascript Loading).</div></div>"
+msgstr "<div class='loaded-notice'><div class='the-notice'>Загружено Примечание: Для этой секции, может потребоваться обновление страницы для достижения полной функциональности (загрузка Javascript).</div></div>"
+
+#: dms/editor/js/pl.sections.js:181 dms/editor/js/pl.sections.js:191
+msgid "Loading"
+msgstr "Загрузка"
+
+#: dms/editor/js/pl.templates.js:121
+msgid "<h3>Are you sure?</h3><p>This will delete this template. All pages using this template will be reverted to their default page configuration.</p>"
+msgstr "<h3>Вы уверены?</h3><p>Это удалит этот шаблон. Все страницы, использующие этот шаблон будут сброшены к стандартной настройке.</p>"
+
+#: dms/editor/js/pl.themes.js:15
+msgid "<h3>Are you sure?</h3> <p>This will activate this theme sitewide.</p>"
+msgstr "<h3>Вы уверены?</h3> <p>Это активирует текущую тему по всему сайту.</p>"
+
+#: dms/editor/js/pl.themes.js:16
+msgid "Activating Theme"
+msgstr "Активация темы"
+
+#: dms/editor/js/pl.themes.js:19
+msgid "Successfully Activated. Refreshing page"
+msgstr "Успешно активировано. Обновление страницы"
+
+#: dms/editor/js/pl.themes.js:33
+msgid "Activate"
+msgstr "Активировать"
+
+#: dms/editor/js/pl.xlist.js:67
+msgid "Drag Thumb to Page"
+msgstr "Перетяните миниатюру на страницу"
+
+#: dms/editor/js/pl.xlist.js:163
+msgid "Description"
+msgstr "Описание"
+
+#: dms/editor/js/pl.xlist.js:171
+msgid "Drag This"
+msgstr "Перетащите это"
+

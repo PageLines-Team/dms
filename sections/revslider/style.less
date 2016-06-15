@@ -1,0 +1,161 @@
+
+/* PAGELINES STYLES */
+ .revslider-container{
+	
+	width:100%;
+	position:relative;
+	padding:0;
+	.pl-slider{
+		opacity: 0;
+	}
+ 	.tparrows {
+
+		background: rgba(0,0,0,.4);
+
+
+		&:hover{
+			background: rgba(0,0,0,.8);
+			color: #fff;
+			opacity: 1;
+		}
+		text-align: center;
+		height: 60px;
+		width: 60px;
+		color: #fff; 
+		font-size: 40px;
+		border-radius: 2px;
+		i{
+			margin: 9px 0 0 1px;
+			display: block;
+		}
+
+	}
+	
+	.tp-bullets.simplebullets.square .bullet{
+		background: transparent; 
+		border: 1px solid #fff; 
+		width: 8px;
+		height: 8px;
+		margin: 0 5px;
+		border-radius: 6px;
+		&.selected, 
+		&:hover{
+			background: #fff; 
+		}
+	}
+
+	.text-center{
+		text-align: center;
+
+	}
+	
+	//Revolution Slider forces H2 around everything
+	h2.slider-text {
+		font-weight: 300;
+		color: #fff;
+	
+		.transition(all 0.3s linear);
+		margin-bottom: 15px;
+	
+	
+		font-weight: inherit;
+		margin: 0;
+		font-size: 60px;
+		line-height: 1.1em;
+		.title{
+			display:inline-block;
+			margin-bottom: 5px;
+
+		}
+		small{
+			display: block;
+			font-weight: inherit;
+			font-size: 24px;
+			line-height: 1.3em;
+			padding: 8px 0;
+		}
+	
+	}
+	
+	&.element-dark{
+		.slider-text{
+			text-shadow: 0 1px 0 rgba(255,255,255,.4);
+			color: #000;
+		}
+
+		.tparrows {
+			background: rgba(255,255,255,.4);
+			color: #000; 
+			&:hover{
+				background: rgba(255,255,255,.8);
+				color: #000;
+			}
+		}
+
+		.tp-bullets.simplebullets.square .bullet{
+
+			border: 1px solid #000; 
+
+			&.selected, 
+			&:hover{
+				background: #000; 
+			}
+		}
+	}
+	/* Text Sizing*/
+	.slider-content{
+		font-family: @plHeaderFont;
+		text-shadow: 0 -1px 0 rgba(0,0,0,.4);
+
+		&.left-side,
+		&.right-side{
+			//max-width: 400px;
+			text-align: left;
+		}
+		&.centered{
+			text-align: center;
+		}
+
+		
+
+		.slider-buttons{
+			padding-top: 25px;
+			
+			a.slider-btn {
+				
+				margin-right: 15px;
+			
+				&:last-child{
+					margin-right: 0;
+				}
+			}
+		}
+		
+		
+	}
+
+	.tp-bannertimer{
+		z-index: 90; // goes under nav
+	}
+	
+	@media (max-width: @resPortraitTablet) {
+		h2.slider-text {
+			font-size: 27px;
+			line-height: 1.1em;
+			small{
+				font-size: 14px;
+			}
+
+		}
+		.slider-buttons .btn.btn-large{
+			padding: 4px 12px;
+			font-size: 12px;
+			letter-spacing: 0;
+		}
+	}
+	
+
+
+}
+
+
