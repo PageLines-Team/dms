@@ -4,14 +4,18 @@
 
 ********************************************************
 
+Version 2.2.3
+
+  Fixed Maps Section to work with google API keys.
+
 Version 2.2.2
 
   Added support for Platform 5.
   Platform 5 will now server updates for this theme if it is installed.
 
 Version 2.2.1.2
-  
-  CORE - Fixed (again) Twitter API calls producing console errors. 
+
+  CORE - Fixed (again) Twitter API calls producing console errors.
 
 Version 2.2.1.1
 
@@ -27,7 +31,7 @@ Version 2.2
   CORE - Fix issue with global reset buttons throwing a javascript error in WP 4.3
   CORE - Run a check at runtime to see if the ABSPATH has changed, if so reset sections data.
          Fixes issues with certain hosts moving customer installs and changing the PATHS without notification.
-  CORE - Update less.js library to 2.5.1 
+  CORE - Update less.js library to 2.5.1
 
 Version 2.1.9.9
 

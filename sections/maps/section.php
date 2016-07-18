@@ -19,8 +19,8 @@ class PLMaps extends PageLinesSection {
 
 	function section_styles(){
 
-		wp_enqueue_script( 'google-maps', 'https://maps.google.com/maps/api/js?sensor=false', NULL, NULL, true );
-		wp_enqueue_script( 'pl-maps', $this->base_url.'/maps.js', array( 'jquery' ), pl_get_cache_key(), true );
+		wp_enqueue_script( 'google-maps', sprintf( 'https://maps.googleapis.com/maps/api/js?key=%s', $this->opt( 'map_api_key' ) ), array( 'jquery', 'pl-maps' ), null, true );
+		wp_enqueue_script( 'pl-maps', $this->base_url . '/maps.js', array( 'jquery' ), pl_get_cache_key(), true );
 	}
 
 	function section_head() {
@@ -131,6 +131,13 @@ class PLMaps extends PageLinesSection {
 						'default'		=> true,
 						'compile'		=> true,
 					),
+					array(
+           'type'    => 'text',
+           'key'      => 'map_api_key',
+           'label'    => __( 'Google API Key', 'pagelines' ),
+           'help'     => __( 'See: <a href="https://developers.google.com/maps/documentation/javascript/get-api-key">How to get a key</a>', 'pagelines' ),
+					'default'  => '',
+         ),
 				)
 
 			);
@@ -176,7 +183,7 @@ class PLMaps extends PageLinesSection {
 	}
 
    function section_template( ) {
-		$height = $this->opt( 'map_height', array( 'default' => '350px' ) );	
+		$height = $this->opt( 'map_height', array( 'default' => '350px' ) );
 		printf( '<div class="pl-map-wrap pl-animation pl-slidedown"><div id="pl_map_%s" data-map-id="%s" class="pl-map pl-end-height" style="height: %s"></div></div>', $this->meta['unique'], $this->meta['unique'], $height );
 	}
 }
