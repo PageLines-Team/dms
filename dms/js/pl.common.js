@@ -551,7 +551,7 @@
 
 				that.shareTitle = encodeURI( $("meta[property='pl-share-title']").attr('content') )
 				that.shareDesc = encodeURI( $("meta[property='pl-share-desc']").attr('content') )
-				that.shareImg = encodeURI( $("meta[property='pl-share-img']").attr('content') )
+				that.shareImg = encodeURI( $("meta[property='pl-share-img']").attr('content') ) || false
 				that.shareLocation = window.location
 
 				that.loadSocialCounts()
@@ -563,7 +563,7 @@
 			var that = this
 
 			that.facebook()
-			//that.twitter() // twitter API no longer public
+			that.twitter() // twitter API no longer public
 			that.pinterest()
 			that.linkedin()
 
@@ -574,14 +574,16 @@
 			,	url = '//api.pinterest.com/v1/urls/count.json?url='+that.shareLocation+'&callback=?'
 			,	shareBtn = $('[data-social="pinterest"]')
 
-
 			that.fetchCount(url, shareBtn)
 
 			shareBtn.click( function(){
 
 				var shareUrl = '//pinterest.com/pin/create/button/?url='+that.shareLocation+'&media='+that.shareImg+'&description='+that.shareTitle
 
-				that.openWindow( shareUrl, 'pinterestShare')
+				// if no image dont show the button.
+				if( that.shareImg ) {
+					that.openWindow( shareUrl, 'pinterestShare')
+				}
 
 				return false;
 
@@ -596,7 +598,7 @@
 			,	shareBtn = $('[data-social="twitter"]')
 
 			// twitter shutdown the open API
-				that.fetchCount(url, shareBtn)
+			//	that.fetchCount(url, shareBtn)
 
 
 			shareBtn.click( function(){
