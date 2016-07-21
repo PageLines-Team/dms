@@ -4,6 +4,10 @@
 
 ********************************************************
 
+Version 2.2.4
+
+  Disable pinterest share if there is no featured image to share. 
+
 Version 2.2.3
 
   Fixed Maps Section to work with google API keys.
