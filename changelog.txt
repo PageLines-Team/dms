@@ -4,9 +4,13 @@
 
 ********************************************************
 
+Version 2.2.5
+
+  Updated font awesome icons to version 4.7.0
+
 Version 2.2.4
 
-  Disable pinterest share if there is no featured image to share. 
+  Disable pinterest share if there is no featured image to share.
 
 Version 2.2.3
 
