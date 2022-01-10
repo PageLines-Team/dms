@@ -1405,7 +1405,7 @@ function plprint( $data, $title = false, $echo = false) {
 	if ( $echo )
 		echo $data;
 	elseif ( false === $echo )
-		add_action( 'shutdown', create_function( '', sprintf('echo \'%s\';', $data) ) );
+		add_action( 'shutdown', function() { return sprintf('echo \'%s\';', $data); } );
 	else
 		return $data;
 }
@@ -1433,7 +1433,7 @@ function pl_debug( $text = '', $before = "\n/*", $after = '*/' ) {
 		return;
 
 	$out = sprintf( 'echo "%s %s %s";', $before, $text, $after );
-	add_action( 'shutdown', create_function( '', $out ), 9999 );
+	add_action( 'shutdown', function() { return $out; }, 9999 );
 
 }
 

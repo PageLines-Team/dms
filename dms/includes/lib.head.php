@@ -196,7 +196,7 @@ function pagelines_head_common(){
 				&& ! is_file( sprintf( '%s/rtl.css', get_stylesheet_directory() ) )
 			) || ( is_rtl() && ! is_child_theme() )
 		){
-			add_action( 'wp_print_styles', create_function( '', 'pagelines_load_css_relative( "rtl.css", "pagelines-rtl" );' ), 99 );
+			add_action( 'wp_print_styles', function() { return 'pagelines_load_css_relative( "rtl.css", "pagelines-rtl" );'; }, 99 );
 		}
 
 	}
@@ -208,18 +208,18 @@ function pagelines_head_common(){
 		pagelines_add_bodyclass( 'prettify-on' );
 		wp_enqueue_script( 'prettify', PL_JS . '/prettify/prettify.min.js' );
 		wp_enqueue_style( 'prettify', PL_JS . '/prettify/prettify.css' );
-		add_action( 'wp_head', create_function( '',  'echo pl_js_wrap("prettyPrint()");' ), 14 );
+		add_action( 'wp_head', function() { return 'echo pl_js_wrap("prettyPrint()");'; }, 14 );
 	}
 
-	add_action( 'wp_head', create_function( '',  'echo pl_source_comment("Start >> Meta Tags and Inline Scripts", 2);' ), 0 );
+	add_action( 'wp_head', function() { return 'echo pl_source_comment("Start >> Meta Tags and Inline Scripts", 2);'; }, 0 );
 
-	add_action( 'wp_print_styles', create_function( '',  'echo pl_source_comment("Styles");' ), 0 );
+	add_action( 'wp_print_styles', function() { return 'echo pl_source_comment("Styles");'; }, 0 );
 
-	add_action( 'wp_print_scripts', create_function( '',  'echo pl_source_comment("Scripts");' ), 0 );
+	add_action( 'wp_print_scripts', function() { return 'echo pl_source_comment("Scripts");'; }, 0 );
 
-	add_action( 'wp_print_footer_scripts', create_function( '',  'echo pl_source_comment("Footer Scripts");' ), 0 );
+	add_action( 'wp_print_footer_scripts', function() { return 'echo pl_source_comment("Footer Scripts");'; }, 0 );
 
-	add_action( 'admin_bar_menu', create_function( '',  'echo pl_source_comment("WordPress Admin Bar");' ), 0 );
+	add_action( 'admin_bar_menu', function() { return 'echo pl_source_comment("WordPress Admin Bar");'; }, 0 );
 
 	add_action( 'wp_head', 'pagelines_meta_tags', 9 );
 
@@ -227,10 +227,10 @@ function pagelines_head_common(){
 
 	// Headerscripts option > custom code
 	if ( pl_setting( 'headerscripts' ) && pl_setting( 'headerscripts' ) != default_headerscript() )
-		add_action( 'wp_head', create_function( '',  'print_pagelines_option("headerscripts");' ), 25 );
+		add_action( 'wp_head', function() { return 'print_pagelines_option("headerscripts");'; }, 25 );
 
 	if( pl_setting('asynch_analytics'))
-		add_action( 'pagelines_head_last', create_function( '',  'echo pl_setting("asynch_analytics");' ), 25 );
+		add_action( 'pagelines_head_last', function() { return 'echo pl_setting("asynch_analytics");'; }, 25 );
 }
 
 
