@@ -4,9 +4,13 @@
 
 ********************************************************
 
+Version 2.2.6
+
+  CORE - Replace create_function with closures to support PHP 8.0.
+
 Version 2.2.5
 
-  Updated font awesome icons to version 4.7.0
+  Updated font awesome icons to version 4.7.0.
 
 Version 2.2.4
 
