@@ -60,7 +60,7 @@ function pl_pro_disable_class_check(){
  *  @since 1.2
  *
  */
-add_action( 'pagelines_max_mem', create_function('',"@ini_set('memory_limit',WP_MAX_MEMORY_LIMIT);") );
+add_action( 'pagelines_max_mem', function() { return @ini_set( 'memory_limit', WP_MAX_MEMORY_LIMIT ); } );
 
 /**
  *  Dashboard menus
